@@ -11,54 +11,71 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+* B.Sc. in Computer Science and Engineering, North South University, 2019–2024
+  * CGPA: 3.71/4.00
+  * Magna Cum Laude
+  * B.Sc. Thesis: "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
+  * Supervisor: Dr. Riasat Khan, Associate Professor, Department of ECE
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2025 – Present: Research Assistant
+  * ELITE Research Lab LLC, Dhaka, Bangladesh
+  * Duties include: Developing federated medical AI architectures, 3D brain tumor segmentation models using structure-aware latent graph reasoning, and uncertainty-aware explainable deep learning frameworks for medical diagnosis.
+  * Supervisor: Md. Kishor Morol, Research Scientist & Founder
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Jan 2024 – Mar 2025: Research Intern
+  * Mahdy Research Academy, Remote
+  * Duties included: Developing CLKD-MED, a cross-lingual knowledge distillation framework for multilingual clinical outcome prediction from electronic health records.
+  * Supervisor: M. R. C. Mahdy
+
+* May 2024 – Jul 2024: Research Assistant
+  * North South University, Dhaka, Bangladesh
+  * Duties included: Developing lightweight deep learning and knowledge-distillation approaches for real-time drone-based fire detection and deploying YOLOv8n on Raspberry Pi 5 edge devices.
+  * Supervisor: Faculty research team
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Programming & Data Science
+  * Python
+  * SQL
+  * C++
+  * Java
+  * Bash Scripting
+  * NumPy, Pandas, Matplotlib
+
+* Artificial Intelligence & Machine Learning
+  * Deep Learning
+  * Computer Vision
+  * Medical Image Analysis
+  * Explainable AI (XAI)
+  * Knowledge Distillation
+  * Federated Learning
+  * PyTorch, TensorFlow, Keras, Scikit-learn
+
+* Generative AI & Vision-Language Models
+  * Vision-Language Models (VLMs)
+  * Large Language Models (LLMs)
+  * BLIP, CLIP, Florence-2, PaliGemma
+  * LLaMA
+  * Retrieval-Augmented Generation (RAG)
+  * Low-Rank Adaptation (LoRA)
+  * Quantization-Aware Training (QAT)
+
+* Edge AI & Research Tools
+  * YOLOv5, YOLOv8
+  * Raspberry Pi 5
+  * DJI F450 Drone
+  * Pixhawk PX4
+  * OpenCV, Detectron2
+  * Git, GitHub
+  * LaTeX, Overleaf
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
