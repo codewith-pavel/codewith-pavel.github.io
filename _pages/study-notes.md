@@ -228,11 +228,6 @@ author_profile: true
       </p>
     </div>
 
-    <div class="content-wrap">
-      <div class="note-intro">
-        <p>Check my all notes that I learned over AI theories, mathematics, model design, and research-driven problem solving — organized for quick review and deeper understanding.</p>
-      </div>
-
       <div class="card-container">
         <div class="card">
           <div class="card-top"></div>
