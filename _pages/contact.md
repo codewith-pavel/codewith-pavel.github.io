@@ -24,7 +24,7 @@ author_profile: true
       <div>
         <p style="margin: 0 0 0.5rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--global-text-color-light, #64748b);">Direct contact</p>
         <p style="margin: 0; font-size: 1rem; color: var(--global-text-color, #111827);">
-          Email at <strong>mahir.pavel@gmail.com</strong>
+          Email at <strong><a href="mailto:mahir.pavel@gmail.com" style="color: inherit; text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1.5px;">mahir.pavel@gmail.com</a></strong>
         </p>
       </div>
       <a href="mailto:mahir.pavel@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email Mahir Afser Pavel" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; padding: 0.8rem 1rem; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 999px; text-decoration: none; color: var(--global-text-color, #111827); background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
@@ -42,9 +42,6 @@ author_profile: true
         <a href="https://www.linkedin.com/in/mahir-afser-pavel/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width: 22px; height: 22px;" />
         </a>
-        <a href="https://twitter.com/Pavel1911580" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
-          <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter" style="width: 22px; height: 22px;" />
-        </a>
         <a href="https://github.com/mahir-afser-pavel" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width: 22px; height: 22px;" />
         </a>
@@ -53,12 +50,6 @@ author_profile: true
         </a>
         <a href="https://t.me/mahirafserpavel" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" style="width: 22px; height: 22px;" />
-        </a>
-        <a href="https://join.skype.com/invite/EkbI8cMGpoiI" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
-          <img src="https://img.icons8.com/fluent/48/000000/skype.png" alt="Skype" style="width: 22px; height: 22px;" />
-        </a>
-        <a href="https://youtube.com/@user-wd9cg7iq5x?si=l_1MVj6c7_tgKOKM" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
-          <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" alt="YouTube" style="width: 22px; height: 22px;" />
         </a>
       </div>
     </div>
