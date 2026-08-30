@@ -1,152 +1,224 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Mahir Afser Pavel",
+    "label": "AI Researcher & Graduate Assistant Candidate",
+    "email": "mahir.pavel@gmail.com",
+    "phone": "+8801873742510",
+    "website": "https://codewith-pavel.github.io",
+    "summary": "An AI researcher with a strong research interest in medical image analysis and 70+ citations in 5 Q1 and solo Q2 journal publications, 4 of which are SCIE and 2 ESCI, holding an h-index and i10-index of 2.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Dhaka",
+      "countryCode": "BD",
+      "region": "Bangladesh"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0005-3395-9159"
+      },
+      {
+        "network": "ResearchGate",
+        "username": "",
+        "url": "https://www.researchgate.net/profile/Mahir-Afser-Pavel"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "codewith-pavel",
+        "url": "https://github.com/codewith-pavel"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "ELITE Research Lab LLC",
+      "position": "Research Assistant",
+      "startDate": "Aug 2025",
+      "endDate": "Present",
+      "summary": "Dhaka, Bangladesh",
+      "highlights": [
+        "Engineered Fed-GAN-DE-CL, a federated generative adversarial network for decentralized brain tumor classification while preserving patient privacy.",
+        "Developed SLGRA-Net, a structure-aware latent graph reasoning model for 3D brain tumor MRI segmentation with improved boundary delineation.",
+        "Built an uncertainty-aware diabetic retinopathy grading framework using Monte Carlo Dropout and Grad-CAM for explainable diagnostics."
+      ]
+    },
+    {
+      "company": "North South University",
+      "position": "Research Assistant",
+      "startDate": "May 2024",
+      "endDate": "Jul 2024",
+      "summary": "Dhaka, Bangladesh",
+      "highlights": [
+        "Co-developed real-time drone-based fire detection frameworks using knowledge-distilled lightweight deep models for edge deployment.",
+        "Optimized YOLOv8n deployment on Raspberry Pi 5 edge devices and improved detection accuracy under dynamic outdoor conditions."
+      ]
+    },
+    {
+      "company": "Mahdy Research Academy",
+      "position": "Research Intern",
+      "startDate": "Jan 2024",
+      "endDate": "Mar 2025",
+      "summary": "Remote / Online",
+      "highlights": [
+        "Developed CLKD-MED, a cross-lingual knowledge distillation framework for multilingual clinical outcome prediction using EHR data.",
+        "Mapped semantic clinical representations across languages to improve predictive modeling in multilingual healthcare settings."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "North South University",
+      "area": "B.Sc. in Computer Science and Engineering",
+      "studyType": "Bachelor of Science and Engineering",
+      "startDate": "2019",
+      "endDate": "2024",
+      "gpa": "3.71/4.00",
+      "courses": [
+        "Magna Cum Laude",
+        "B.Sc. Thesis: Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "Programming & Data Science",
+      "keywords": ["Python", "SQL", "C++", "Java", "Bash Scripting", "NumPy", "Pandas", "Matplotlib", "SPSS", "Microsoft Excel"]
+    },
+    {
+      "name": "Artificial Intelligence & Machine Learning",
+      "keywords": ["Deep Learning", "Computer Vision", "Medical Image Analysis", "Explainable AI (XAI)", "Knowledge Distillation", "Federated Learning", "PyTorch", "TensorFlow", "Keras", "Scikit-learn"]
+    },
+    {
+      "name": "Generative AI & Vision-Language Models",
+      "keywords": ["Vision-Language Models (VLMs)", "Large Language Models (LLMs)", "BLIP", "CLIP", "Florence-2", "PaliGemma", "LLaMA", "Retrieval-Augmented Generation (RAG)", "Low-Rank Adaptation (LoRA)", "Quantization-Aware Training (QAT)"]
+    },
+    {
+      "name": "Edge AI & Research Tools",
+      "keywords": ["YOLOv5", "YOLOv8", "Raspberry Pi 5", "DJI F450 Drone", "Pixhawk PX4", "OpenCV", "Detectron2", "Git", "GitHub", "LaTeX", "Overleaf"]
+    }
+  ],
+  "languages": ["English", "Bangla"],
+  "interests": [
+    "Medical Image Analysis",
+    "Vision-Language Models",
+    "Large Language Models",
+    "Deep Learning",
+    "Explainable Artificial Intelligence",
+    "Edge AI",
+    "Federated Learning"
+  ],
+  "references": [
+    {
+      "name": "Dr. Riasat Khan",
+      "reference": "Associate Professor, Department of ECE, North South University",
+      "email": "riasat.khan@northsouth.edu"
+    },
+    {
+      "name": "Dr. Shafin Rahman",
+      "reference": "Associate Professor, Department of ECE, North South University",
+      "email": "shafin.rahman@northsouth.edu"
+    },
+    {
+      "name": "Md. Kishor Morol",
+      "reference": "Research Scientist & Founder, ELITE Research Lab LLC",
+      "email": "kishor@aiub.edu"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification",
+      "publisher": "Scientific Reports (Nature Portfolio), 2025",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1038/s41598-025-23403-2",
+      "summary": "Authors: Mahir Afser Pavel, Ramisa Asad, Goh Kah Ong Michael, Md Ikramuzzaman, Murad Mustakim, Riasat Khan."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant",
+      "publisher": "PLOS ONE, 2024",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1371/journal.pone.0306441",
+      "summary": "Authors: Mahir Afser Pavel, Rafiul Islam, Shoyeb Bin Babor, Riaz Mehadi, Riasat Khan."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Error-Tolerant Multimodal Vision-Language Models for Endodontic Triage: A Cross-Sectional Study",
+      "publisher": "International Journal of Dentistry (Wiley), 2026",
+      "releaseDate": "2026-01-01",
+      "website": "https://doi.org/10.1155/ijod/4148741",
+      "summary": "Authors: Mahir Afser Pavel (Co-First Author), Md Fahim Shahoriar Titu, Afifa Zain Apurba, Saif Ahmed, Shafin Rahman, James Dudley, Taseef Hasan Farook."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis",
+      "publisher": "IEEE Access, 2025",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1109/ACCESS.2025.3560998",
+      "summary": "Authors: Afifa Zain Apurba, Md Fahim Shahoriar Titu, Mahir Afser Pavel, Intisar Tahmid Naheen, Riasat Khan."
+    },
+    {
+      "name": "Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing",
+      "publisher": "Drones (MDPI), 2024",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.3390/drones8090483",
+      "summary": "Authors: Md Fahim Shahoriar Titu, Mahir Afser Pavel, Goh Kah Ong Michael, Hisham Babar, Umama Aman, Riasat Khan."
+    },
+    {
+      "name": "Hybrid ViT-RetinaNet with Explainable Ensemble Learning for Fine-Grained Vehicle Damage Classification",
+      "publisher": "Vehicles (MDPI), 2025",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.3390/vehicles7030089",
+      "summary": "Authors: Ananya Saha, Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, Riasat Khan."
+    },
+    {
+      "name": "A Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and Explainable Representation Learning",
+      "publisher": "Under Review at Array, 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Status: Under Review. Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Tze Hui Liew."
+    },
+    {
+      "name": "CLKD-MED: A Novel Cross-Lingual Knowledge Distillation Framework for Multilingual Clinical Outcome Prediction",
+      "publisher": "Under Review at Information Processing & Management (IPM), 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Status: Under Review. Authors: Mahir Afser Pavel, Rafiul Islam, Mohammad Junayed Hasan, M. R. C. Mahdy."
+    },
+    {
+      "name": "SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation",
+      "publisher": "Under Review at Biomedical Signal Processing and Control (BSPC), 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Status: Under Review. Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Tze Hui Liew."
+    },
+    {
+      "name": "Uncertainty-Aware Explainable Deep Learning Framework for Diabetic Retinopathy Grading Using Monte Carlo Dropout and Grad-CAM",
+      "publisher": "Under Review at NeurIPS, 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Status: Under Review. Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Mohammad Ali Moni."
+    },
+    {
+      "name": "Training Dynamics Matter: Reproducibility and Stability in CNN Feature Reliance Evaluation",
+      "publisher": "Under Review at BMVC, 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Status: Under Review. Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Mohammad Ali Moni."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Analog Electronics & Senior Design Supervision",
+      "institution": "North South University",
+      "date": "2022-2024",
+      "role": "Academic Mentor / Research Supervisor",
+      "description": "Guided student groups on circuit mapping, hardware-software co-design, and research publication drafts under faculty supervision."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

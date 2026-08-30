@@ -1,0 +1,162 @@
+                     MAHIR AFSER PAVEL
+
+                                           AI Researcher & Graduate Assistant Candidate
+
+mahir.pavel@gmail.com | +8801873742510 | Dhaka, Bangladesh | LinkedIn , ORCID , Google Scholar
+
+Profile Summary
+
+An AI researcher with a strong research interest in medical image analysis and 70+ citations in 5 Q1 and solo Q2 journal
+publications, 4 of which are SCIE and 2 ESCI, holding an h-index and i10-index of 2.
+
+Research Interests
+
+     ●​ Vision-Language Models (VLMs) & Large Language Models (LLMs)
+     ●​ Deep Learning, Explainable Artificial Intelligence (XAI), & Edge AI
+     ●​ Medical Image Analysis & Computational Clinical Triaging
+
+Education                      Major             Institution                         CGPA        Dates Attended
+                                          North South University                                   2019 – 2024
+           Degree       Computer Science                                            3.71/4.00
+   Bachelor of Science   and Engineering                                     (Almost 90% marks)
+
+B.Sc. Thesis: "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
+     ●​ Supervisor: Dr. Riasat Khan (Associate Professor, Department of ECE).
+     ●​ Summary: Implemented a three-stage knowledge distillation architecture for lung cancer classification on the
+          NSCLC-Radiomics dataset, which achieved 94.53% accuracy and was later deployed on a user-friendly web application.
+
+Scholarly Publications
+
+Peer-Reviewed Journal Publications
+     ●​ Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification.
+          ✔​ Authors: Mahir Afser Pavel, Ramisa Asad, Goh Kah Ong Michael, Md Ikramuzzaman, Murad Mustakim, Riasat
+               Khan.
+          ✔​ Venue: Scientific Reports (Nature Portfolio), 2025. DOI: 10.1038/s41598-025-23403-2
+     ●​ Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant
+          ✔​ Authors: Mahir Afser Pavel, Rafiul Islam, Shoyeb Bin Babor, Riaz Mehadi, Riasat Khan
+          ✔​ Venue: PLOS ONE, 2024. DOI: 10.1371/journal.pone.0306441
+     ●​ Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study.
+          ✔​ Authors: Mahir Afser Pavel (Co-First Author), Md Fahim Shahoriar Titu, Afifa Zain Apurba, Saif Ahmed, Shafin
+               Rahman, James Dudley, Taseef Hasan Farook
+          ✔​ Venue: International Journal of Dentistry (Wiley), 2026. DOI: 10.1155/ijod/4148741.
+     ●​ Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis
+          ✔​ Authors: Afifa Zain Apurba, Md Fahim Shahoriar Titu, Mahir Afser Pavel, Intisar Tahmid Naheen, Riasat Khan
+          ✔​ Venue: IEEE Access, 2025. DOI: 10.1109/ACCESS.2025.3560998.
+     ●​ Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing
+          ✔​ Authors: Md Fahim Shahoriar Titu, Mahir Afser Pavel, Goh Kah Ong Michael, Hisham Babar, Umama Aman,
+               Riasat Khan.
+          ✔​ Venue: Drones (MDPI), 2024. DOI: 10.3390/drones8090483
+     ●​ Hybrid ViT-RetinaNet with Explainable Ensemble Learning for Fine-Grained Vehicle Damage Classification
+          ✔​ Authors: Ananya Saha, Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, Riasat Khan.
+          ✔​ Venue: Vehicles (MDPI), 2025. DOI: 10.3390/vehicles7030089.
+
+Ongoing Research Publications
+     ●​ A Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and
+          Explainable Representation Learning
+               ○​ Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Tze Hui Liew
+               ○​ Status: Under Review at Array (array), 2026
+     ●​ CLKD-MED: A novel cross-lingual knowledge distillation framework for multilingual clinical outcome prediction
+          ○​ Authors: Mahir Afser Pavel, Rafiul Islam, Mohammad Junayed Hasan, and M. R. C. Mahdy
+          ○​ Status: Under Review at Information Processing & Management (IPM), 2026
+●​ SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation
+          ○​ Authors: Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Tze Hui Liew
+          ○​ Status: Under Review at Biomedical Signal Processing and Control (BSPC), 2026
+●​ Uncertainty-Aware Explainable Deep Learning Framework for Diabetic Retinopathy Grading Using Monte Carlo
+     Dropout and Grad-CAM
+          ○​ Under Review at Conference on Neural Information Processing Systems (NeurIPS), 2026
+●​ Training Dynamics Matter: Reproducibility and Stability in CNN Feature Reliance Evaluation
+          ○​ Under Review at British Machine Vision Conference (BMVC), 2026
+
+Professional Experience
+
+Research Assistant | ELITE Research Lab LLC (Dhaka, Bangladesh) (Aug 2025 – Present)
+     ●​ Federated Medical Architectures: Engineered "Fed-GAN-DE-CL," a federated generative adversarial network utilizing
+          dual-encoder contrastive learning, to enable decentralized brain tumor classification while preserving strict patient data
+          privacy.
+     ●​ Topological Segmentation: Programmed "SLGRA-Net," incorporating structure-aware latent graph reasoning to enhance
+          boundary definitions in 3D brain tumor MRI segmentations, resolving topological boundary ambiguity.
+     ●​ Explainable AI Integration: Built an uncertainty-aware diabetic retinopathy grading framework, deploying Monte Carlo
+          Dropout to estimate predictive variance and Grad-CAM for diagnostic explanations.
+
+Research Assistant | North South University (Dhaka, Bangladesh) (May 2024 – Jul 2024)
+     ●​ Edge Computer Vision: Co-developed real-time drone-based fire detection frameworks, compressing deep models using
+          autodistill-based knowledge distillation to deploy YOLOv8n onto Raspberry Pi 5 edge devices. Improved target detection
+          accuracy by 10-20% under dynamic outdoor constraints.
+
+Research Intern | Mahdy Research Academy (Remote / Online) (Jan 2024 – Mar 2025)
+     ●​ Clinical Translation Frameworks: Developed "CLKD-MED," a cross-lingual knowledge distillation framework,
+          mapping semantic clinical representations across languages to predict patient outcomes from multilingual electronic health
+          records.
+
+Teaching & Research Experience
+
+     ●​ Conducted primary research as a key researcher within the ELITE Research Lab LLC and Mahdy Research Academy,
+          driving the design and execution of deep learning, computer vision, and clinical NLP pipelines.
+
+     ●​ Served as an active peer reviewer for IEEE Access, providing rigorous manuscript evaluations for submissions focusing
+          on edge-deployed dual-agent systems and training-free zero-shot action recognition frameworks.
+
+     ●​ Co-led hands-on academic sessions and supervised laboratory modules for Analog Electronics and Senior Design at North
+          South University, directly mentoring student groups on circuit mapping, hardware-software co-design, and research
+          publication drafts under faculty supervision.
+
+Standardized Examination Scores
+
+IELTS Academic (2026)  Listening: 7.0  Reading: 7.0  Writing: 6.5  Speaking: 6.0
+
+Academic Projects & Research Focus
+
+     ●​ Quantization-Aware Edge AI: Evaluating and optimizing lightweight deep learning models (YOLOv5, YOLOv8) and
+          multimodal vision-language models (BLIP, CLIP, Florence-2, PaliGemma) using Low-Rank Adaptation (LoRA) and
+          quantization-aware training to minimize memory consumption by up to 87.5% for resource-constrained clinical settings.
+
+     ●​ Oncology Image Analytics & Distillation: Refining multi-stage teacher-assistant-student distillation pipelines using
+          Vision Transformers (ViT) and ResNet152v2 on clinical radiography datasets (HAM10000, NSCLC CT scans), enhancing
+          diagnostic sensitivity while preserving model parameters.
+
+     ●​ Privacy-Preserving Biomedical Machine Learning: Architecting federated generative adversarial networks and
+          contrastive learning methodologies to facilitate secure, collaborative model training on decentralized, multi-institutional
+          clinical databases.
+Technical & Research Skills                            Specific Tools and Proficiency Level
+
+                      Category                     Python (Advanced), SQL, C++, Java, Bash Scripting
+                                             PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, Detectron2
+                Programming Languages   LangChain, LLaMA, RAG, Low-Rank Adaptation (LoRA), QAT, BLIP,
+                   AI/ML Frameworks
+                                                                 CLIP, Florence-2, PaliGemma
+                 Generative AI & VLMs     Raspberry Pi 5, DJI F450 custom drone, Pixhawk PX4, Git, GitHub,
+
+                  Edge AI & Hardware                                     LaTeX, Overleaf
+                                           SQL, MySQL, NumPy, Pandas, Matplotlib, SPSS, Microsoft Excel
+                  Databases & Analysis
+
+Leadership & Extracurricular Activities
+
+     ●​ Research Team Coordinator (2023 – 2024): Supervised a team of 5 research assistants across senior design and directed
+          research projects, coordinating data pipelines and draft submissions that culminated in 5 peer-reviewed journal articles
+          under faculty mentorship.
+
+     ●​ Manuscript Reviewer (2026): Provided critical analytical reviews of manuscripts detailing edge AI architectures and
+          zero-shot learning frameworks, maintaining high standards for the journal's methodology criteria.
+
+     ●​ Academic Peer Mentor (2022 – 2023): Guided junior engineering students in laboratory environments, resolving
+          hardware-software interfacing issues and assisting in scientific writing workshops
+
+Honors & Awards
+
+     ●​ Magna Cum Laude (December 2024): Conferred by North South University for outstanding academic excellence in the
+          B.Sc. in Computer Science and Engineering program, acknowledging placement within the top 8% in the cohort.
+
+     ●​ Academic Merit Scholarship: Recipient of multiple tuition waivers (10%–20%) from North South University based on
+          high semester grade point averages (semester GPA up to 4.00).
+
+     ●​ Peer Reviewer Recognition (March 2026): Recognized for critical scientific reviews of edge-deployed systems and
+          action recognition manuscripts in IEEE Access and Frontiers in Computer Science.
+
+References                              Dr. Shafin Rahman,                   Md. Kishor Morol,
+                                        Associate Professor, Dept. of ECE,   Research Scientist & Founder,
+ Dr. Riasat Khan,                       North South University               ELITE Research Lab LLC
+ Associate Professor, Dept. of ECE,     Email: shafin.rahman@northsouth.edu  Email: kishor@aiub.edu
+ North South University
+ Email: riasat.khan@northsouth.edu
+
