@@ -11,7 +11,6 @@ redirect_from:
 
 <div class="cv-download-links" style="margin: 0 0 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
   <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Download CV PDF</a>
-  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.txt" class="btn btn--inverse" target="_blank" rel="noopener noreferrer">View CV Text</a>
 </div>
 
 Profile Summary
@@ -86,8 +85,6 @@ Skills
 * Edge AI & Research Tools
   * YOLOv5, YOLOv8
   * Raspberry Pi 5
-  * DJI F450 Drone
-  * Pixhawk PX4
   * OpenCV, Detectron2
   * Git, GitHub
   * LaTeX, Overleaf
