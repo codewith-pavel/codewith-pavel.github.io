@@ -175,7 +175,7 @@
 .publication-filter:hover {
   border-color: var(--global-link-color, #1f6f8b);
   background: var(--global-link-color, #1f6f8b);
-  color: #ffffff;
+  color: var(--global-bg-color, #ffffff);
 }
 
 .publication-portal__section {
@@ -296,14 +296,14 @@
   white-space: nowrap;
 }
 
-.badge-featured { background: #172033; color: #ffffff; }
-.badge-status { background: #dff7ea; color: #11633e; }
-.badge-review { background: #fff1cc; color: #82550b; }
-.badge-quartile { background: #e8f1ff; color: #1c5a9f; }
-.badge-indexing { background: #edf2f7; color: #3a485c; }
-.badge-open { background: #fce8dc; color: #9a4c1e; }
-.badge-role { background: #f0e8ff; color: #6343a5; }
-.badge-pending { background: #fff4d8; color: #7d5b13; }
+.badge-featured { background: var(--global-text-color, #172033); color: var(--global-bg-color, #ffffff); }
+.badge-status { background: rgba(31, 157, 102, 0.12); color: #11633e; }
+.badge-review { background: rgba(217, 144, 24, 0.12); color: #82550b; }
+.badge-quartile { background: rgba(31, 111, 139, 0.12); color: #1c5a9f; }
+.badge-indexing { background: rgba(148, 163, 184, 0.12); color: #3a485c; }
+.badge-open { background: rgba(154, 76, 30, 0.12); color: #9a4c1e; }
+.badge-role { background: rgba(99, 67, 165, 0.12); color: #6343a5; }
+.badge-pending { background: rgba(125, 91, 19, 0.12); color: #7d5b13; }
 
 .publication-card__venue {
   margin: 0 0 0.3rem;
@@ -379,7 +379,7 @@
 .publication-action--primary {
   border-color: var(--global-link-color, #1f6f8b);
   background: var(--global-link-color, #1f6f8b);
-  color: #ffffff;
+  color: var(--global-bg-color, #ffffff);
 }
 
 .publication-action:hover {

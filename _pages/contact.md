@@ -12,11 +12,11 @@ author_profile: true
   </p>
 
   <form class="contact-form" id="contact-form" method="post" style="display: flex; flex-direction: column; gap: 1rem; max-width: 560px;">
-    <input type="text" id="name" name="name" placeholder="Your Name" required style="padding: 0.9rem 1rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 8px; width: 100%; font: inherit;">
-    <input type="email" id="email" name="email" placeholder="Your Email" required style="padding: 0.9rem 1rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 8px; width: 100%; font: inherit;">
-    <textarea id="message" name="message" rows="5" placeholder="Your Message" required style="padding: 0.9rem 1rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 8px; width: 100%; resize: vertical; font: inherit;"></textarea>
-    <button type="submit" style="padding: 0.9rem 1.5rem; border: none; border-radius: 8px; background: #111; color: #fff; cursor: pointer; width: fit-content; font: inherit;">Send Message</button>
-    <div id="form-message" style="min-height: 24px; color: inherit;"></div>
+    <input type="text" id="name" name="name" placeholder="Your Name" required style="padding: 0.9rem 1rem; border: 1px solid var(--global-border-color, rgba(0,0,0,0.15)); border-radius: 8px; width: 100%; font: inherit; background: transparent; color: var(--global-text-color, #111);">
+    <input type="email" id="email" name="email" placeholder="Your Email" required style="padding: 0.9rem 1rem; border: 1px solid var(--global-border-color, rgba(0,0,0,0.15)); border-radius: 8px; width: 100%; font: inherit; background: transparent; color: var(--global-text-color, #111);">
+    <textarea id="message" name="message" rows="5" placeholder="Your Message" required style="padding: 0.9rem 1rem; border: 1px solid var(--global-border-color, rgba(0,0,0,0.15)); border-radius: 8px; width: 100%; resize: vertical; font: inherit; background: transparent; color: var(--global-text-color, #111);"></textarea>
+    <button type="submit" style="padding: 0.9rem 1.5rem; border: none; border-radius: 8px; background: var(--global-link-color, #111); color: var(--global-bg-color, #fff); cursor: pointer; width: fit-content; font: inherit;">Send Message</button>
+    <div id="form-message" style="min-height: 24px; color: var(--global-text-color, inherit);"></div>
   </form>
 
   <div style="margin-top: 2rem;">
@@ -65,7 +65,7 @@ author_profile: true
       .then(response => response.json())
       .then(data => {
         if (data.ok) {
-          messageContainer.style.color = '#111';
+          messageContainer.style.color = getComputedStyle(document.documentElement).getPropertyValue('--global-text-color') || '#111';
           messageContainer.innerText = 'Message sent successfully!';
           form.reset();
         } else {

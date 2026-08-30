@@ -132,7 +132,7 @@ author_profile: true
 
   .study-notes-page .chip {
     border: 1px solid var(--border);
-    background: var(--global-bg-color, #ffffff);
+    background: transparent;
     color: var(--heading);
     border-radius: 999px;
     padding: 0.5rem 0.9rem;
@@ -145,7 +145,7 @@ author_profile: true
 
   .study-notes-page .chip:hover,
   .study-notes-page .chip.active {
-    background: var(--global-bg-color, #ffffff);
+    background: transparent;
     color: var(--heading);
     border-color: var(--global-border-color, rgba(15, 23, 42, 0.12));
     opacity: 0.9;
@@ -160,7 +160,7 @@ author_profile: true
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: var(--global-bg-color, #ffffff);
+    background: transparent;
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 0.6rem 0.8rem;
@@ -235,7 +235,7 @@ author_profile: true
 
   .study-notes-page .card {
     position: relative;
-    background: var(--global-bg-color, #ffffff);
+    background: transparent;
     border: 1px solid var(--border);
     border-radius: 18px;
     overflow: hidden;
@@ -279,16 +279,16 @@ author_profile: true
     justify-content: center;
     padding: 0.72rem 1rem;
     border-radius: 10px;
-    background: #111111;
-    color: #ffffff;
+    background: var(--global-link-color, #111111);
+    color: var(--global-bg-color, #ffffff);
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 0.01em;
-    transition: background 0.25s ease, transform 0.25s ease;
+    transition: filter 0.25s ease, transform 0.25s ease;
   }
 
   .study-notes-page .card a:hover {
-    background: #1b1b1b;
+    filter: brightness(1.08);
     transform: translateY(-1px);
     text-decoration: none;
   }
