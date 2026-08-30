@@ -50,60 +50,56 @@ I am actively seeking **research internships**, **fully funded Ph.D. opportuniti
 
 # Explore
 
-(Will be updated soon)
+<div style="margin: 1rem 0 0.5rem; color: var(--global-text-color-light, #64748b); font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 700;">
+  Quick navigation
+</div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:1rem;">
 
 <a href="/publications/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸ“„ Publications</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Journal articles, conference papers, and preprints.
+<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
+<h3 style="margin:0;font-size:1.08rem;">📄 Publications</h3>
+<span style="font-size:1rem;">→</span>
+</div>
+<p style="margin:0;color:var(--global-text-color-light, #57606a);line-height:1.6;">
+Research papers, journals, and contributions across medical AI, NLP, and computer vision.
 </p>
 </div>
 </a>
 
-<a href="/portfolio/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸ’» Research Projects</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Research projects, software, and open-source contributions.
+<a href="/study-notes/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
+<h3 style="margin:0;font-size:1.08rem;">🧠 Materials</h3>
+<span style="font-size:1rem;">→</span>
+</div>
+<p style="margin:0;color:var(--global-text-color-light, #57606a);line-height:1.6;">
+Curated notes, technical references, and study resources for deep learning, NLP, CV, and AI theory.
 </p>
 </div>
 </a>
 
 <a href="/cv/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸ“‘ Curriculum Vitae</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Education, research experience, publications, and skills.
+<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
+<h3 style="margin:0;font-size:1.08rem;">📑 CV</h3>
+<span style="font-size:1rem;">→</span>
+</div>
+<p style="margin:0;color:var(--global-text-color-light, #57606a);line-height:1.6;">
+Academic background, experience, skills, publications, and research highlights in one place.
 </p>
 </div>
 </a>
 
-<a href="/talks/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸŽ¤ Talks & Presentations</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Invited talks, seminars, workshops, and conference presentations.
-</p>
+<a href="/contact/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
+<h3 style="margin:0;font-size:1.08rem;">📬 Contact</h3>
+<span style="font-size:1rem;">→</span>
 </div>
-</a>
-
-<a href="/posts/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸ“° News</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Latest research updates, publications, and academic activities.
-</p>
-</div>
-</a>
-
-<a href="mailto:mahir.pavel@gmail.com" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:12px;padding:18px;background:transparent;height:100%;color:var(--global-text-color, #111827);">
-<h3 style="margin:0;">ðŸ“¬ Contact</h3>
-<p style="margin:8px 0 0;color:var(--global-text-color-light, #57606a);">
-Get in touch for research collaborations or academic inquiries.
+<p style="margin:0;color:var(--global-text-color-light, #57606a);line-height:1.6;">
+Reach out for collaboration, research discussions, internships, or academic inquiries.
 </p>
 </div>
 </a>
