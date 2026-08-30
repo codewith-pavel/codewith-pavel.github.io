@@ -8,8 +8,8 @@ author_profile: true
 
 For research collaborations, academic inquiries, or internship opportunities, please get in touch.
 
-- Email: mair.pavel@gmail.com
+- Email: mahir.pavel@gmail.com
 - LinkedIn: https://www.linkedin.com/in/mahir-afser-pavel/
 - GitHub: https://github.com/mahir-afser-pavel
 
-You can also reach me directly via email at mair.pavel@gmail.com.
+You can also reach me directly via email at mahir.pavel@gmail.com.
