@@ -152,6 +152,10 @@ author_profile: true
     border-color: rgba(37, 99, 235, 0.18);
   }
 
+  .study-notes-page .card.hidden {
+    display: none !important;
+  }
+
   .study-notes-page .search-box {
     min-width: min(100%, 260px);
     display: flex;
@@ -367,7 +371,7 @@ author_profile: true
         </p>
 
         <div class="card-container">
-          <div class="card">
+          <div class="card" data-category="dl" data-search="dl part 1 deep learning neural networks machine learning tutorial pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (Part 1)</h3>
@@ -377,7 +381,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="dl" data-search="dl part 2 deep learning neural networks machine learning tutorial pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (Part 2)</h3>
@@ -387,7 +391,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="dl" data-search="dl part 3 deep learning neural networks machine learning tutorial pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (Part 3)</h3>
@@ -397,7 +401,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="dl" data-search="dl part 4 deep learning neural networks machine learning tutorial pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (Part 4)</h3>
@@ -407,7 +411,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="dl" data-search="dl part 5 deep learning neural networks machine learning tutorial pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (Part 5)</h3>
@@ -417,7 +421,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="cv" data-search="dl cv computer vision deep learning image recognition pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (CV)</h3>
@@ -439,7 +443,7 @@ author_profile: true
         </p>
 
         <div class="card-container">
-          <div class="card">
+          <div class="card" data-category="nlp" data-search="dl nlp natural language processing deep learning text analysis pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>DL (NLP)</h3>
@@ -449,7 +453,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="nlp" data-search="nlp with ml 1 natural language processing machine learning text classification pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>NLP with ML-1</h3>
@@ -459,7 +463,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="nlp" data-search="nlp with ml 2 natural language processing machine learning text classification pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>NLP with ML-2</h3>
@@ -469,7 +473,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="nlp" data-search="nlp coding basics natural language processing python zip tutorial">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>NLP Coding Basics</h3>
@@ -479,7 +483,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="ai-theory" data-search="useful projects github ai theory implementation references resources text file">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>Useful Projects</h3>
@@ -489,7 +493,7 @@ author_profile: true
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" data-category="ai-theory" data-search="pdf books ai machine learning theory deep learning resources pdf">
             <div class="card-top"></div>
             <div class="card-content">
               <h3>PDF Books</h3>
@@ -503,3 +507,60 @@ author_profile: true
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    const chips = Array.from(document.querySelectorAll('.study-notes-page .chip'));
+    const searchInput = document.querySelector('.study-notes-page .search-box input');
+    const blocks = Array.from(document.querySelectorAll('.study-notes-page .topic-block'));
+    let activeCategory = 'all';
+
+    function getCategoryValue(label) {
+      const value = label.toLowerCase().trim();
+      if (value === 'dl') return 'dl';
+      if (value === 'nlp') return 'nlp';
+      if (value === 'cv') return 'cv';
+      if (value === 'ai theory') return 'ai-theory';
+      return 'all';
+    }
+
+    function applyFilters() {
+      const query = (searchInput ? searchInput.value.trim().toLowerCase() : '');
+
+      blocks.forEach(function (block) {
+        let visibleCards = 0;
+        const cards = Array.from(block.querySelectorAll('.card'));
+
+        cards.forEach(function (card) {
+          const cardCategory = (card.dataset.category || 'all');
+          const cardText = (card.dataset.search || card.textContent || '').toLowerCase();
+          const matchesCategory = activeCategory === 'all' || cardCategory === activeCategory;
+          const matchesQuery = !query || cardText.includes(query);
+          const shouldShow = matchesCategory && matchesQuery;
+
+          card.classList.toggle('hidden', !shouldShow);
+          if (shouldShow) visibleCards += 1;
+        });
+
+        block.style.display = visibleCards > 0 ? '' : 'none';
+      });
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        chips.forEach(function (btn) {
+          btn.classList.toggle('active', btn === chip);
+        });
+
+        activeCategory = getCategoryValue(chip.textContent);
+        applyFilters();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener('input', applyFilters);
+    }
+
+    applyFilters();
+  })();
+</script>
