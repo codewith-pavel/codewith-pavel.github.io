@@ -1,6 +1,6 @@
 ---
 permalink: /study-notes/
-title: "Study Notes"
+title: "Materials"
 author_profile: true
 ---
 
