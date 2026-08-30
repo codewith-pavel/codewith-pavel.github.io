@@ -6,25 +6,25 @@ author_profile: true
 
 <style>
   .study-notes-page {
-    --bg: #050505;
-    --panel: rgba(18, 18, 18, 0.96);
-    --panel-alt: #111111;
-    --panel-soft: #181818;
-    --border: rgba(255, 255, 255, 0.12);
-    --text: #f5f5f5;
-    --muted: #d1d1d1;
-    --heading: #ffffff;
-    --accent: #ffffff;
-    --accent-2: #9ca3af;
-    --accent-soft: rgba(255, 255, 255, 0.08);
-    --shadow: rgba(0, 0, 0, 0.5);
+    --bg: transparent;
+    --panel: rgba(255, 255, 255, 0.58);
+    --panel-alt: rgba(255, 255, 255, 0.7);
+    --panel-soft: rgba(0, 0, 0, 0.015);
+    --border: rgba(15, 23, 42, 0.08);
+    --text: #111111;
+    --muted: #4d5562;
+    --heading: #111111;
+    --accent: #111111;
+    --accent-2: #4b5563;
+    --accent-soft: rgba(17, 17, 17, 0.05);
+    --shadow: rgba(15, 23, 42, 0.04);
   }
 
   .study-notes-page {
     width: 100%;
     min-height: 100vh;
     padding: 0;
-    background: linear-gradient(180deg, #050505 0%, #111111 100%);
+    background: transparent;
     color: var(--text);
     box-sizing: border-box;
   }
@@ -33,7 +33,7 @@ author_profile: true
     width: 100%;
     min-height: 100vh;
     margin: 0;
-    background: rgba(10, 10, 10, 0.88);
+    background: transparent;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -48,10 +48,7 @@ author_profile: true
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:
-      radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 24%),
-      radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.05), transparent 28%),
-      linear-gradient(180deg, #0b0b0b 0%, #111111 100%);
+    background: transparent;
     border-bottom: 1px solid var(--border);
     text-align: center;
   }
@@ -92,8 +89,8 @@ author_profile: true
     padding: 1.2rem 1.5rem;
     border: 1px solid var(--border);
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0.96) 0%, rgba(12, 12, 12, 0.96) 100%);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
     text-align: center;
   }
 
@@ -121,8 +118,8 @@ author_profile: true
     padding: 1rem 1.1rem;
     border: 1px solid var(--border);
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(24, 24, 24, 0.96) 0%, rgba(16, 16, 16, 0.96) 100%);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
     max-width: 1120px;
   }
 
@@ -134,7 +131,7 @@ author_profile: true
 
   .study-notes-page .chip {
     border: 1px solid var(--border);
-    background: #111111;
+    background: rgba(255, 255, 255, 0.7);
     color: var(--heading);
     border-radius: 999px;
     padding: 0.5rem 0.9rem;
@@ -147,9 +144,9 @@ author_profile: true
 
   .study-notes-page .chip:hover,
   .study-notes-page .chip.active {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(17, 17, 17, 0.06);
     color: var(--heading);
-    border-color: rgba(255, 255, 255, 0.22);
+    border-color: rgba(15, 23, 42, 0.12);
   }
 
   .study-notes-page .card.hidden {
@@ -186,8 +183,8 @@ author_profile: true
     padding: 1.6rem;
     border: 1px solid var(--border);
     border-radius: 20px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0.96) 0%, rgba(12, 12, 12, 0.96) 100%);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.52);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.04);
   }
 
   .study-notes-page .topic-header {
@@ -236,23 +233,23 @@ author_profile: true
 
   .study-notes-page .card {
     position: relative;
-    background: linear-gradient(180deg, rgba(22, 22, 22, 0.98) 0%, rgba(15, 15, 15, 0.98) 100%);
+    background: rgba(255, 255, 255, 0.8);
     border: 1px solid var(--border);
     border-radius: 18px;
     overflow: hidden;
     transition: transform 0.26s ease, box-shadow 0.26s ease, border-color 0.26s ease;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.04);
   }
 
   .study-notes-page .card:hover {
     transform: translateY(-6px);
-    border-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 22px 38px rgba(0, 0, 0, 0.28);
+    border-color: rgba(15, 23, 42, 0.12);
+    box-shadow: 0 22px 38px rgba(15, 23, 42, 0.08);
   }
 
   .study-notes-page .card .card-top {
     height: 8px;
-    background: linear-gradient(90deg, #ffffff, #b7b7b7);
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0.9), rgba(75, 85, 99, 0.8));
   }
 
   .study-notes-page .card .card-content {
@@ -280,8 +277,8 @@ author_profile: true
     justify-content: center;
     padding: 0.72rem 1rem;
     border-radius: 10px;
-    background: #f5f5f5;
-    color: #111111;
+    background: #111111;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -289,7 +286,7 @@ author_profile: true
   }
 
   .study-notes-page .card a:hover {
-    background: #ffffff;
+    background: #1b1b1b;
     transform: translateY(-1px);
     text-decoration: none;
   }
