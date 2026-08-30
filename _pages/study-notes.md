@@ -6,134 +6,164 @@ author_profile: true
 
 <style>
   .study-notes-page {
-    --bg-dark: #0a0a0a;
-    --panel: rgba(17, 17, 17, 0.8);
-    --panel-border: rgba(255, 255, 255, 0.1);
-    --text: #f5f5f5;
-    --muted: rgba(255, 255, 255, 0.7);
-    --accent: #ff416c;
-    --accent-2: #ff4b2b;
-    --button: rgba(255, 255, 255, 0.08);
-    --button-hover: rgba(255, 255, 255, 0.18);
-    --shadow: rgba(0, 0, 0, 0.25);
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --panel-alt: #f7f9fc;
+    --panel-soft: #f3f6fb;
+    --border: rgba(15, 23, 42, 0.08);
+    --text: #111827;
+    --muted: #4b5563;
+    --heading: #0f172a;
+    --accent: #2563eb;
+    --accent-2: #0ea5e9;
+    --accent-soft: rgba(37, 99, 235, 0.08);
+    --shadow: rgba(15, 23, 42, 0.08);
   }
 
   .study-notes-page {
-    padding: 3rem 1.25rem 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2.5rem 1.5rem 3rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
     color: var(--text);
-    background:
-      radial-gradient(circle at top, rgba(255, 75, 43, 0.22), transparent 25%),
-      linear-gradient(135deg, #050505, #111111 48%, #0d0d0d 100%);
-    border-radius: 18px;
-    box-shadow: 0 20px 40px var(--shadow);
+    box-sizing: border-box;
   }
 
-  .study-notes-page .page-header {
+  .study-notes-page .page-shell {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    box-shadow: 0 22px 60px var(--shadow);
+    overflow: hidden;
+  }
+
+  .study-notes-page .hero {
+    position: relative;
+    padding: 4rem 2rem 2.5rem;
+    background:
+      radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 24%),
+      radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.12), transparent 28%),
+      linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+    border-bottom: 1px solid var(--border);
     text-align: center;
-    margin-bottom: 2rem;
   }
 
   .study-notes-page .eyebrow {
-    font-size: 0.78rem;
-    letter-spacing: 0.18rem;
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    letter-spacing: 0.14rem;
     text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
   }
 
   .study-notes-page h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    line-height: 1.2;
-    margin: 0 0 1rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    margin: 0;
+    color: var(--heading);
+    font-size: clamp(2.2rem, 4vw, 4rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    font-weight: 800;
   }
 
   .study-notes-page .subtitle {
-    max-width: 820px;
-    margin: 0 auto;
-    font-size: 1.15rem;
-    line-height: 1.7;
+    max-width: 900px;
+    margin: 1.2rem auto 0;
+    font-size: 1.12rem;
+    line-height: 1.8;
     color: var(--muted);
+  }
+
+  .study-notes-page .content-wrap {
+    padding: 2.2rem 2rem 2.5rem;
   }
 
   .study-notes-page .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.25rem;
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.3rem;
   }
 
   .study-notes-page .card {
-    width: min(100%, 290px);
-    background: var(--panel);
-    border: 1px solid var(--panel-border);
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     position: relative;
+    background: linear-gradient(180deg, var(--panel) 0%, var(--panel-soft) 100%);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.26s ease, box-shadow 0.26s ease, border-color 0.26s ease;
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.04);
   }
 
   .study-notes-page .card:hover {
-    transform: translateY(-6px) scale(1.01);
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.28);
-    border-color: rgba(255, 255, 255, 0.18);
+    transform: translateY(-6px);
+    border-color: rgba(37, 99, 235, 0.18);
+    box-shadow: 0 22px 38px rgba(15, 23, 42, 0.09);
+  }
+
+  .study-notes-page .card .card-top {
+    height: 8px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
   }
 
   .study-notes-page .card .card-content {
-    padding: 1.4rem 1.2rem 1.2rem;
+    padding: 1.4rem 1.25rem 1.3rem;
   }
 
   .study-notes-page .card h3 {
-    margin: 0 0 0.7rem;
-    font-size: 1.35rem;
+    margin: 0 0 0.65rem;
+    font-size: 1.28rem;
+    line-height: 1.3;
+    color: var(--heading);
     font-weight: 700;
-    color: #ffffff;
   }
 
   .study-notes-page .card p {
-    margin: 0 0 1.1rem;
-    font-size: 0.96rem;
-    line-height: 1.6;
+    margin: 0 0 1rem;
     color: var(--muted);
+    font-size: 0.96rem;
+    line-height: 1.7;
   }
 
   .study-notes-page .card a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.72rem 1rem;
+    border-radius: 10px;
+    background: #111827;
     color: #ffffff;
     text-decoration: none;
-    background: var(--button);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 0.7rem 1rem;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: background 0.25s ease, transform 0.2s ease;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    transition: background 0.25s ease, transform 0.25s ease;
   }
 
   .study-notes-page .card a:hover {
-    background: var(--button-hover);
+    background: var(--accent);
     transform: translateY(-1px);
     text-decoration: none;
   }
 
   .study-notes-page .tooltip {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(0, 0, 0, 0.84);
+    top: 14px;
+    right: 14px;
+    background: rgba(15, 23, 42, 0.92);
     color: #fff;
     border-radius: 999px;
-    padding: 0.3rem 0.65rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.04rem;
+    padding: 0.28rem 0.6rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
     opacity: 0;
     transform: translateY(-6px);
-    transition: opacity 0.25s ease, transform 0.25s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease;
     pointer-events: none;
   }
 
@@ -144,19 +174,158 @@ author_profile: true
 
   @media (max-width: 768px) {
     .study-notes-page {
-      padding: 2.5rem 0.9rem 1.5rem;
+      padding: 1rem 0.75rem 2rem;
+    }
+
+    .study-notes-page .hero {
+      padding: 3rem 1rem 1.75rem;
+    }
+
+    .study-notes-page .content-wrap {
+      padding: 1.2rem 0.9rem 1.5rem;
     }
 
     .study-notes-page .subtitle {
       font-size: 1rem;
     }
-
-    .study-notes-page .card {
-      width: 100%;
-      max-width: 450px;
-    }
   }
 </style>
+
+<div class="study-notes-page">
+  <div class="page-shell">
+    <div class="hero">
+      <div class="eyebrow">Learning Resources</div>
+      <h2>Study Notes & Materials</h2>
+      <p class="subtitle">
+        Explore a curated collection of notes, references, and technical material covering deep learning, NLP, computer vision, and AI research foundations.
+      </p>
+    </div>
+
+    <div class="content-wrap">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (Part 1)</h3>
+            <p>Explore the 1st part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 1</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (Part 2)</h3>
+            <p>Explore the 2nd part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 2</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (Part 3)</h3>
+            <p>Explore the 3rd part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_3.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 3</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (Part 4)</h3>
+            <p>Explore the 4th part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_4.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 4</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (Part 5)</h3>
+            <p>Explore the 5th part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_5.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 5</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (CV)</h3>
+            <p>Explore the Computer Vision part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_CV.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 6</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>DL (NLP)</h3>
+            <p>Explore the Natural Language Processing part of Deep Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_DL.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 7</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>NLP with ML-1</h3>
+            <p>Explore the Natural Language Processing 1st part of Machine Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 8</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>NLP with ML-2</h3>
+            <p>Explore the Natural Language Processing 2nd part of Machine Learning.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 9</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>NLP Coding Basics</h3>
+            <p>Explore the coding basics of Natural Language Processing.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/Hands-On-Natural-Language-Processing-with-Python-master.zip" target="_blank" rel="noopener noreferrer">Visit ZIP</a>
+            <div class="tooltip">Material 10</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>Useful Projects</h3>
+            <p>Explore GitHub project references and available learning materials.</p>
+            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/github_if_available.txt" target="_blank" rel="noopener noreferrer">Visit TXT</a>
+            <div class="tooltip">Material 11</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-content">
+            <h3>PDF Books</h3>
+            <p>Explore AI and machine learning books in PDF format.</p>
+            <a href="https://github.com/mahirafserpavel/PDF" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+            <div class="tooltip">Material 12</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="study-notes-page">
   <div class="page-header">
