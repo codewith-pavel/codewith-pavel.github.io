@@ -23,25 +23,31 @@ author_profile: true
   .study-notes-page {
     width: 100%;
     min-height: 100vh;
-    padding: 2.5rem 1.5rem 3rem;
+    padding: 0;
     background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
     color: var(--text);
     box-sizing: border-box;
   }
 
   .study-notes-page .page-shell {
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
     background: rgba(255, 255, 255, 0.82);
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    box-shadow: 0 22px 60px var(--shadow);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
     overflow: hidden;
   }
 
   .study-notes-page .hero {
     position: relative;
-    padding: 4rem 2rem 2.5rem;
+    padding: 5rem 2rem 3rem;
+    min-height: 36vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background:
       radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 24%),
       radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.12), transparent 28%),
@@ -73,15 +79,36 @@ author_profile: true
   }
 
   .study-notes-page .subtitle {
-    max-width: 900px;
+    max-width: 960px;
     margin: 1.2rem auto 0;
     font-size: 1.12rem;
     line-height: 1.8;
     color: var(--muted);
   }
 
+  .study-notes-page .note-intro {
+    max-width: 1120px;
+    margin: 0 auto 1.5rem;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: linear-gradient(180deg, #ffffff 0%, #f5f9ff 100%);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    text-align: center;
+  }
+
+  .study-notes-page .note-intro p {
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: var(--heading);
+    font-weight: 600;
+  }
+
   .study-notes-page .content-wrap {
     padding: 2.2rem 2rem 2.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .study-notes-page .card-container {
@@ -197,11 +224,15 @@ author_profile: true
       <div class="eyebrow">Learning Resources</div>
       <h2>Study Notes & Materials</h2>
       <p class="subtitle">
-        Explore a curated collection of notes, references, and technical material covering deep learning, NLP, computer vision, and AI research foundations.
+        Check my all notes that I learned over AI theories and practical applications, including deep learning, NLP, computer vision, and modern research concepts.
       </p>
     </div>
 
     <div class="content-wrap">
+      <div class="note-intro">
+        <p>Check my all notes that I learned over AI theories, mathematics, model design, and research-driven problem solving — organized for quick review and deeper understanding.</p>
+      </div>
+
       <div class="card-container">
         <div class="card">
           <div class="card-top"></div>
