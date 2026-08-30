@@ -111,6 +111,72 @@ author_profile: true
     margin: 0 auto;
   }
 
+  .study-notes-page .tool-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0 auto 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    max-width: 1120px;
+  }
+
+  .study-notes-page .chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .study-notes-page .chip {
+    border: 1px solid var(--border);
+    background: #ffffff;
+    color: var(--heading);
+    border-radius: 999px;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .study-notes-page .chip:hover,
+  .study-notes-page .chip.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: rgba(37, 99, 235, 0.18);
+  }
+
+  .study-notes-page .search-box {
+    min-width: min(100%, 260px);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.6rem 0.8rem;
+    color: var(--muted);
+  }
+
+  .study-notes-page .search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--heading);
+    font-size: 0.92rem;
+  }
+
+  .study-notes-page .search-box input::placeholder {
+    color: var(--muted);
+  }
+
   .study-notes-page .topic-block {
     margin-bottom: 2.5rem;
     padding: 1.6rem;
@@ -276,6 +342,21 @@ author_profile: true
     </div>
 
     <div class="content-wrap">
+      <div class="tool-bar">
+        <div class="chip-group">
+          <button class="chip active" type="button">All</button>
+          <button class="chip" type="button">DL</button>
+          <button class="chip" type="button">NLP</button>
+          <button class="chip" type="button">CV</button>
+          <button class="chip" type="button">AI Theory</button>
+        </div>
+
+        <label class="search-box" aria-label="Search notes">
+          <span>🔎</span>
+          <input type="text" placeholder="Search notes..." />
+        </label>
+      </div>
+
       <div class="topic-block">
         <div class="topic-header">
           <h3>Deep Learning Notes</h3>
