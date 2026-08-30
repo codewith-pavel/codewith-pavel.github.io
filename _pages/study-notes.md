@@ -111,6 +111,53 @@ author_profile: true
     margin: 0 auto;
   }
 
+  .study-notes-page .topic-block {
+    margin-bottom: 2.5rem;
+    padding: 1.6rem;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.04);
+  }
+
+  .study-notes-page .topic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.1rem;
+    flex-wrap: wrap;
+  }
+
+  .study-notes-page .topic-header h3 {
+    margin: 0;
+    font-size: clamp(1.5rem, 2.3vw, 2.1rem);
+    color: var(--heading);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .study-notes-page .topic-header .tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+  }
+
+  .study-notes-page .topic-block .topic-copy {
+    margin: 0 0 1.2rem;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
   .study-notes-page .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -224,250 +271,153 @@ author_profile: true
       <div class="eyebrow">Learning Resources</div>
       <h2>Study Notes & Materials</h2>
       <p class="subtitle">
-        Check my all notes that I learned over AI theories and practical applications, including deep learning, NLP, computer vision, and modern research concepts.
+        Explore a collection of valuable resources, notes, guides, and technical materials designed to support deep learning, NLP, computer vision, and research learning.
       </p>
     </div>
 
-      <div class="card-container">
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (Part 1)</h3>
-            <p>Explore the 1st part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 1</div>
-          </div>
+    <div class="content-wrap">
+      <div class="topic-block">
+        <div class="topic-header">
+          <h3>Deep Learning Notes</h3>
+          <span class="tag">DL</span>
         </div>
+        <p class="topic-copy">
+          Check my all notes that I learned over AI theories and practical applications, including deep learning, neural networks, optimization, and modern research concepts.
+        </p>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (Part 2)</h3>
-            <p>Explore the 2nd part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 2</div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (Part 1)</h3>
+              <p>Explore the 1st part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 1</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (Part 3)</h3>
-            <p>Explore the 3rd part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_3.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 3</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (Part 2)</h3>
+              <p>Explore the 2nd part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 2</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (Part 4)</h3>
-            <p>Explore the 4th part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_4.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 4</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (Part 3)</h3>
+              <p>Explore the 3rd part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_3.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 3</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (Part 5)</h3>
-            <p>Explore the 5th part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_5.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 5</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (Part 4)</h3>
+              <p>Explore the 4th part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_4.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 4</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (CV)</h3>
-            <p>Explore the Computer Vision part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_CV.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 6</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (Part 5)</h3>
+              <p>Explore the 5th part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_5.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 5</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>DL (NLP)</h3>
-            <p>Explore the Natural Language Processing part of Deep Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_DL.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 7</div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>NLP with ML-1</h3>
-            <p>Explore the Natural Language Processing 1st part of Machine Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 8</div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>NLP with ML-2</h3>
-            <p>Explore the Natural Language Processing 2nd part of Machine Learning.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 9</div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>NLP Coding Basics</h3>
-            <p>Explore the coding basics of Natural Language Processing.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/Hands-On-Natural-Language-Processing-with-Python-master.zip" target="_blank" rel="noopener noreferrer">Visit ZIP</a>
-            <div class="tooltip">Material 10</div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>Useful Projects</h3>
-            <p>Explore GitHub project references and available learning materials.</p>
-            <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/github_if_available.txt" target="_blank" rel="noopener noreferrer">Visit TXT</a>
-            <div class="tooltip">Material 11</div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <h3>PDF Books</h3>
-            <p>Explore AI and machine learning books in PDF format.</p>
-            <a href="https://github.com/mahirafserpavel/PDF" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-            <div class="tooltip">Material 12</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (CV)</h3>
+              <p>Explore the Computer Vision part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_CV.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 6</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-<div class="study-notes-page">
-  <div class="page-header">
-    <p class="eyebrow">Learning Resources</p>
-    <h2>Study Notes & Materials</h2>
-    <p class="subtitle">
-      Explore a collection of valuable resources, notes, guides, and technical materials designed to support deep learning, NLP, computer vision, and research learning.
-    </p>
-  </div>
+      <div class="topic-block">
+        <div class="topic-header">
+          <h3>NLP Lab & Concepts</h3>
+          <span class="tag">NLP</span>
+        </div>
+        <p class="topic-copy">
+          Check my all notes that I learned over AI theories and practical applications, including NLP, language modeling, embeddings, transformers, and modern research concepts.
+        </p>
 
-  <div class="card-container">
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (Part 1)</h3>
-        <p>Explore the 1st part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 1</div>
-      </div>
-    </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>DL (NLP)</h3>
+              <p>Explore the Natural Language Processing part of Deep Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_DL.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 7</div>
+            </div>
+          </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (Part 2)</h3>
-        <p>Explore the 2nd part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 2</div>
-      </div>
-    </div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>NLP with ML-1</h3>
+              <p>Explore the Natural Language Processing 1st part of Machine Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 8</div>
+            </div>
+          </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (Part 3)</h3>
-        <p>Explore the 3rd part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_3.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 3</div>
-      </div>
-    </div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>NLP with ML-2</h3>
+              <p>Explore the Natural Language Processing 2nd part of Machine Learning.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 9</div>
+            </div>
+          </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (Part 4)</h3>
-        <p>Explore the 4th part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_4.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 4</div>
-      </div>
-    </div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>NLP Coding Basics</h3>
+              <p>Explore the coding basics of Natural Language Processing.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/Hands-On-Natural-Language-Processing-with-Python-master.zip" target="_blank" rel="noopener noreferrer">Visit ZIP</a>
+              <div class="tooltip">Material 10</div>
+            </div>
+          </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (Part 5)</h3>
-        <p>Explore the 5th part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_Advanced_5.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 5</div>
-      </div>
-    </div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>Useful Projects</h3>
+              <p>Explore GitHub project references and available learning materials.</p>
+              <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/github_if_available.txt" target="_blank" rel="noopener noreferrer">Visit TXT</a>
+              <div class="tooltip">Material 11</div>
+            </div>
+          </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (CV)</h3>
-        <p>Explore the Computer Vision part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/DL_CV.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 6</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>DL (NLP)</h3>
-        <p>Explore the Natural Language Processing part of Deep Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_DL.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 7</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>NLP with ML-1</h3>
-        <p>Explore the Natural Language Processing 1st part of Machine Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_1.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 8</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>NLP with ML-2</h3>
-        <p>Explore the Natural Language Processing 2nd part of Machine Learning.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/NLP_ML_2.pdf" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 9</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>NLP Coding Basics</h3>
-        <p>Explore the coding basics of Natural Language Processing.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/Hands-On-Natural-Language-Processing-with-Python-master.zip" target="_blank" rel="noopener noreferrer">Visit ZIP</a>
-        <div class="tooltip">Material 10</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>Useful Projects</h3>
-        <p>Explore GitHub project references and available learning materials.</p>
-        <a href="https://github.com/mahirafserpavel/DL_NLP/blob/main/github_if_available.txt" target="_blank" rel="noopener noreferrer">Visit TXT</a>
-        <div class="tooltip">Material 11</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <h3>PDF Books</h3>
-        <p>Explore AI and machine learning books in PDF format.</p>
-        <a href="https://github.com/mahirafserpavel/PDF" target="_blank" rel="noopener noreferrer">Visit PDF</a>
-        <div class="tooltip">Material 12</div>
+          <div class="card">
+            <div class="card-top"></div>
+            <div class="card-content">
+              <h3>PDF Books</h3>
+              <p>Explore AI and machine learning books in PDF format.</p>
+              <a href="https://github.com/mahirafserpavel/PDF" target="_blank" rel="noopener noreferrer">Visit PDF</a>
+              <div class="tooltip">Material 12</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
