@@ -8,7 +8,7 @@ author_profile: true
   <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">I would love to hear from you :)</h1>
 
   <p style="margin-bottom: 2rem; color: inherit;">
-    For research collaborations, academic inquiries, or internship opportunities, please get in touch.
+    For research collaborations, or academic inquiries, please get in touch.
   </p>
 
   <form class="contact-form" id="contact-form" method="post" style="display: flex; flex-direction: column; gap: 1rem; max-width: 560px;">
@@ -42,13 +42,13 @@ author_profile: true
         <a href="https://www.linkedin.com/in/mahir-afser-pavel/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width: 22px; height: 22px;" />
         </a>
-        <a href="https://github.com/mahir-afser-pavel" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
+        <a href="https://github.com/codewith-pavel" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width: 22px; height: 22px;" />
         </a>
         <a href="https://wa.me/8801873742510" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp" style="width: 22px; height: 22px;" />
         </a>
-        <a href="https://t.me/mahirafserpavel" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
+        <a href="https://t.me/map19115" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--global-border-color, rgba(15, 23, 42, 0.12)); border-radius: 12px; background: transparent; transition: transform 0.2s ease, border-color 0.2s ease;">
           <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" style="width: 22px; height: 22px;" />
         </a>
       </div>
