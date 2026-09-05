@@ -366,7 +366,7 @@ author_profile: true
           <span class="tag">DL</span>
         </div>
         <p class="topic-copy">
-          Check my all notes that I learned over AI theories and practical applications, including deep learning, neural networks, optimization, and modern research concepts.
+          Explore my collection of notes covering AI theory and practical applications, including deep learning, neural networks, optimization, and modern research concepts.
         </p>
 
         <div class="card-container">
@@ -438,7 +438,7 @@ author_profile: true
           <span class="tag">NLP</span>
         </div>
         <p class="topic-copy">
-          Check my all notes that I learned over AI theories and practical applications, including NLP, language modeling, embeddings, transformers, and modern research concepts.
+          Discover detailed notes exploring NLP concepts and applications, from language modeling and embeddings to transformer architectures and emerging developments in AI research.
         </p>
 
         <div class="card-container">
