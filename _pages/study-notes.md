@@ -340,7 +340,7 @@ author_profile: true
       <div class="eyebrow">Learning Resources</div>
       <h2>Study Notes & Materials</h2>
       <p class="subtitle">
-        Explore a collection of valuable resources, notes, guides, and technical materials designed to support deep learning, NLP, computer vision, and research learning.
+        Dive into a collection of technical notes, practical guides, and learning resources exploring deep learning, NLP, computer vision, and AI research.
       </p>
     </div>
 
@@ -366,7 +366,7 @@ author_profile: true
           <span class="tag">DL</span>
         </div>
         <p class="topic-copy">
-          Explore my collection of notes covering AI theory and practical applications, including deep learning, neural networks, optimization, and modern research concepts.
+          Browse my collection of AI notes, featuring key concepts and practical insights into deep learning, neural networks, optimization, and modern research.
         </p>
 
         <div class="card-container">
