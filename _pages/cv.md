@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 <div class="cv-download-links" style="margin: 0 0 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Download CV PDF</a>
+  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
 </div>
 
 Profile Summary
 ======
 
-* AI researcher with a strong research interest in medical image analysis and 70+ citations in 5 Q1 and solo Q2 journal publications, 4 of which are SCIE and 2 ESCI, holding an h-index and i10-index of 2.
+* AI researcher with a strong research interest in medical image analysis and 90+ citations (Google Scholar, September 2026) in 5 Q1 and solo Q2 journal publications, 4 of which are SCIE and 2 ESCI, holding an h-index of 3 and i10-index of 2.
 
 Research Interests
 ======
