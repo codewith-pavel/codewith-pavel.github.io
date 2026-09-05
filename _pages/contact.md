@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <div class="contact-content-only" style="max-width: 780px; margin: 0 auto; padding: 2rem 1rem 4rem;">
-  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Get in Touch</h1>
+  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Let's Connect</h1>
 
   <p style="margin-bottom: 2rem; color: inherit;">
     For research collaborations, or academic inquiries, please get in touch.
