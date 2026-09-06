@@ -15,7 +15,7 @@ keywords: ["Vision-Language Models", "Endodontic Triaging", "Multimodal AI"]
 thumbnail: "/images/ijod4148741-fig-0002-m.jpg"
 permalink: /publication/error-tolerant-multimodal-vlm-endodontic-triaging
 excerpt: "This study evaluates quantization-aware multimodal vision-language models for robust endodontic triaging under common radiographic imaging errors."
-date: 2026-01-01
+date: 2026-01-31
 citation: "M. A. Pavel et al. (2026). \"Error‐Tolerant Multimodal Vision‐Language Models for Endodontic Triaging: A Cross‐Sectional Study.\" International Journal of Dentistry 2026.1 (2026): 4148741."
 ---
 ## Abstract
