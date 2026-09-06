@@ -27,28 +27,26 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
 # Recent News
 
-(Will be updated soon)
-
 <table>
   <tr>
-    <td><strong>Jul 04, 2026</strong></td>
-    <td>ðŸŒ Launched a new academic web presence to showcase my research portfolio, publications, projects, and contributions to open scientific work.</td>
+    <td><strong>Dec 18, 2025</strong></td>
+    <td>Joined ELITE Research Lab LLC as a Research Assistant.</td>
+  </tr>
+  <tr>
+    <td><strong>Jan 31, 2026</strong></td>
+    <td>Published "Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study" in the International Journal of Dentistry, a Q1 journal.</td>
+  </tr>
+  <tr>
+    <td><strong>May 14, 2026</strong></td>
+    <td>"SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation" went under review.</td>
   </tr>
   <tr>
     <td><strong>Jun 16, 2026</strong></td>
-    <td>ðŸ“„ Submitted a federated, explainable deep learning framework for medical image analysis to a high-impact international journal.</td>
+    <td>"A Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and Explainable Representation Learning" went under review.</td>
   </tr>
   <tr>
-    <td><strong>Jun 10, 2026</strong></td>
-    <td>ðŸŽ“ Initiated applications for fully funded PhD programs in Computer Science, with research interests spanning large language models, vision-language models, medical AI, and explainable AI.</td>
-  </tr>
-  <tr>
-    <td><strong>May 27, 2026</strong></td>
-    <td>ðŸ“š Updated my publication record with recent work on clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.</td>
-  </tr>
-  <tr>
-    <td><strong>Jan 07, 2026</strong></td>
-    <td>ðŸš€ Expanded my research agenda toward trustworthy multimodal AI by integrating explainability and efficient deep learning methods for healthcare applications.</td>
+    <td><strong>Aug 30, 2026</strong></td>
+    <td>"CLKD-MED: A cross-lingual knowledge distillation framework for multilingual clinical outcome prediction" went under review.</td>
   </tr>
 </table>
 
