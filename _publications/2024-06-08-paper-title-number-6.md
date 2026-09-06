@@ -3,18 +3,20 @@ title: "Real-time fire detection: Integrating lightweight deep learning models o
 collection: publications
 category: manuscripts
 status: published
-authors: "M. F. S. Titu, M. A. Pavel, G. K. O. Michael, H. Babar, U. Aman, R. Khan"
+authors: "Md Fahim Shahoriar Titu, Mahir Afser Pavel, Goh Kah Ong Michael, Hisham Babar, Umama Aman, & Riasat Khan"
 role: "Co-author"
-venue: "Drones"
+venue: "Drones (MDPI)"
 journal: "Drones"
-quartile: "Q2"
+quartile: "Q1"
 year: 2024
-paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=172rqgEAAAAJ&citation_for_view=172rqgEAAAAJ:eQOLeE2rZwMC"
-bibtexurl: "https://scholar.google.com/scholar?q=related:172rqgEAAAAJ:eQOLeE2rZwMC"
+paperurl: "https://doi.org/10.3390/drones8090483"
+bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:2xtNneo9xmAJ:scholar.google.com/&output=citation&scisdr=CoE6YM8KEIzjolPGCt4:AIVdB-wAAAAAap3AEt6WnkMJWvZBjCfpcMiXv_4&scisig=AIVdB-wAAAAAap3AEiqN--zQBzBoDkoraW82e9Q&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"
 keywords: ["Fire Detection", "Drones", "Edge Computing"]
+thumbnail: "/images/drones-08-00483-g003.png"
 permalink: /publication/real-time-fire-detection-drones-edge-computing
-excerpt: "This paper integrates lightweight deep learning models on drones with edge computing for real-time fire detection."
-date: 2024-06-08
-citation: "M. F. S. Titu et al. (2024). Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing. Drones."
+excerpt: "This study proposes a knowledge distillation framework that enables lightweight YOLOv8n-based fire detection on drone and edge-computing platforms for real-time deployment."
+date: 2024-08-13
+citation: "Titu, Md Fahim Shahoriar, et al. \"Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing.\" Drones 8.9 (2024): 483."
 ---
-This work demonstrates an efficient aerial fire-detection system that combines compact deep learning models with edge deployment for faster response.
+## Abstract
+Fire accidents are life-threatening catastrophes leading to losses of life, financial damage, climate change, and ecological destruction. Promptly and efficiently detecting and extinguishing fires is essential to reduce the loss of lives and damage. This study uses drone, edge computing, and artificial intelligence (AI) techniques, presenting novel methods for real-time fire detection. This proposed work utilizes a comprehensive dataset of 7187 fire images and advanced deep learning models, e.g., Detection Transformer (DETR), Detectron2, You Only Look Once YOLOv8, and Autodistill-based knowledge distillation techniques to improve the model performance. The knowledge distillation approach has been implemented with the YOLOv8m (medium) as the teacher (base) model. The distilled (student) frameworks are developed employing the YOLOv8n (Nano) and DETR techniques. The YOLOv8n attains the best performance with 95.21% detection accuracy and 0.985 F1 score. A powerful hardware setup, including a Raspberry Pi 5 microcontroller, Pi camera module 3, and a DJI F450 custom-built drone, has been constructed. The distilled YOLOv8n model has been deployed in the proposed hardware setup for real-time fire identification. The YOLOv8n model achieves 89.23% accuracy and an approximate frame rate of 8 for the conducted live experiments. Integrating deep learning techniques with drone and edge devices demonstrates the proposed system’s effectiveness and potential for practical applications in fire hazard mitigation.
