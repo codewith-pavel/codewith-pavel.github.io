@@ -30,31 +30,10 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 <table>
   <tr>
     <td>
-      <strong><span style="color:#58a6ff;">Dec 18, 2025</span></strong>
+      <strong><span style="color:#d29922;">Aug 30, 2026</span></strong>
     </td>
     <td>
-      <strong>Joined ELITE Research Lab LLC</strong> as a <strong>Research Assistant</strong>.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong><span style="color:#3fb950;">Jan 31, 2026</span></strong>
-    </td>
-    <td>
-      <strong>Published</strong> 
-      <em>"Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"</em>
-      in the <strong>International Journal of Dentistry</strong>, a 
-      <strong><span style="color:#a371f7;">Q1 journal</span></strong>.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong><span style="color:#d29922;">May 14, 2026</span></strong>
-    </td>
-    <td>
-      <strong>"SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation"</strong>
+      <strong>"CLKD-MED: A Cross-Lingual Knowledge Distillation Framework for Multilingual Clinical Outcome Prediction"</strong>
       <br>
       <span style="color:#d29922;">● Under Review</span>
     </td>
@@ -73,16 +52,36 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
   <tr>
     <td>
-      <strong><span style="color:#d29922;">Aug 30, 2026</span></strong>
+      <strong><span style="color:#d29922;">May 14, 2026</span></strong>
     </td>
     <td>
-      <strong>"CLKD-MED: A Cross-Lingual Knowledge Distillation Framework for Multilingual Clinical Outcome Prediction"</strong>
+      <strong>"SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation"</strong>
       <br>
       <span style="color:#d29922;">● Under Review</span>
     </td>
   </tr>
-</table>
 
+  <tr>
+    <td>
+      <strong><span style="color:#3fb950;">Jan 31, 2026</span></strong>
+    </td>
+    <td>
+      <strong>Published</strong>
+      <em>"Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"</em>
+      in the <strong>International Journal of Dentistry</strong>, a
+      <strong><span style="color:#a371f7;">Q1 journal</span></strong>.
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <strong><span style="color:#58a6ff;">Dec 18, 2025</span></strong>
+    </td>
+    <td>
+      <strong>Joined ELITE Research Lab LLC</strong> as a <strong>Research Assistant</strong>.
+    </td>
+  </tr>
+</table>
 ---
 
 # Explore
