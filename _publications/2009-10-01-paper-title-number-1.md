@@ -3,7 +3,7 @@ title: "Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging
 collection: publications
 category: manuscripts
 status: published
-authors: "Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, Saif Ahmed, Shafin Rahman, James Dudley, Taseef Hasan Farook"
+authors: "Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, Saif Ahmed, Shafin Rahman, James Dudley, & Taseef Hasan Farook"
 role: "First Author (jointly)"
 venue: "International Journal of Dentistry (Wiley)"
 journal: "International Journal of Dentistry"
