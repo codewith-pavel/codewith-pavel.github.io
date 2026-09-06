@@ -12,6 +12,7 @@ year: 2025
 paperurl: "https://www.mdpi.com/2624-8921/7/3/89"
 bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:wLU3kLSDFR0J:scholar.google.com/&output=citation&scisdr=CoE6YM8LEIzjolOJ-es:AIVdB-wAAAAAap2P4evTIgttsTZwYrpDXBugjJU&scisig=AIVdB-wAAAAAap2P4Y700Q2GtF7mmkMP1nQShb4&scisf=4&ct=citation&cd=-1&hl=en"
 keywords: ["Vision Transformers", "Vehicle Damage", "Explainable AI"]
+thumbnail: "/images/vehicles-07-00089-g001-550.jpg"
 permalink: /publication/hybrid-vit-retinanet-vehicle-damage
 excerpt: "This paper proposes a robust and interpretable ViT–RetinaNet framework with weighted ensemble learning for accurate and real-time vehicle damage detection."
 date: 2025-08-25
