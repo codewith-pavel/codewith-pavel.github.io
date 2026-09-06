@@ -66,8 +66,8 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
       <strong><span style="color:#3fb950;">Jan 31, 2026</span></strong>
     </td>
     <td>
-      <strong>Published</strong>
-      <em>"Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"</em>
+      <em>Published</em>
+      <strong>"Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"</strong>
       in the <strong>International Journal of Dentistry</strong>, a
       <strong><span style="color:#a371f7;">Q1 journal</span></strong>.
     </td>
