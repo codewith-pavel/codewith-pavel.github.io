@@ -7,11 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am **Mahir Afser Pavel**, an **AI researcher** focused on developing **trustworthy, efficient, and interpretable medical artificial intelligence**. I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my work centers on **medical imaging**, **biomedical informatics**, and **multimodal learning**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**, and I have built a strong foundation in **deep learning, computer vision, visionâ€“language models (VLMs), and explainable AI (XAI)**.
+# Welcome!
 
-My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **trustworthy AI for healthcare**.
+I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **trustworthy, efficient, and interpretable medical artificial intelligence**.
 
-I am actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where I can contribute to impactful projects and continue advancing the field.
+I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
+
+My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
+
+My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **trustworthy AI for healthcare**.
+
+I am actively seeking **research internships, fully funded Ph.D. opportunities, and international research collaborations** where I can contribute to impactful research and continue advancing the field of **AI for healthcare**.
 
 ---
 
