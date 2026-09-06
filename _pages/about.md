@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, efficient, and interpretable medical artificial intelligence**.
+I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
 
