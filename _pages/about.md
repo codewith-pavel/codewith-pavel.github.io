@@ -1,21 +1,19 @@
 ﻿---
 permalink: /
-title: "Bio"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Welcome!
-
-I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **trustworthy, efficient, and interpretable medical artificial intelligence**.
+I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, efficient, and interpretable medical artificial intelligence**.
 
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
 
 My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
 
-My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **trustworthy AI for healthcare**.
+My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **Responsible AI for healthcare**.
 
 I am actively seeking **research internships, fully funded Ph.D. opportunities, and international research collaborations** where I can contribute to impactful research and continue advancing the field of **AI for healthcare**.
 
@@ -23,7 +21,17 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
 # Research Interests
 
-<span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Artificial Intelligence for Healthcare**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Computer Vision**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Medical Image Analysis**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Natural Language Processing (Clinical NLP)**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Vision-Language Models (VLMs)**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Federated Learning**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Model Optimization &amp; Efficient Deep Learning**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Explainable Artificial Intelligence (XAI)**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Edge AI**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Generative Adversarial Networks (GANs)**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Graph Neural Networks (GNNs)**</span>
+### Core
+
+<span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**AI for Healthcare**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Medical Image Analysis**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Computer Vision**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Multimodal AI / VLMs**</span>
+
+### Methods
+
+<span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Knowledge Distillation**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Federated Learning**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Self-Supervised Learning**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Foundation Models**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Efficient Deep Learning**</span>
+
+### Trustworthiness
+
+<span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Explainable AI**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Uncertainty / Calibration**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Clinical Decision Support**</span>
 
 # Recent News
 
@@ -35,7 +43,7 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     <td>
       <strong>"CLKD-MED: A Cross-Lingual Knowledge Distillation Framework for Multilingual Clinical Outcome Prediction"</strong>
       <br>
-      <span style="color:#d29922;">● Under Review</span>
+      <span style="color:#d29922;"><strong>🟠 Under Review</strong></span>
     </td>
   </tr>
 
@@ -46,7 +54,7 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     <td>
       <strong>"A Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and Explainable Representation Learning"</strong>
       <br>
-      <span style="color:#d29922;">● Under Review</span>
+      <span style="color:#d29922;"><strong>🟠 Under Review</strong></span>
     </td>
   </tr>
 
@@ -57,7 +65,7 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     <td>
       <strong>"SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation"</strong>
       <br>
-      <span style="color:#d29922;">● Under Review</span>
+      <span style="color:#d29922;"><strong>🟠 Under Review</strong></span>
     </td>
   </tr>
 
@@ -66,10 +74,11 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
       <strong><span style="color:#3fb950;">Jan 31, 2026</span></strong>
     </td>
     <td>
-      <em>Published</em>
       <strong>"Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"</strong>
       in the <strong>International Journal of Dentistry</strong>, a
       <strong><span style="color:#a371f7;">Q1 journal</span></strong>.
+      <br>
+      <span style="color:#3fb950;"><strong>🟢 Published</strong></span>
     </td>
   </tr>
 
@@ -79,6 +88,8 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     </td>
     <td>
       <strong>Joined ELITE Research Lab LLC</strong> as a <strong>Research Assistant</strong>.
+      <br>
+      <span style="color:#58a6ff;"><strong>🔵 Research Position</strong></span>
     </td>
   </tr>
 </table>
