@@ -5,13 +5,14 @@ category: manuscripts
 status: published
 authors: "Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, Saif Ahmed, Shafin Rahman, James Dudley, Taseef Hasan Farook"
 role: "First Author (jointly)"
-venue: "Wiley"
+venue: "International Journal of Dentistry (Wiley)"
 journal: "International Journal of Dentistry"
 quartile: "Q1"
 year: 2026
 paperurl: "https://doi.org/10.1155/ijod/4148741"
 bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:Edb1NBIcxREJ:scholar.google.com/&output=citation&scisdr=CoE6YM8NEIzjolN6buc:AIVdB-wAAAAAap18duduQgr5OtpFYkb7AD3oHHw&scisig=AIVdB-wAAAAAap18dtBBE0c6251EyHYey_y8pZY&scisf=4&ct=citation&cd=-1&hl=en"
 keywords: ["Vision-Language Models", "Endodontic Triaging", "Multimodal AI"]
+thumbnail: "/images/MahirAfserPavel.jpg"
 permalink: /publication/error-tolerant-multimodal-vlm-endodontic-triaging
 excerpt: "This study evaluates quantization-aware multimodal vision-language models for robust endodontic triaging under common radiographic imaging errors."
 date: 2026-01-01
