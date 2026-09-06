@@ -14,7 +14,7 @@ bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:r9tv7vMGvDY
 keywords: ["Root Canal Diagnosis", "YOLO", "Knowledge Distillation"]
 thumbnail: "/images/khan5-3560998-large.gif"
 permalink: /publication/fusion-image-filtering-knowledge-distilled-yolo-root-canal
-excerpt: "This paper combines image filtering and knowledge-distilled YOLO models for root canal failure diagnosis."
+excerpt: "This paper integrates advanced radiographic image filtering with an autodistillation-based YOLO pipeline to enable accurate and efficient root canal failure detection."
 date: 2025-04-15
 citation: "Apurba, Afifa Zain, et al. \"Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis.\" IEEE Access 13 (2025): 66557-66573."
 ---
