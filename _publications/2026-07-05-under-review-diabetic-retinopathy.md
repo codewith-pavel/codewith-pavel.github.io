@@ -9,6 +9,7 @@ venue: "Under review"
 journal: "Under review"
 quartile: "Pending"
 year: 2026
+thumbnail: "/images/clkd.png"
 permalink: /publication/uncertainty-aware-explainable-diabetic-retinopathy
 excerpt: "This study presents an uncertainty-aware explainable deep learning framework for diabetic retinopathy grading that combines ResNet50, MC Dropout, and Grad-CAM."
 date: 2026-07-05

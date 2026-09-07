@@ -9,6 +9,7 @@ venue: "Under review"
 journal: "Under review"
 quartile: "Pending"
 year: 2026
+thumbnail: "/images/clkd.png"
 permalink: /publication/slgra-net-brain-tumor-segmentation
 excerpt: "This paper proposes a structure-aware latent graph reasoning network for 3D brain tumor segmentation with uncertainty-aware supervision."
 date: 2026-07-05

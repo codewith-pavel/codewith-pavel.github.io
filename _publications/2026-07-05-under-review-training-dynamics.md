@@ -9,6 +9,7 @@ venue: "Under review"
 journal: "Under review"
 quartile: "Pending"
 year: 2026
+thumbnail: "/images/clkd.png"
 permalink: /publication/training-dynamics-cnn-feature-reliance
 excerpt: "This study investigates whether CNN feature reliance evaluations remain stable and reproducible across training configurations, random seeds, and hyperparameter choices."
 date: 2026-07-05

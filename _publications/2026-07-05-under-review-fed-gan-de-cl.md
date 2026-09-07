@@ -9,6 +9,7 @@ venue: "Under review"
 journal: "Under review"
 quartile: "Pending"
 year: 2026
+thumbnail: "/images/clkd.png"
 permalink: /publication/fed-gan-de-cl-brain-tumor-diagnosis
 excerpt: "This study presents a privacy-preserving federated framework for brain tumor diagnosis that combines generative augmentation, contrastive representation learning, and explainable AI."
 date: 2026-07-05
