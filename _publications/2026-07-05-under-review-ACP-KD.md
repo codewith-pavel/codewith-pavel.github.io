@@ -7,7 +7,7 @@ authors: "Anonymous Authors"
 role: "First Author"
 venue: "Winter Conference on Applications of Computer Vision (WACV)"
 journal: "WACV"
-quartile: "Pending"
+quartile: "A"
 year: 2026
 thumbnail: "/images/acp-kd.jpg"
 keywords: ["Skin lesion classification", "Knowledge distillation", "Medical image analysis", "Dynamic feature fusion", "Prototype learning", "Confidence calibration", "HAM10000"]
