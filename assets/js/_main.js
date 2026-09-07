@@ -155,8 +155,7 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
-  // Keep the footer in the normal page flow so it sits below the sidebar content.
-  $("body").css("padding-bottom", "0");
+  // The fixed footer reserves its collapsed height through CSS.
   $("body").css("margin-bottom", "0");
 
   // Follow menu drop down
