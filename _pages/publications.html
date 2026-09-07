@@ -13,8 +13,8 @@ author_profile: true
 
 <link rel="stylesheet" href="{{ '/assets/css/publications-portal.css' | relative_url }}">
 
-{% assign published_items = site.publications | where_exp: "item", "item.status == 'published' or item.category != 'under-review'" | sort: "date" | reverse %}
-{% assign review_items = site.publications | where_exp: "item", "item.status == 'under-review' or item.category == 'under-review'" | sort: "date" | reverse %}
+{% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
+{% assign review_items = site.publications | where_exp: "item", "item.category == 'under-review'" | sort: "date" | reverse %}
 {% assign featured_items = published_items | where_exp: "item", "item.featured == true" %}
 {% assign featured_post = featured_items | first %}
 {% unless featured_post %}
