@@ -138,6 +138,7 @@ Academic background, experience, skills, publications, and research highlights i
 </p>
 </div>
 </a>
+
 <!-- 
 <a href="{{ site.baseurl }}/contact/" style="text-decoration:none;color:inherit;">
 <div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
@@ -151,6 +152,7 @@ Reach out for collaboration, research discussions, internships, or academic inqu
 </div>
 </a>
 -->
+
 </div>
 
 ---
