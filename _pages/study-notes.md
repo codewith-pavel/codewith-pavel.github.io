@@ -229,12 +229,13 @@ author_profile: true
 
   .study-notes-page .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
     gap: 1.3rem;
   }
 
   .study-notes-page .card {
     position: relative;
+    min-width: 0;
     background: transparent;
     border: 1px solid var(--border);
     border-radius: 18px;
@@ -285,6 +286,8 @@ author_profile: true
     font-weight: 700;
     letter-spacing: 0.01em;
     transition: filter 0.25s ease, transform 0.25s ease;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .study-notes-page .card a:hover {
@@ -326,6 +329,24 @@ author_profile: true
 
     .study-notes-page .content-wrap {
       padding: 1.2rem 0.9rem 1.5rem;
+    }
+
+    .study-notes-page .topic-block {
+      padding: 1rem;
+      border-radius: 14px;
+    }
+
+    .study-notes-page .card-container {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1rem;
+    }
+
+    .study-notes-page .card-content {
+      padding: 1.15rem 1rem 1.1rem;
+    }
+
+    .study-notes-page .card a {
+      width: 100%;
     }
 
     .study-notes-page .subtitle {

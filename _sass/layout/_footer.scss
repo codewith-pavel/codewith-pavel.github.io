@@ -76,6 +76,12 @@
     opacity: 1;
   }
 
+  .page__footer footer {
+    max-width: none;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .page__footer::before {
     display: none;
   }
@@ -83,6 +89,7 @@
   .page__footer-follow ul {
     flex-wrap: wrap;
     gap: 0.25rem 0.5rem;
+    line-height: 1.35;
   }
 
   .page__footer-follow a {
@@ -94,6 +101,8 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .page__footer-follow {
@@ -134,5 +143,16 @@
     a {
       white-space: nowrap;
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page__footer-follow li {
+    font-size: $type-size-7;
+  }
+
+  .page__footer-copyright {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }

@@ -60,6 +60,12 @@ h6 {
   font-size: $type-size-6;
 }
 
+strong,
+b {
+  font-weight: 700;
+  color: inherit;
+}
+
 small, .small {
   font-size: $type-size-6;
 }
