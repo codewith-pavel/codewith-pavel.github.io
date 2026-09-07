@@ -373,3 +373,9 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       display: none;
     }
   }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 12em;
+  }
+}

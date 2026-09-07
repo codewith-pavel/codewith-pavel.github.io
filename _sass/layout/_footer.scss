@@ -70,8 +70,14 @@
 
 @media screen and (max-width: 768px) {
   .page__footer {
-    position: relative;
-    bottom: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     transform: none;
     opacity: 1;
   }
@@ -90,11 +96,17 @@
     flex-wrap: wrap;
     gap: 0.25rem 0.5rem;
     line-height: 1.35;
+    align-items: center;
   }
 
   .page__footer-follow a {
     padding-left: 0.35rem;
     padding-right: 0.35rem;
+  }
+
+  .page__footer-follow li {
+    flex: 0 0 auto;
+    max-width: 100%;
   }
 }
 
