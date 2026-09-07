@@ -12,7 +12,7 @@ year: 2026
 thumbnail: "/images/fedGan.png"
 permalink: /publication/fed-gan-de-cl-brain-tumor-diagnosis
 keywords: ["Federated learning", "Brain tumor diagnosis", "MRI analysis", "Generative augmentation", "Contrastive representation learning", "Explainable AI"]
-excerpt: "This study presents a privacy-preserving federated framework for brain tumor diagnosis that integrates generative augmentation, dual-view contrastive representation learning, and explainable AI for robust and interpretable MRI analysis."
+excerpt: "This study presents a privacy-preserving federated framework for brain tumor diagnosis that integrates **generative augmentation, dual-view contrastive representation learning, and explainable AI** for robust and interpretable MRI analysis."
 date: 2026-08-24
 citation: "Mahir Afser Pavel et al. (under review). A Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and Explainable Representation Learning."
 ---
