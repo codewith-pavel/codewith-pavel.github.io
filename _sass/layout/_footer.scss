@@ -8,21 +8,14 @@
   backdrop-filter: blur(6px);
   color: var(--global-text-color-light);
 
-  float: left;
   margin-left: 0;
   margin-right: 0;
   margin-top: 3em;
   width: 100%;
   clear: both;
 
-  /* keep the footer compact and reveal it only when needed */
+  /* The flex page shell pushes this footer down on short pages. */
   height: auto;
-  position: sticky;
-  bottom: 0;
-  z-index: 10;
-  overflow: hidden;
-  transform: translateY(calc(100% - 2.25rem));
-  transition: transform 0.25s ease, opacity 0.25s ease;
   opacity: 1;
 
   -webkit-animation: intro 0.3s both;
@@ -30,12 +23,6 @@
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
-
-  &:hover,
-  &:focus-within {
-    transform: translateY(0);
-    opacity: 1;
-  }
 
   footer {
     @include clearfix;
@@ -70,10 +57,7 @@
 
 @media screen and (max-width: 768px) {
   .page__footer {
-    position: relative;
-    bottom: auto;
-    transform: none;
-    opacity: 1;
+    margin-top: 2em;
   }
 
   .page__footer::before {

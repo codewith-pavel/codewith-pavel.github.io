@@ -17,7 +17,9 @@ body {
 
   margin: 0;
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: $global-font-family;
   line-height: 1.5;
   overflow-x: hidden;
@@ -26,6 +28,12 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+}
+
+.initial-content,
+body > #main {
+  flex: 1 0 auto;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -239,7 +247,6 @@ figure {
       width: 100%;
     }
   }
-
   &.third {
     > a,
     > img {
@@ -373,9 +380,3 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       display: none;
     }
   }
-
-@media screen and (max-width: 768px) {
-  body {
-    padding-bottom: 12em;
-  }
-}
