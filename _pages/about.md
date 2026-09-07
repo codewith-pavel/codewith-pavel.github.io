@@ -1,4 +1,4 @@
-﻿---
+---
 permalink: /
 title: "Welcome!"
 author_profile: true
@@ -103,7 +103,7 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:1rem;">
 
-<a href="/publications/" style="text-decoration:none;color:inherit;">
+<a href="{{ site.baseurl }}/publications/" style="text-decoration:none;color:inherit;">
 <div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
 <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
 <h3 style="margin:0;font-size:1.08rem;">📄 Publications</h3>
@@ -115,7 +115,7 @@ Research papers, journals, and contributions across medical AI, NLP, and compute
 </div>
 </a>
 
-<a href="/study-notes/" style="text-decoration:none;color:inherit;">
+<a href="{{ site.baseurl }}/study-notes/" style="text-decoration:none;color:inherit;">
 <div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
 <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
 <h3 style="margin:0;font-size:1.08rem;">🧠 Materials</h3>
@@ -127,7 +127,7 @@ Curated notes, technical references, and study resources for deep learning, NLP,
 </div>
 </a>
 
-<a href="/cv/" style="text-decoration:none;color:inherit;">
+<a href="{{ site.baseurl }}/cv/" style="text-decoration:none;color:inherit;">
 <div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
 <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
 <h3 style="margin:0;font-size:1.08rem;">📑 CV</h3>
@@ -139,7 +139,7 @@ Academic background, experience, skills, publications, and research highlights i
 </div>
 </a>
 <!-- 
-<a href="/contact/" style="text-decoration:none;color:inherit;">
+<a href="{{ site.baseurl }}/contact/" style="text-decoration:none;color:inherit;">
 <div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
 <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
 <h3 style="margin:0;font-size:1.08rem;">📬 Contact</h3>

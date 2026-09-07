@@ -190,7 +190,7 @@
     }
   }
 
-  button {
+  > button {
     position: absolute;
     height: 2.5rem;
     right: 0;
@@ -227,7 +227,15 @@
     }
 
     #theme-toggle {
-      a {
+      button {
+        position: relative;
+        right: auto;
+        height: auto;
+        margin: 0;
+        padding: 0.5rem 0;
+        border: 0;
+        background: transparent;
+        color: var(--global-text-color);
         width: 25px;
         display: flex;
         justify-content: center;
@@ -347,7 +355,7 @@
         margin-right: 0.55rem;
       }
 
-      #theme-toggle a {
+      #theme-toggle button {
         margin-left: 0;
         margin-right: 0;
       }

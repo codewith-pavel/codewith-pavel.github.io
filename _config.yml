@@ -42,7 +42,7 @@ author:
   semantic         : "https://www.semanticscholar.org/author/Mahir-Afser-Pavel/2321260323"
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/myncbi/" # will be build
-  researchgate     : "https://www.researchgate.net/profile/Mahir-Afser-Pavel?__cf_chl_f_tk=shqicXZNJnSxxHFQbPDUQXl1Y.9nP0RmaHxqH6xVrMs-1782923962-1.0.1.1-d99ov3L_lgn8kOYRgrQ6up3Ca3i0LYhwYzmM1_YgI08"
+  researchgate     : "https://www.researchgate.net/profile/Mahir-Afser-Pavel"
   scopus           :  # will be build
   # SciProfiles      : "https://sciprofiles.com/profile/MahirAfserPavel"
   # AD Scientific Index : "https://adscientificindex.com/scientist/mahir-afser-pavel/6316113/"
@@ -101,7 +101,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:

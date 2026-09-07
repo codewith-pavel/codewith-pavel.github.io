@@ -161,7 +161,7 @@
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
-          {% if publication.website %}
+          {% if publication.website and publication.website != empty %}
           <div class="cv-item-detail">
             <a href="{{ publication.website }}" target="_blank">View Publication</a>
           </div>
