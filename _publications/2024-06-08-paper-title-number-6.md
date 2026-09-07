@@ -11,7 +11,7 @@ quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.3390/drones8090483"
 bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:2xtNneo9xmAJ:scholar.google.com/&output=citation&scisdr=CoE6YM8KEIzjolPGCt4:AIVdB-wAAAAAap3AEt6WnkMJWvZBjCfpcMiXv_4&scisig=AIVdB-wAAAAAap3AEiqN--zQBzBoDkoraW82e9Q&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"
-keywords: ["Fire Detection", "Drones", "Edge Computing"]
+keywords: ["Fire Detection", "Drones", "Edge Computing", "Real-Time Detection", "Object Detection", "Knowledge Distillation"]
 thumbnail: "/images/drones-08-00483-g003.png"
 permalink: /publication/real-time-fire-detection-drones-edge-computing
 excerpt: "This study proposes a knowledge distillation framework that enables lightweight YOLOv8n-based fire detection on drone and edge-computing platforms for real-time deployment."

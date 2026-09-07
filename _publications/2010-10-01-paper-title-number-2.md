@@ -11,7 +11,7 @@ quartile: "Q1"
 year: 2025
 paperurl: "https://www.nature.com/articles/s41598-025-23403-2"
 bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:UmLM9UdfxhgJ:scholar.google.com/&output=citation&scisdr=CoE6YM8IEIzjolOM6z8:AIVdB-wAAAAAap2K8z_QJk3GVB84aRIUL7qgS5E&scisig=AIVdB-wAAAAAap2K84v-ZZ6FzPYhz4ILqNyUikw&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"
-keywords: ["Knowledge Distillation", "Skin Cancer", "Deep Learning"]
+keywords: ["Knowledge Distillation", "Skin Cancer", "Deep Learning", "Medical Image Analysis", "Explainable AI", "Dermatology"]
 thumbnail: "/images/41598_2025_23403_Fig1_HTML.webp"
 permalink: /publication/multi-stage-knowledge-distillation-skin-cancer
 excerpt: "This paper presents a multi-stage knowledge distillation and layer fusion approach for accurate, efficient, and interpretable skin lesion classification."

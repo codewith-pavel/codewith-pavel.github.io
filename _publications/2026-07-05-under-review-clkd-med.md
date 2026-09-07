@@ -9,7 +9,7 @@ venue: "Information Processing & Management (Elsevier)"
 journal: "Information Processing & Management"
 quartile: "Q1"
 year: 2026
-keywords: ["Low-resource languages", "Healthcare informatics", "Multilingual clinical NLP"]
+keywords: ["Low-resource languages", "Healthcare informatics", "Multilingual clinical NLP", "Cross-lingual knowledge distillation", "Clinical outcome prediction", "Explainable AI"]
 thumbnail: "/images/clkd.png"
 permalink: /publication/clkd-med-cross-lingual-clinical-outcome
 excerpt: "This paper introduces **CLKD-MED, a cross-lingual knowledge distillation** framework for multilingual clinical outcome prediction across low-resource languages, with interpretable and computationally efficient deployment."

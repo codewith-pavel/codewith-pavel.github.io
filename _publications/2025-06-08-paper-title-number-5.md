@@ -11,7 +11,7 @@ quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.1371/journal.pone.0306441"
 bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:8GLnN3dXAnQJ:scholar.google.com/&output=citation&scisdr=CoE6YM8KEIzjolO4CTA:AIVdB-wAAAAAap2-ETCTYg-eBa5RpEstMncH4X4&scisig=AIVdB-wAAAAAap2-EWe3nXPQnAqJp6ouIGfuYgc&scisf=4&ct=citation&cd=-1&hl=en"
-keywords: ["Lung Cancer", "Knowledge Distillation", "Medical AI"]
+keywords: ["Lung Cancer", "Knowledge Distillation", "Medical AI", "CT Imaging", "Explainable AI", "Computer-Aided Diagnosis"]
 thumbnail: "/images/journal.pone.0306441.g003.PNG"
 permalink: /publication/lung-cancer-knowledge-distillation-teaching-assistant
 excerpt: "This paper presents a three-stage teacher–teaching assistant–student framework for efficient NSCLC classification with explainable AI and reduced computational complexity."
