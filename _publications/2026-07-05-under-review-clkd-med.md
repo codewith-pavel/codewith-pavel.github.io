@@ -5,10 +5,12 @@ category: under-review
 status: under-review
 authors: "Mahir Afser Pavel, Rafiul Islam, Mohammad Junayed Hasan, & M. R. C. Mahdy"
 role: "First Author"
-venue: "Under review"
-journal: "Under review"
-quartile: "Pending"
+venue: "Information Processing & Management (Elsevier)"
+journal: "Information Processing & Management"
+quartile: "Q1"
 year: 2026
+keywords: ["Low-resource languages", "Healthcare informatics", "Multilingual clinical NLP"]
+thumbnail: "/images/clkd.png"
 permalink: /publication/clkd-med-cross-lingual-clinical-outcome
 excerpt: "This paper introduces **CLKD-MED, a cross-lingual knowledge distillation** framework for multilingual clinical outcome prediction across low-resource languages, with interpretable and computationally efficient deployment."
 date: 2026-08-17
