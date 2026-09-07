@@ -7,7 +7,7 @@ authors: "Mahir Afser Pavel, Nafiz Fahad, Md Tanzib Hosain, Md. Kishor Morol, Tz
 role: "First Author"
 venue: "Biomedical Signal Processing and Control (Elsevier)"
 journal: "Biomedical Signal Processing and Control"
-quartile: "Pending"
+quartile: "Q1"
 year: 2026
 thumbnail: "/images/slgra.png"
 keywords: ["Brain tumor segmentation", "3D MRI", "Latent graph reasoning", "Graph neural networks", "Medical image segmentation", "Uncertainty-aware learning"]
