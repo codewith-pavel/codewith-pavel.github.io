@@ -31,3 +31,6 @@ Quantisation-aware optimisation improved BLEU-4 by at least 17.3%, METEOR by at 
 
 ### Conclusion
 Multimodal AI demonstrates tolerance to imaging inconsistencies and is capable of accurately triaging endodontic cases with minimal computational demands, without compromising diagnostic performance.
+
+**Keywords:** Multimodal Artificial Intelligence; Vision-Language Models; Endodontic Triage; Dental Radiographs; Quantisation-Aware Training; Medical Image Analysis; Robustness; Clinical Decision Support.
+

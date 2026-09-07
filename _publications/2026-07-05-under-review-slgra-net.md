@@ -10,6 +10,7 @@ journal: "Biomedical Signal Processing and Control"
 quartile: "Pending"
 year: 2026
 thumbnail: "/images/slgra.png"
+keywords: ["Brain tumor segmentation", "3D MRI", "Latent graph reasoning", "Graph neural networks", "Medical image segmentation", "Uncertainty-aware learning"]
 permalink: /publication/slgra-net-brain-tumor-segmentation
 excerpt: "This paper introduces **SLGRA-Net, a structure-aware latent graph reasoning** framework that enables efficient global reasoning for 3D brain tumor segmentation with uncertainty-aware supervision."
 date: 2026-07-18
@@ -29,3 +30,4 @@ This paper proposes **SLGRA-Net**, a **Structure-aware Latent Graph Reasoning Ne
 
 Extensive experiments on the **BraTS benchmarks** demonstrate that SLGRA-Net achieves strong segmentation performance, reaching a **Dice score of 0.89**, with particularly robust performance in the clinically critical ET region, while substantially reducing computational overhead compared with transformer-based methods. Comprehensive ablation studies validate the contribution of each architectural component, while external validation demonstrates the framework's robust and consistent performance across diverse datasets.
 
+**Keywords:** 3D Brain Tumor Segmentation; Multi-Modal MRI; Latent Graph Reasoning; Structure-Aware Learning; Uncertainty-Aware Supervision; Class Imbalance; BraTS; Medical Image Segmentation.
