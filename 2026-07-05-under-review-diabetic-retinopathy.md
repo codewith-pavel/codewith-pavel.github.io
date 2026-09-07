@@ -7,7 +7,7 @@ authors: "Anonymous Authors"
 role: "First Author"
 venue: "Winter Conference on Applications of Computer Vision (WACV)"
 journal: "WACV"
-quartile: "Pending"
+quartile: "A"
 year: 2026
 thumbnail: "/images/trust_dr.png"
 keywords: ["Diabetic retinopathy", "Trustworthy AI", "Medical image analysis", "Hybrid foundation models", "Calibration-aware learning", "Uncertainty estimation", "Clinical referral", "APTOS 2019"]

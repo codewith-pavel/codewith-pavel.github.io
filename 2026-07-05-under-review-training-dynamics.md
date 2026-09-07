@@ -7,7 +7,7 @@ authors: "Anonymous Authors"
 role: "First Author"
 venue: "Winter Conference on Applications of Computer Vision (WACV)"
 journal: "WACV"
-quartile: "Pending"
+quartile: "A"
 year: 2026
 thumbnail: "/images/s3Net.png"
 keywords: ["Deep neural networks", "Training stability", "Adaptive optimization", "Hyperparameter robustness", "Meta-optimization", "Feature dynamics", "Stability learning"]
