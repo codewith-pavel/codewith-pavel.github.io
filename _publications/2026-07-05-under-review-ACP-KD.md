@@ -9,7 +9,7 @@ venue: "Winter Conference on Applications of Computer Vision (WACV)"
 journal: "WACV"
 quartile: "Pending"
 year: 2026
-thumbnail: "/images/acp-kd.png"
+thumbnail: "/images/acp-kd.jpg"
 keywords: ["Skin lesion classification", "Knowledge distillation", "Medical image analysis", "Dynamic feature fusion", "Prototype learning", "Confidence calibration", "HAM10000"]
 permalink: /publication/acp-kd-adaptive-clinical-prototype-knowledge-distillation
 excerpt: "This study introduces ACP-KD, a multi-objective knowledge distillation framework that combines dynamic feature fusion, prototype learning, and confidence-aware calibration for lightweight and reliable skin lesion classification."
