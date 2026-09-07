@@ -79,6 +79,16 @@
   .page__footer::before {
     display: none;
   }
+
+  .page__footer-follow ul {
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+  }
+
+  .page__footer-follow a {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
 }
 
 .page__footer-copyright {

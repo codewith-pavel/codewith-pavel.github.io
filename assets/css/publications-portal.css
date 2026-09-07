@@ -1,4 +1,5 @@
 .publication-header {
+  min-width: 0;
   margin: 0 0 2rem;
   padding: 1.75rem;
   border: 1px solid var(--global-border-color, #dce4ee);
@@ -36,6 +37,7 @@
   grid-template-columns: repeat(5, minmax(105px, 1fr));
   gap: 0.75rem;
   margin: 1.25rem 0;
+  min-width: 0;
 }
 
 .publication-stats span {
@@ -88,6 +90,7 @@
   border-radius: 8px;
   background: transparent;
   box-shadow: none;
+  min-width: 0;
 }
 
 .featured-publication__media,
@@ -129,6 +132,7 @@
   gap: 0.85rem;
   align-items: start;
   margin-bottom: 1.6rem;
+  min-width: 0;
 }
 
 .publication-search {
@@ -249,6 +253,7 @@
   border-radius: 8px;
   background: transparent;
   box-shadow: none;
+  min-width: 0;
 }
 
 .publication-card--review {
@@ -317,6 +322,7 @@
   color: var(--global-text-color, #172033);
   font-size: 1.08rem;
   line-height: 1.28;
+  overflow-wrap: anywhere;
 }
 
 .publication-card h3 a {
@@ -334,6 +340,7 @@
   font-size: 0.88rem;
   font-style: italic;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .publication-card__excerpt {
@@ -341,6 +348,7 @@
   color: var(--global-text-color-light, #334155);
   font-size: 0.9rem;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 .publication-card__tags {
@@ -402,6 +410,10 @@
 }
 
 @media (max-width: 900px) {
+  .publication-header {
+    padding: 1.25rem;
+  }
+
   .publication-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -415,9 +427,13 @@
   .publication-card__image {
     min-height: 210px;
   }
+
+  .featured-publication__media {
+    min-height: 210px;
+  }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .publication-header {
     padding: 1rem;
   }
@@ -431,11 +447,30 @@
     width: 100%;
   }
 
+  .publication-portal__filters {
+    gap: 0.35rem;
+  }
+
   .publication-card {
+    gap: 0.75rem;
     padding: 0.75rem;
   }
 
-  .publication-card__image {
+  .publication-card__image,
+  .featured-publication__media {
     min-height: 170px;
+  }
+
+  .publication-card__actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .publication-year-group {
+    padding-left: 0.9rem;
+  }
+
+  .publication-year {
+    margin-left: -0.9rem;
   }
 }

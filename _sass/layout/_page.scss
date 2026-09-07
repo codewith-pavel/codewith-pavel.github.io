@@ -16,6 +16,24 @@
   }
 }
 
+/* Let content use the full viewport before the desktop sidebar grid begins. */
+@media screen and (max-width: 924px) {
+  #main {
+    width: 100%;
+    max-width: none;
+    margin-top: 1.5em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);

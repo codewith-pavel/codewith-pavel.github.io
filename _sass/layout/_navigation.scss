@@ -174,7 +174,8 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 0;
+  width: 100%;
   background: var(--global-bg-color);
 
   a {
@@ -315,6 +316,45 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+}
+
+/* Keep the masthead usable when the viewport is narrower than the desktop menu. */
+@media screen and (max-width: $small) {
+  .greedy-nav {
+    min-width: 0;
+
+    .visible-links {
+      max-width: 100%;
+
+      li {
+        min-width: 0;
+
+        &:first-child {
+          max-width: calc(100vw - 5.5rem);
+
+          a {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      a {
+        margin-left: 0.55rem;
+        margin-right: 0.55rem;
+      }
+
+      #theme-toggle a {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    .hidden-links {
+      max-width: calc(100vw - 2rem);
     }
   }
 }
