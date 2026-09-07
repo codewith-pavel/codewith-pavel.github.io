@@ -13,8 +13,8 @@ author_profile: true
 
 <link rel="stylesheet" href="{{ '/assets/css/publications-portal.css' | relative_url }}">
 
-{% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
-{% assign review_items = site.publications | where_exp: "item", "item.category == 'under-review'" | sort: "date" | reverse %}
+{% assign published_items = site.publications | where_exp: "item", "item.status == 'published' or item.category != 'under-review'" | sort: "date" | reverse %}
+{% assign review_items = site.publications | where_exp: "item", "item.status == 'under-review' or item.category == 'under-review'" | sort: "date" | reverse %}
 {% assign featured_items = published_items | where_exp: "item", "item.featured == true" %}
 {% assign featured_post = featured_items | first %}
 {% unless featured_post %}
@@ -136,7 +136,7 @@ author_profile: true
 
       {% assign post_tags = post.tags | default: post.keywords %}
       {% assign normalized_tags = post_tags | join: ' ' | downcase | replace: ' ', '-' %}
-      <article class="publication-card" data-status="published" data-kind="{{ post.category | default: 'journal' }}" data-tags="{{ normalized_tags }}">
+      <article class="publication-card" data-status="{{ post.status | default: 'published' }}" data-kind="{{ post.category | default: 'journal' }}" data-tags="{{ normalized_tags }}">
         <a class="publication-card__image" href="{{ post.url | relative_url }}" aria-label="Read details for {{ post.title }}">
           {% if post.thumbnail %}
             <img src="{{ post.thumbnail | relative_url }}" alt="Representative figure for {{ post.title }}">
@@ -213,7 +213,7 @@ author_profile: true
 
       {% assign post_tags = post.tags | default: post.keywords %}
       {% assign normalized_tags = post_tags | join: ' ' | downcase | replace: ' ', '-' %}
-      <article class="publication-card publication-card--review" data-status="under-review" data-kind="review" data-tags="{{ normalized_tags }}">
+      <article class="publication-card publication-card--review" data-status="{{ post.status | default: 'under-review' }}" data-kind="{{ post.category | default: 'review' }}" data-tags="{{ normalized_tags }}">
         <a class="publication-card__image" href="{{ post.url | relative_url }}" aria-label="Read details for {{ post.title }}">
           {% if post.thumbnail %}
             <img src="{{ post.thumbnail | relative_url }}" alt="Representative figure for {{ post.title }}">
