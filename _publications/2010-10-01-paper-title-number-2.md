@@ -3,7 +3,6 @@ title: "Multi-stage knowledge distillation with layer fusion-based deep learning
 collection: publications
 category: manuscripts
 status: published
-featured: true
 authors: "Mahir Afser Pavel, Ramisa Asad, Goh Kah Ong Michael, Md Ikramuzzaman, Murad Mustakim & Riasat Khan"
 role: "First Author"
 venue: "Scientific Reports (nature)"
