@@ -19,6 +19,10 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
 ---
 
+# Hobby
+
+In my free time, I enjoy playing cricket and football, hiking, dancing, listening to music, doing physical exercise, and walking.
+
 # Research Interests
 
 ### Core
