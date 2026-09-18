@@ -42,7 +42,7 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Fresh perspective</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">💃</div>
+    <div style="font-size:1.5rem;line-height:1.2;">🕺</div>
     <strong style="display:block;margin-top:0.7rem;">Dancing</strong>
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Creative expression</span>
   </div>
