@@ -57,6 +57,11 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Strength &amp; balance</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🧘‍♂️</div>
+    <strong style="display:block;margin-top:0.7rem;">Yoga</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Mind &amp; body</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🚶</div>
     <strong style="display:block;margin-top:0.7rem;">Walking</strong>
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Quiet thinking</span>
@@ -70,8 +75,6 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 ### Core
 
 <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**AI for Healthcare**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Medical Image Analysis**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Computer Vision**</span> <span style="display:inline-block; margin:0.25rem 0.35rem; padding:0.4rem 0.75rem; border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08)); border-radius:999px; background:transparent; box-shadow:none; font-size:0.92rem; font-weight:600; color:var(--global-text-color, #111827);">**Multimodal AI / VLMs**</span>
-
----
 
 ### Methods
 
