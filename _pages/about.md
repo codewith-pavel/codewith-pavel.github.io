@@ -7,10 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-<div style="margin:0 0 2rem;padding:1.75rem 1.5rem;border:1px solid rgba(210,153,34,0.45);border-left:6px solid #d29922;border-radius:0 12px 12px 0;background:#fffaf0;box-shadow:0 8px 24px rgba(15,23,42,0.08);">
-  <div style="margin-bottom:0.45rem;color:#a66b00;font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;">AI Researcher | Medical Artificial Intelligence</div>
-  <h1 style="margin:0 0 0.55rem;color:#111827;font-size:clamp(2rem,5vw,3.25rem);line-height:1.08;">Mahir Afser Pavel</h1>
-  <p style="margin:0;max-width:46rem;color:#374151;font-size:1.12rem;line-height:1.6;">Building safe, interpretable, and clinically useful AI systems for healthcare.</p>
+<div style="margin:1.5rem 0;padding:1.15rem 1.35rem;border-left:5px solid #d29922;border-radius:0 10px 10px 0;background:linear-gradient(135deg,rgba(210,153,34,0.16),rgba(210,153,34,0.04));box-shadow:0 6px 18px rgba(15,23,42,0.08);font-size:1.05rem;line-height:1.75;">
+  I am actively seeking <strong style="color:#a66b00;">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:#a66b00;">AI for healthcare</strong>.
 </div>
 
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
@@ -20,10 +18,6 @@ I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where m
 My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
 
 My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
-
-<div style="margin:1.5rem 0;padding:1.15rem 1.35rem;border-left:5px solid #d29922;border-radius:0 10px 10px 0;background:linear-gradient(135deg,rgba(210,153,34,0.16),rgba(210,153,34,0.04));box-shadow:0 6px 18px rgba(15,23,42,0.08);font-size:1.05rem;line-height:1.75;">
-  I am actively seeking <strong style="color:#a66b00;">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:#a66b00;">AI for healthcare</strong>.
-</div>
 
 ---
 
