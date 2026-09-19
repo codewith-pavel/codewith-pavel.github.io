@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-<div style="margin:1.5rem 0;padding:1.15rem 1.35rem;border-left:5px solid #b42318;border-radius:0 10px 10px 0;background:linear-gradient(135deg,rgba(220,38,38,0.14),rgba(254,242,242,0.72));box-shadow:0 6px 18px rgba(127,29,29,0.12);font-size:1.05rem;line-height:1.75;">
-  I am actively seeking <strong style="color:#991b1b;">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:#991b1b;">AI for healthcare</strong>.
+<div style="margin:1.5rem 0;padding:1.15rem 1.35rem;border-left:5px solid #b42318;border-radius:0 10px 10px 0;background:color-mix(in srgb,var(--global-bg-color) 88%,#b42318 12%);box-shadow:0 6px 18px rgba(127,29,29,0.12);font-size:1.05rem;line-height:1.75;">
+  I am actively seeking <strong style="color:var(--global-text-color);">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:var(--global-text-color);">AI for healthcare</strong>.
 </div>
 
-<div markdown="1" style="margin:2rem 0 2.5rem;padding:1.65rem 1.75rem;border:1px solid rgba(17,24,39,0.18);border-top:4px solid #111827;border-radius:14px;background:linear-gradient(145deg,#ffffff,rgba(243,244,246,0.88));box-shadow:0 12px 30px rgba(17,24,39,0.12);line-height:1.8;">
+<div markdown="1" style="margin:2rem 0 2.5rem;padding:1.65rem 1.75rem;border:1px solid var(--global-border-color);border-top:4px solid var(--global-text-color);border-radius:14px;background:var(--global-bg-color);box-shadow:0 12px 30px rgba(17,24,39,0.12);line-height:1.8;">
 
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
