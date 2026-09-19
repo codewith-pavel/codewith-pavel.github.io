@@ -13,6 +13,8 @@ redirect_from:
 
 <div markdown="1" style="margin:2rem 0 2.5rem;padding:1.65rem 1.75rem;border:1px solid rgba(210,153,34,0.34);border-top:4px solid #d29922;border-radius:14px;background:linear-gradient(145deg,rgba(255,250,240,0.96),rgba(255,255,255,0.72));box-shadow:0 12px 30px rgba(15,23,42,0.08);line-height:1.8;">
 
+<p style="margin:0 0 1.35rem;padding:0.85rem 1rem;border-left:3px solid #d29922;background:rgba(210,153,34,0.1);color:#8a5a00;font-size:1.2rem;font-weight:700;line-height:1.55;letter-spacing:0.01em;">AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare.</p>
+
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
