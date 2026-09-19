@@ -9,8 +9,86 @@ redirect_from:
 
 {% include base_path %}
 
-<div class="cv-download-links" style="margin: 0 0 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
+<style>
+  .cv-page {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .cv-page .cv-download-links {
+    margin: 0 0 2rem;
+    padding: 1.25rem 1.35rem;
+    border: 1px solid var(--global-border-color);
+    border-left: 5px solid var(--global-text-color);
+    background: var(--global-bg-color);
+    box-shadow: 0 8px 22px rgba(17, 24, 39, 0.08);
+  }
+
+  .cv-page .cv-download-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--global-text-color);
+    border-radius: 6px;
+    background: var(--global-text-color);
+    color: var(--global-bg-color);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .cv-page .cv-download-links a:hover {
+    opacity: 0.78;
+  }
+
+  .cv-page h1 {
+    margin: 2.25rem 0 1rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 2px solid var(--global-text-color);
+    color: var(--global-text-color);
+    font-size: 1.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .cv-page h1:first-of-type {
+    margin-top: 0;
+  }
+
+  .cv-page ul {
+    margin-top: 0.5rem;
+    padding-left: 1.35rem;
+  }
+
+  .cv-page > ul,
+  .cv-page > p + ul {
+    padding: 1rem 1.25rem 1rem 2rem;
+    border-left: 3px solid var(--global-border-color);
+    background: color-mix(in srgb, var(--global-bg-color) 94%, var(--global-text-color) 6%);
+  }
+
+  .cv-page li {
+    margin-bottom: 0.55rem;
+    line-height: 1.65;
+  }
+
+  .cv-page li:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-page li > ul {
+    margin-top: 0.45rem;
+    padding-bottom: 0;
+  }
+
+  .cv-page li > ul li {
+    margin-bottom: 0.3rem;
+  }
+</style>
+
+<div class="cv-page" markdown="1">
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
 </div>
 
 Profile Summary
@@ -101,3 +179,5 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+</div>
