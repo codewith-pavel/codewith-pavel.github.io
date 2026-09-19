@@ -11,6 +11,8 @@ redirect_from:
   I am actively seeking <strong style="color:#a66b00;">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:#a66b00;">AI for healthcare</strong>.
 </div>
 
+<div markdown="1" style="margin:2rem 0 2.5rem;padding:1.65rem 1.75rem;border:1px solid rgba(210,153,34,0.34);border-top:4px solid #d29922;border-radius:14px;background:linear-gradient(145deg,rgba(255,250,240,0.96),rgba(255,255,255,0.72));box-shadow:0 12px 30px rgba(15,23,42,0.08);line-height:1.8;">
+
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
@@ -18,6 +20,8 @@ I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where m
 My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
 
 My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
+
+</div>
 
 ---
 
