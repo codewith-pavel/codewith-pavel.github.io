@@ -7,7 +7,7 @@ author_profile: true
 <style>
   .contact-page { max-width: 780px; margin: 0 auto; padding: 2rem 1rem 4rem; }
   .contact-page > h1 { margin: 0 0 0.75rem; padding-bottom: 0.85rem; border-bottom: 3px solid var(--global-text-color); font-size: 2.2rem; }
-  .contact-page > h1::before { content: "01 / CONTACT"; display: block; margin-bottom: 0.65rem; color: var(--global-text-color-light); font-size: 0.72rem; letter-spacing: 0.16em; font-weight: 700; }
+  .contact-page .contact-kicker { display: block; margin-bottom: 0.65rem; color: var(--global-text-color-light); font-size: 0.72rem; letter-spacing: 0.16em; font-weight: 700; }
   .contact-page .contact-form { max-width: 560px; padding: 1.35rem; border: 1px solid var(--global-border-color); border-left: 4px solid var(--global-text-color); background: var(--global-bg-color); box-shadow: 0 10px 24px rgba(17,24,39,0.08); }
   .contact-page .contact-form input, .contact-page .contact-form textarea { border-color: var(--global-border-color) !important; border-radius: 4px !important; background: var(--global-bg-color) !important; color: var(--global-text-color) !important; outline: none; }
   .contact-page .contact-form input:focus, .contact-page .contact-form textarea:focus { border-color: var(--global-text-color) !important; box-shadow: 0 0 0 2px var(--global-text-color); }
@@ -20,7 +20,7 @@ author_profile: true
 </style>
 
 <div class="contact-page contact-content-only">
-  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Let's Connect</h1>
+  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;"><span class="contact-kicker">01 / CONTACT</span>Let's Connect</h1>
 
   <p style="margin-bottom: 2rem; color: inherit;">
     For research collaborations, or academic inquiries, please get in touch.
