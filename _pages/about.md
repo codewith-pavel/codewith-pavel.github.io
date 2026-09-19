@@ -19,57 +19,6 @@ I am actively seeking **research internships, fully funded Ph.D. opportunities, 
 
 ---
 
-# Hobby
-
-<div style="margin:1rem 0 1.25rem;padding:1.1rem 1.25rem;border-left:4px solid #d29922;background:rgba(210,153,34,0.08);">
-  <p style="margin:0;line-height:1.7;color:var(--global-text-color, #111827);">Outside research, I make time for activities that keep me active, curious, and connected to the world around me.</p>
-</div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:1rem 0 1.5rem;">
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🏏</div>
-    <strong style="display:block;margin-top:0.7rem;">Cricket</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Team spirit</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">⚽</div>
-    <strong style="display:block;margin-top:0.7rem;">Football</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Energy &amp; focus</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🥾</div>
-    <strong style="display:block;margin-top:0.7rem;">Hiking</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Fresh perspective</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🕺</div>
-    <strong style="display:block;margin-top:0.7rem;">Dancing</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Creative expression</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🎧</div>
-    <strong style="display:block;margin-top:0.7rem;">Music</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">A daily reset</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🏋️</div>
-    <strong style="display:block;margin-top:0.7rem;">Exercise</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Strength &amp; balance</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🧘‍♂️</div>
-    <strong style="display:block;margin-top:0.7rem;">Yoga</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Mind &amp; body</span>
-  </div>
-  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🚶</div>
-    <strong style="display:block;margin-top:0.7rem;">Walking</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Quiet thinking</span>
-  </div>
-</div>
-
----
-
 # Research Interests
 
 ### Core
@@ -207,6 +156,57 @@ Reach out for collaboration, research discussions, internships, or academic inqu
 </a>
 -->
 
+</div>
+
+---
+
+# Hobby
+
+<div style="margin:1rem 0 1.25rem;padding:1.1rem 1.25rem;border-left:4px solid #d29922;background:rgba(210,153,34,0.08);">
+  <p style="margin:0;line-height:1.7;color:var(--global-text-color, #111827);">Outside research, I make time for activities that keep me active, curious, and connected to the world around me.</p>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:1rem 0 1.5rem;">
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🏏</div>
+    <strong style="display:block;margin-top:0.7rem;">Cricket</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Team spirit</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">⚽</div>
+    <strong style="display:block;margin-top:0.7rem;">Football</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Energy &amp; focus</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🥾</div>
+    <strong style="display:block;margin-top:0.7rem;">Hiking</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Fresh perspective</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🕺</div>
+    <strong style="display:block;margin-top:0.7rem;">Dancing</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Creative expression</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🎧</div>
+    <strong style="display:block;margin-top:0.7rem;">Music</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">A daily reset</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🏋️</div>
+    <strong style="display:block;margin-top:0.7rem;">Exercise</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Strength &amp; balance</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🧘‍♂️</div>
+    <strong style="display:block;margin-top:0.7rem;">Yoga</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Mind &amp; body</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">🚶</div>
+    <strong style="display:block;margin-top:0.7rem;">Walking</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Quiet thinking</span>
+  </div>
 </div>
 
 ---
