@@ -15,7 +15,9 @@ My research interests span **deep learning, computer vision, vision–language m
 
 My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
 
-I am actively seeking **research internships, fully funded Ph.D. opportunities, and international research collaborations** where I can contribute to impactful research and continue advancing the field of **AI for healthcare**.
+<div style="margin:1.5rem 0;padding:1.15rem 1.35rem;border-left:5px solid #d29922;border-radius:0 10px 10px 0;background:linear-gradient(135deg,rgba(210,153,34,0.16),rgba(210,153,34,0.04));box-shadow:0 6px 18px rgba(15,23,42,0.08);font-size:1.05rem;line-height:1.75;">
+  I am actively seeking <strong style="color:#a66b00;">research internships, fully funded Ph.D. opportunities, and international research collaborations</strong> where I can contribute to impactful research and continue advancing the field of <strong style="color:#a66b00;">AI for healthcare</strong>.
+</div>
 
 ---
 
