@@ -20,7 +20,7 @@ author_profile: true
 </style>
 
 <div class="contact-page contact-content-only">
-  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;"><span class="contact-kicker">01 / CONTACT</span>Let's Connect</h1>
+  <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Let's Connect</h1>
 
   <p style="margin-bottom: 2rem; color: inherit;">
     For research collaborations, or academic inquiries, please get in touch.
