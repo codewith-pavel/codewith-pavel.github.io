@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "FULCRUM: Option-Contrastive Frame Selection for Long-Video Understanding"
 collection: publications
 category: under-review
 status: under-review
@@ -9,21 +9,15 @@ venue: "International Conference on Learning Representations (ICLR)"
 journal: "ICLR"
 quartile: "A*"
 year: 2026
-thumbnail: "/images/acp-kd.jpg"
-keywords: ["Skin lesion classification", "Knowledge distillation", "Medical image analysis", "Dynamic feature fusion", "Prototype learning", "Confidence calibration", "HAM10000"]
-permalink: /publication/acp-kd-adaptive-clinical-prototype-knowledge-distillation
-excerpt: "This study introduces ACP-KD, a multi-objective knowledge distillation framework that combines dynamic feature fusion, prototype learning, and confidence-aware calibration for lightweight and reliable skin lesion classification."
-date: 2026-08-30
-citation: "Anonymous Authors (under review). ACP-KD: Adaptive Clinical Prototype Knowledge Distillation with Dynamic Feature Fusion and Confidence-Aware Multi-Objective Learning for Lightweight Skin Lesion Classification."
+thumbnail: "/images/500x300.png"
+keywords: ["Long-video understanding", "Video large language models", "Frame selection", "Option-contrastive relevance", "Multiple-choice video question answering", "LongVideoBench", "Training-free inference"]
+permalink: /publication/fulcrum-option-contrastive-frame-selection-long-video
+excerpt: "FULCRUM is a training-free frame selector for long-video understanding that scores frames by option-contrastive relevance, allocates evidence across the video, and selects non-redundant frames for stronger multiple-choice video question answering."
+date: 2026-09-19
+citation: "Anonymous Authors (under review). FULCRUM: Option-Contrastive Frame Selection for Long-Video Understanding"
 ---
 ## Abstract
 
-Automated skin lesion classification has achieved substantial progress through deep learning; however, the computational complexity of high-capacity models remains a major barrier to deployment in resource-constrained clinical environments. Knowledge distillation offers an effective approach for transferring diagnostic knowledge from powerful teacher networks to lightweight student models, yet conventional methods largely rely on output-level supervision and may fail to capture the heterogeneous, sample-dependent, and reliability-sensitive nature of medical image representations. To address these limitations, this study proposes **Adaptive Clinical Prototype Knowledge Distillation (ACP-KD)**, a multi-objective framework designed to improve the efficiency, robustness, and calibration of lightweight skin lesion classifiers.
+Video large language models answer questions about long videos from a budget of a few frames, so frame selection bounds the evidence the answerer sees. Current selectors score each frame by its similarity to the question, or to the question joined with the answer options, and spend the budget on the highest scores. A multiple-choice answerer, however, chooses among options, and a frame informs that choice only if it favors one option over the others. A score shared by all options cannot express this. We propose FULCRUM, a training-free, plug-and-play frame selector built on option-contrastive relevance. FULCRUM scores each frame against every option and measures the margin of the best-supported option over the average option, a margin that equals the log-odds of the favored option against the geometric mean of all options. It then divides the frame budget across the video in proportion to this evidence, with every part of the video guaranteed a frame, and selects non-redundant frames within each part. With 8 frames on LongVideoBench, FULCRUM improves Qwen2.5-VL-7B over uniform sampling by 9.1 points and over the strongest published selector by 3.0, and 4 frames chosen by FULCRUM outperform 16 uniform frames. The gains hold on Video-MME and MLVU and across three answerers. Our results suggest that the options of a multiple-choice question already specify the evidence its answerer needs.
 
-ACP-KD employs a high-capacity hybrid teacher and a lightweight student architecture with dynamic feature fusion, enabling the transfer of complementary diagnostic knowledge through multiple distillation objectives, including logit, attention, feature, prototype, concept, and confidence distillation. A difficulty-aware adaptive weighting mechanism dynamically adjusts the contribution of these knowledge sources according to individual sample characteristics and predictive reliability. Furthermore, prototype-guided representation learning promotes discriminative class-aware feature spaces, while counterfactual regularization enhances the robustness of learned representations. Confidence-aware supervision is incorporated to improve predictive calibration and reliability.
-
-Comprehensive experiments on the **HAM10000** dataset, including ablation, calibration, computational efficiency, and cross-dataset evaluations, demonstrate the effectiveness of the proposed framework. ACP-KD achieves **95.27% accuracy, 95.10% macro-F1, and 0.992 AUC**, while substantially reducing computational requirements compared with the high-capacity teacher model. The framework also achieves an **Expected Calibration Error (ECE) of 0.014**, indicating improved predictive reliability and calibration. Extensive ablation studies further confirm the complementary contributions of the individual knowledge sources and adaptive mechanisms.
-
-Overall, the findings demonstrate that ACP-KD provides an effective pathway for transferring diverse high-capacity diagnostic knowledge into efficient, robust, and better-calibrated lightweight models, supporting their potential deployment in resource-constrained medical imaging applications.
-
-**Keywords:** Skin lesion classification; Knowledge distillation; Medical image analysis; Dynamic feature fusion; Prototype learning; Confidence calibration; Model efficiency; HAM10000; Explainable and reliable AI. 
+**Keywords:** Long-video understanding; Video large language models; Frame selection; Option-contrastive relevance; Multiple-choice video question answering; LongVideoBench; Video-MME; MLVU; Training-free inference.
