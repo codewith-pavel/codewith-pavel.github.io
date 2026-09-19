@@ -94,7 +94,7 @@ redirect_from:
 Profile Summary
 ======
 
-* AI researcher with a strong research interest in medical image analysis and 90+ citations (Google Scholar, September 2026) in 5 Q1 and solo Q2 journal publications, 4 of which are SCIE and 2 ESCI, holding an h-index of 3 and i10-index of 2.
+* AI researcher with a strong research interest in **medical image analysis** and **90+ citations (Google Scholar, September 2026)** in **5 Q1** and solo Q2 journal publications, **4** of which are **SCIE** and **2 ESCI**, holding an **h-index** of **3** and **i10-index** of **2**.
 
 Research Interests
 ======
