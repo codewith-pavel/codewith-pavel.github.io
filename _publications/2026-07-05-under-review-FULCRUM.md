@@ -9,7 +9,7 @@ venue: "International Conference on Learning Representations (ICLR)"
 journal: "ICLR"
 quartile: "A*"
 year: 2026
-thumbnail: "/images/FCOM.pdf"
+thumbnail: "/images/FUllCOM.png"
 keywords: ["Long-video understanding", "Video large language models", "Frame selection", "Option-contrastive relevance", "Multiple-choice video question answering", "LongVideoBench", "Training-free inference"]
 permalink: /publication/fulcrum-option-contrastive-frame-selection-long-video
 excerpt: "FULCRUM is a training-free frame selector for long-video understanding that scores frames by option-contrastive relevance, allocates evidence across the video, and selects non-redundant frames for stronger multiple-choice video question answering."
