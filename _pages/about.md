@@ -211,6 +211,10 @@ Reach out for collaboration, research discussions, internships, or academic inqu
 </p>
 </div>
 </a>
+
+1. add professors name
+2. add venues name
+3. add peer review section
 -->
 
 </div>
