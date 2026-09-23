@@ -15,6 +15,8 @@ redirect_from:
 
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
+I work independently with **resilience, perseverance, and discipline**, especially when addressing challenging research problems. I value **honesty, integrity, and trustworthiness** in my research, collaborations, and professional relationships.
+
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
 
 My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
@@ -198,24 +200,6 @@ Academic background, experience, skills, publications, and research highlights i
 </p>
 </div>
 </a>
-
-<!-- 
-<a href="{{ site.baseurl }}/contact/" style="text-decoration:none;color:inherit;">
-<div style="border:1px solid var(--global-border-color, rgba(15, 23, 42, 0.08));border-radius:14px;padding:20px;background:transparent;height:100%;color:var(--global-text-color, #111827);transition:transform 0.2s ease, border-color 0.2s ease;">
-<div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.8rem;">
-<h3 style="margin:0;font-size:1.08rem;">📬 Contact</h3>
-<span style="font-size:1rem;">→</span>
-</div>
-<p style="margin:0;color:var(--global-text-color-light, #57606a);line-height:1.6;">
-Reach out for collaboration, research discussions, internships, or academic inquiries.
-</p>
-</div>
-</a>
-
-1. add professors name
-2. add venues name
-3. add peer review section
--->
 
 </div>
 
