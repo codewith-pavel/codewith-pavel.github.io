@@ -112,34 +112,39 @@ My research aims to create **reliable, scalable, and clinically deployable AI sy
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:1rem 0 1.5rem;">
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🏏⚽</div>
-    <strong style="display:block;margin-top:0.7rem;">Cricket &amp; Football</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Team spirit &amp; focus</span>
+    <div style="font-size:1.5rem;line-height:1.2;">🏏</div>
+    <strong style="display:block;margin-top:0.7rem;">Cricket</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Team spirit and unity</span>
+  </div>
+  <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
+    <div style="font-size:1.5rem;line-height:1.2;">⚽</div>
+    <strong style="display:block;margin-top:0.7rem;">Football</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Energy, focus, and rhythm</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🥾</div>
     <strong style="display:block;margin-top:0.7rem;">Hiking</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Fresh perspective</span>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Fresh perspective and calm</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🕊️</div>
-    <strong style="display:block;margin-top:0.7rem;">Following the Prophets</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Guidance and righteousness</span>
+    <strong style="display:block;margin-top:0.7rem;">Sunnah</strong>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Guidance, discipline, and faith</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🏋️</div>
     <strong style="display:block;margin-top:0.7rem;">Exercise</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Strength &amp; balance</span>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Strength, balance, and energy</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🧘‍♂️</div>
     <strong style="display:block;margin-top:0.7rem;">Yoga</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Mind &amp; body</span>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Mind, body, and peace</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
     <div style="font-size:1.5rem;line-height:1.2;">🚶</div>
     <strong style="display:block;margin-top:0.7rem;">Walking</strong>
-    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Quiet thinking</span>
+    <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Quiet thinking and reflection</span>
   </div>
 </div>
 
