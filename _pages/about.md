@@ -15,11 +15,9 @@ redirect_from:
 
 I am **Mahir Afser Pavel**, an **AI Researcher** focused on developing **safe, and interpretable medical artificial intelligence**.
 
-I work independently with **resilience, perseverance, and discipline**, especially when addressing challenging research problems. I value **honesty, integrity, and trustworthiness** in my research, collaborations, and professional relationships.
-
 I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my research focuses on **medical imaging, biomedical informatics, multimodal learning, and trustworthy AI for healthcare**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**.
 
-My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
+My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.I work independently with **resilience, perseverance, and discipline**, especially when addressing challenging research problems. I value **honesty, integrity, and trustworthiness** in my research, collaborations, and professional relationships.
 
 My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. I have published research in **Q1 journals**, reviewed manuscripts for **Q1 journals**, and am actively working toward submitting my research to **top-tier international conferences**. I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
 
