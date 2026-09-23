@@ -19,7 +19,7 @@ I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where m
 
 My research interests span **deep learning, computer vision, vision–language models (VLMs), foundation models, knowledge distillation, federated learning, self-supervised learning, and explainable AI (XAI)**. I am particularly interested in developing AI systems that can learn efficiently from limited and distributed medical data while providing **robust, accurate, interpretable, and decision-supportive predictions**.
 
-My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
+My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and ultimately improve patient care. I have published research in **Q1 journals** and am actively working toward submitting my research to **top-tier international conferences**. I continue to expand my research agenda through interdisciplinary collaboration and innovation in **responsible AI for healthcare**.
 
 </div>
 
