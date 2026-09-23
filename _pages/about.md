@@ -137,7 +137,7 @@ My research aims to create **reliable, scalable, and clinically deployable AI sy
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Research, insights, and learning</span>
   </div>
   <div style="min-height:112px;padding:1rem;border:1px solid var(--global-border-color, rgba(15,23,42,0.08));border-radius:10px;background:rgba(255,255,255,0.02);">
-    <div style="font-size:1.5rem;line-height:1.2;">🧕</div>
+    <div style="font-size:1.5rem;line-height:1.2;">🧔‍♂️</div>
     <strong style="display:block;margin-top:0.7rem;">Sunnah</strong>
     <span style="font-size:0.86rem;color:var(--global-text-color-light, #64748b);">Guidance, discipline, and faith</span>
   </div>
