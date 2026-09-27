@@ -23,7 +23,7 @@ repository               : "codewith-pavel/codewith-pavel.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "MahirAfserPavel.jpg"
+  avatar           : "MAP_profile.jpg"
   name             : "Mahir Afser Pavel"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
