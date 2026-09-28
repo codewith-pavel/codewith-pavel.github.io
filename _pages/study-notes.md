@@ -7,14 +7,14 @@ author_profile: true
 <style>
   .study-notes-page {
     --bg: var(--global-bg-color, #ffffff);
-    --panel: color-mix(in srgb, var(--bg) 96%, #26756b 4%);
+    --panel: color-mix(in srgb, var(--bg) 96%, #d6ad00 4%);
     --panel-alt: color-mix(in srgb, var(--bg) 96%, #c4792a 4%);
-    --panel-soft: color-mix(in srgb, var(--bg) 90%, #26756b 10%);
-    --border: color-mix(in srgb, var(--global-border-color, rgba(15, 23, 42, 0.08)) 65%, #26756b 35%);
+    --panel-soft: color-mix(in srgb, var(--bg) 90%, #d6ad00 10%);
+    --border: color-mix(in srgb, var(--global-border-color, rgba(15, 23, 42, 0.08)) 65%, #d6ad00 35%);
     --text: var(--global-text-color, #111111);
     --muted: var(--global-text-color, #111111);
     --heading: var(--global-text-color, #111111);
-    --accent: #26756b;
+    --accent: #d6ad00;
     --accent-2: #c4792a;
     --accent-soft: color-mix(in srgb, var(--bg) 88%, var(--accent) 12%);
     --shadow: rgba(15, 23, 42, 0.04);
