@@ -10,6 +10,7 @@ journal: "Vehicles"
 quartile: "Q2"
 year: 2025
 paperurl: "https://www.mdpi.com/2624-8921/7/3/89"
+codeurl: "https://github.com/codewith-pavel/Optimizations"
 keywords: ["Vision Transformers", "Vehicle Damage", "Explainable AI", "Object Detection", "Computer Vision", "Autonomous Inspection"]
 thumbnail: "/images/vehicles-07-00089-g001-550.jpg"
 permalink: /publication/hybrid-vit-retinanet-vehicle-damage

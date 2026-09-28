@@ -47,6 +47,25 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.collection == 'publications' %}
+          {% assign bibtex_year = page.date | date: "%Y" %}
+          {% assign bibtex_key_slug = page.slug | replace: "-", "" %}
+          {% assign bibtex_authors = page.authors | replace: ", & ", " and " | replace: ", ", " and " | replace: " & ", " and " %}
+          {% assign bibtex_journal = page.journal | default: page.venue %}
+          <details class="publication-bibtex">
+            <summary>Cite this publication (BibTeX)</summary>
+            <pre><code>@article{pavel{{ bibtex_year }}{{ bibtex_key_slug }},
+  author = { {{ bibtex_authors }} },
+  title = { {{ page.title }} },
+  journal = { {{ bibtex_journal }} },
+  year = { {{ bibtex_year }} },
+  url = { {{ page.url | absolute_url }} }{% if page.doi %},
+  doi = { {{ page.doi }} }{% elsif page.paperurl contains "doi.org/" %},
+  doi = { {{ page.paperurl | split: "doi.org/" | last }} }{% endif %}
+}</code></pre>
+          </details>
+        {% endif %}
+
         {% if page.citation or page.paperurl or page.doi or page.slidesurl or page.codeurl %}
           <div class="publication-resources" style="font-size: smaller">
             {% if page.citation %}<p>Recommended citation: {{ page.citation }}</p>{% endif %}

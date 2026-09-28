@@ -10,6 +10,7 @@ journal: "International Journal of Dentistry"
 quartile: "Q1"
 year: 2026
 paperurl: "https://doi.org/10.1155/ijod/4148741"
+codeurl: "https://github.com/codewith-pavel/Optimizations"
 keywords: ["Vision-Language Models", "Endodontic Triaging", "Multimodal AI", "Dental Radiography", "Quantization-Aware Training", "Clinical Decision Support"]
 thumbnail: "/images/ijod4148741-fig-0002-m.jpg"
 permalink: /publication/error-tolerant-multimodal-vlm-endodontic-triaging

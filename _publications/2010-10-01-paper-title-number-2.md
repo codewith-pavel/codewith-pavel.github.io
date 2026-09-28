@@ -11,6 +11,7 @@ journal: "Scientific Reports"
 quartile: "Q1"
 year: 2025
 paperurl: "https://www.nature.com/articles/s41598-025-23403-2"
+codeurl: "https://github.com/codewith-pavel/Optimizations"
 keywords: ["Knowledge Distillation", "Skin Cancer", "Deep Learning", "Medical Image Analysis", "Explainable AI", "Dermatology"]
 thumbnail: "/images/41598_2025_23403_Fig1_HTML.webp"
 permalink: /publication/multi-stage-knowledge-distillation-skin-cancer
