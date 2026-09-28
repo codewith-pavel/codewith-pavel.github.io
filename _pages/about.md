@@ -107,7 +107,7 @@ My research aims to create **reliable, scalable, and clinically deployable AI sy
 # Hobby
 
 <div style="margin:1rem 0 1.25rem;padding:1.1rem 1.25rem;border-left:4px solid #d29922;background:rgba(210,153,34,0.08);">
-  <p style="margin:0;line-height:1.7;color:var(--global-text-color, #111827);">Outside research, I make time for activities that keep me active, curious, and connected to the world around me.</p>
+  <p style="margin:0;line-height:1.7;color:var(--global-text-color, #111827);">Beyond Academia and Research, I make time for activities that keep me active, curious, and connected to the world around me.</p>
 </div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:1rem 0 1.5rem;">
