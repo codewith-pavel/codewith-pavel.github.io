@@ -1,10 +1,11 @@
 .publication-header,
 .featured-publication,
-.publication-portal {
+.publication-portal,
+.publication-empty {
   --publication-text: var(--global-text-color, #111111);
   --publication-bg: var(--global-bg-color, #ffffff);
-  --publication-accent: #d6ad00;
-  --publication-accent-alt: #26756b;
+  --publication-accent: #c65f4b;
+  --publication-accent-alt: #3979a8;
   --publication-accent-soft: color-mix(in srgb, var(--publication-bg) 90%, var(--publication-accent) 10%);
   --publication-border: color-mix(in srgb, var(--global-border-color, #dce4ee) 65%, var(--publication-accent) 35%);
   color: var(--publication-text);
@@ -323,7 +324,7 @@
 .badge-quartile { background: color-mix(in srgb, var(--publication-bg) 88%, #3982a0 12%); color: var(--publication-text); }
 .badge-indexing { background: color-mix(in srgb, var(--publication-bg) 88%, var(--publication-border) 12%); color: var(--publication-text); }
 .badge-open { background: color-mix(in srgb, var(--publication-bg) 88%, var(--publication-accent-alt) 12%); color: var(--publication-text); }
-.badge-role { background: color-mix(in srgb, var(--publication-bg) 90%, #9a78bd 10%); color: var(--publication-text); }
+.badge-role { background: color-mix(in srgb, var(--publication-bg) 90%, var(--publication-accent) 10%); color: var(--publication-text); }
 .badge-pending { background: var(--publication-accent-soft); color: var(--publication-text); }
 
 .publication-card__venue {
