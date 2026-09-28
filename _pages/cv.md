@@ -47,13 +47,13 @@ redirect_from:
     margin: 2.25rem 0 1rem;
     padding-bottom: 0.65rem;
     border-bottom: 2px solid color-mix(in srgb, var(--cv-accent) 55%, transparent);
-    color: var(--cv-accent);
+    color: var(--global-text-color);
     font-size: 1.45rem;
     letter-spacing: 0.01em;
   }
 
   .cv-page strong {
-    color: var(--cv-accent);
+    color: var(--global-text-color);
   }
 
   .cv-page h1:first-of-type {
@@ -152,7 +152,8 @@ redirect_from:
   }
 
   .cv-page .cv-publication__title a:hover {
-    color: var(--cv-accent);
+    color: var(--global-text-color);
+    text-decoration-thickness: 2px;
   }
 
   .cv-page .cv-publication__authors,
@@ -175,7 +176,7 @@ redirect_from:
   }
 
   .cv-page .cv-publication__venue {
-    color: var(--cv-accent);
+    color: var(--global-text-color);
     font-size: 0.92rem;
     font-weight: 700;
   }
