@@ -6,25 +6,24 @@ author_profile: true
 
 <style>
   .study-notes-page {
-    --bg: transparent;
-    --panel: transparent;
-    --panel-alt: transparent;
-    --panel-soft: transparent;
-    --border: var(--global-border-color, rgba(15, 23, 42, 0.08));
+    --bg: var(--global-bg-color, #ffffff);
+    --panel: color-mix(in srgb, var(--bg) 96%, #26756b 4%);
+    --panel-alt: color-mix(in srgb, var(--bg) 96%, #c4792a 4%);
+    --panel-soft: color-mix(in srgb, var(--bg) 90%, #26756b 10%);
+    --border: color-mix(in srgb, var(--global-border-color, rgba(15, 23, 42, 0.08)) 65%, #26756b 35%);
     --text: var(--global-text-color, #111111);
-    --muted: var(--global-text-color-light, #4d5562);
+    --muted: var(--global-text-color, #111111);
     --heading: var(--global-text-color, #111111);
-    --accent: var(--global-text-color, #111111);
-    --accent-2: var(--global-text-color-light, #4b5563);
-    --accent-soft: rgba(255, 255, 255, 0.04);
+    --accent: #26756b;
+    --accent-2: #c4792a;
+    --accent-soft: color-mix(in srgb, var(--bg) 88%, var(--accent) 12%);
     --shadow: rgba(15, 23, 42, 0.04);
   }
 
   .study-notes-page {
-    width: 100%;
     min-height: 100vh;
     padding: 0;
-    background: transparent;
+    background: var(--bg);
     color: var(--text);
     box-sizing: border-box;
   }
@@ -48,8 +47,8 @@ author_profile: true
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: transparent;
-    border-bottom: 1px solid var(--border);
+    background: linear-gradient(135deg, var(--panel), var(--panel-soft));
+    border-bottom: 3px solid var(--accent-2);
     text-align: center;
   }
 
@@ -58,13 +57,13 @@ author_profile: true
     padding: 0.5rem 0.9rem;
     border-radius: 999px;
     background: var(--accent-soft);
-    color: var(--accent);
+    color: var(--text);
     letter-spacing: 0.14rem;
     text-transform: uppercase;
     font-size: 0.72rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    border: 1px solid var(--border);
+    border: 1px solid var(--accent-2);
   }
 
   .study-notes-page h2 {
@@ -90,7 +89,7 @@ author_profile: true
     padding: 1.2rem 1.5rem;
     border: 1px solid var(--border);
     border-radius: 16px;
-    background: transparent;
+    background: var(--panel);
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
     text-align: center;
   }
@@ -119,7 +118,7 @@ author_profile: true
     padding: 1rem 1.1rem;
     border: 1px solid var(--border);
     border-radius: 16px;
-    background: transparent;
+    background: var(--panel-alt);
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
     max-width: 1120px;
   }
@@ -132,7 +131,7 @@ author_profile: true
 
   .study-notes-page .chip {
     border: 1px solid var(--border);
-    background: transparent;
+    background: var(--panel);
     color: var(--heading);
     border-radius: 999px;
     padding: 0.5rem 0.9rem;
@@ -145,10 +144,9 @@ author_profile: true
 
   .study-notes-page .chip:hover,
   .study-notes-page .chip.active {
-    background: transparent;
+    background: var(--accent-soft);
     color: var(--heading);
-    border-color: var(--global-border-color, rgba(15, 23, 42, 0.12));
-    opacity: 0.9;
+    border-color: var(--accent-2);
   }
 
   .study-notes-page .card.hidden {
@@ -160,7 +158,7 @@ author_profile: true
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: transparent;
+    background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 0.6rem 0.8rem;
@@ -185,7 +183,7 @@ author_profile: true
     padding: 1.6rem;
     border: 1px solid var(--border);
     border-radius: 20px;
-    background: transparent;
+    background: var(--panel);
     box-shadow: 0 14px 28px rgba(15, 23, 42, 0.04);
   }
 
@@ -213,7 +211,7 @@ author_profile: true
     padding: 0.45rem 0.8rem;
     border-radius: 999px;
     background: var(--accent-soft);
-    color: var(--accent);
+    color: var(--text);
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.08rem;
@@ -236,8 +234,9 @@ author_profile: true
   .study-notes-page .card {
     position: relative;
     min-width: 0;
-    background: transparent;
+    background: var(--panel);
     border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
     border-radius: 18px;
     overflow: hidden;
     transition: transform 0.26s ease, box-shadow 0.26s ease, border-color 0.26s ease;
@@ -246,13 +245,13 @@ author_profile: true
 
   .study-notes-page .card:hover {
     transform: translateY(-6px);
-    border-color: rgba(15, 23, 42, 0.12);
+    border-color: var(--accent-2);
     box-shadow: 0 22px 38px rgba(15, 23, 42, 0.08);
   }
 
   .study-notes-page .card .card-top {
     height: 8px;
-    background: linear-gradient(90deg, var(--global-text-color, #111111), var(--global-text-color-light, #4b5563));
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
   }
 
   .study-notes-page .card .card-content {
@@ -280,8 +279,8 @@ author_profile: true
     justify-content: center;
     padding: 0.72rem 1rem;
     border-radius: 10px;
-    background: var(--global-link-color, #111111);
-    color: var(--global-bg-color, #ffffff);
+    background: var(--accent);
+    color: #ffffff;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -300,7 +299,7 @@ author_profile: true
     position: absolute;
     top: 14px;
     right: 14px;
-    background: rgba(15, 23, 42, 0.92);
+    background: #202522;
     color: #fff;
     border-radius: 999px;
     padding: 0.28rem 0.6rem;
