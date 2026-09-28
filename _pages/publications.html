@@ -88,13 +88,6 @@ author_profile: true
             <i class="fab fa-github" aria-hidden="true"></i> Code
           </a>
         {% endif %}
-        {% if featured_post.bibtex %}
-          <details class="publication-bibtex">
-            <summary class="publication-action"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</summary>
-            <button class="publication-bibtex__copy" type="button">Copy</button>
-            <pre><code>{{ featured_post.bibtex | escape }}</code></pre>
-          </details>
-        {% endif %}
       </div>
     </div>
   </section>
@@ -181,13 +174,6 @@ author_profile: true
               <a class="publication-action" href="{{ post.codeurl }}" target="_blank" rel="noopener">
                 <i class="fab fa-github" aria-hidden="true"></i> Code
               </a>
-            {% endif %}
-            {% if post.bibtex %}
-              <details class="publication-bibtex">
-                <summary class="publication-action"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</summary>
-                <button class="publication-bibtex__copy" type="button">Copy</button>
-                <pre><code>{{ post.bibtex | escape }}</code></pre>
-              </details>
             {% endif %}
           </div>
         </div>
@@ -300,28 +286,6 @@ document.addEventListener('DOMContentLoaded', function () {
       filters.forEach(function (item) { item.classList.remove('is-active'); });
       filter.classList.add('is-active');
       applyFilters();
-    });
-  });
-
-  document.querySelectorAll('.publication-bibtex__copy').forEach(function (button) {
-    button.addEventListener('click', function () {
-      var code = button.closest('.publication-bibtex').querySelector('pre code');
-      var textarea = document.createElement('textarea');
-      textarea.value = code.textContent;
-      textarea.setAttribute('readonly', '');
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-
-      try {
-        document.execCommand('copy');
-        button.textContent = 'Copied';
-      } catch (error) {
-        button.textContent = 'Select BibTeX to copy';
-      }
-
-      textarea.remove();
     });
   });
 });

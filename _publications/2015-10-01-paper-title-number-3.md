@@ -10,17 +10,6 @@ journal: "Vehicles"
 quartile: "Q2"
 year: 2025
 paperurl: "https://www.mdpi.com/2624-8921/7/3/89"
-bibtex: |
-	@article{Saha2025VehicleDamageClassification,
-		author = {Ananya Saha and Mahir Afser Pavel and Md Fahim Shahoriar Titu and Afifa Zain Apurba and Riasat Khan},
-		title = {Hybrid ViT-RetinaNet with Explainable Ensemble Learning for Fine-Grained Vehicle Damage Classification},
-		journal = {Vehicles},
-		year = {2025},
-		volume = {7},
-		number = {3},
-		pages = {89},
-		doi = {10.3390/vehicles7030089}
-	}
 keywords: ["Vision Transformers", "Vehicle Damage", "Explainable AI", "Object Detection", "Computer Vision", "Autonomous Inspection"]
 thumbnail: "/images/vehicles-07-00089-g001-550.jpg"
 permalink: /publication/hybrid-vit-retinanet-vehicle-damage

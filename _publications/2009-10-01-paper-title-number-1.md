@@ -10,16 +10,6 @@ journal: "International Journal of Dentistry"
 quartile: "Q1"
 year: 2026
 paperurl: "https://doi.org/10.1155/ijod/4148741"
-bibtex: |
-	@article{Pavel2026EndodonticTriaging,
-		author = {Mahir Afser Pavel and Md Fahim Shahoriar Titu and Afifa Zain Apurba and Saif Ahmed and Shafin Rahman and James Dudley and Taseef Hasan Farook},
-		title = {Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study},
-		journal = {International Journal of Dentistry},
-		year = {2026},
-		volume = {2026},
-		pages = {4148741},
-		doi = {10.1155/ijod/4148741}
-	}
 keywords: ["Vision-Language Models", "Endodontic Triaging", "Multimodal AI", "Dental Radiography", "Quantization-Aware Training", "Clinical Decision Support"]
 thumbnail: "/images/ijod4148741-fig-0002-m.jpg"
 permalink: /publication/error-tolerant-multimodal-vlm-endodontic-triaging

@@ -10,17 +10,6 @@ journal: "Drones"
 quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.3390/drones8090483"
-bibtex: |
-	@article{Titu2024DroneFireDetection,
-		author = {Md Fahim Shahoriar Titu and Mahir Afser Pavel and Goh Kah Ong Michael and Hisham Babar and Umama Aman and Riasat Khan},
-		title = {Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing},
-		journal = {Drones},
-		year = {2024},
-		volume = {8},
-		number = {9},
-		pages = {483},
-		doi = {10.3390/drones8090483}
-	}
 keywords: ["Fire Detection", "Drones", "Edge Computing", "Real-Time Detection", "Object Detection", "Knowledge Distillation"]
 thumbnail: "/images/drones-08-00483-g003.png"
 permalink: /publication/real-time-fire-detection-drones-edge-computing

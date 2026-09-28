@@ -402,48 +402,6 @@
   color: var(--publication-text);
 }
 
-.publication-bibtex {
-  flex: 1 0 100%;
-  min-width: 0;
-}
-
-.publication-bibtex summary {
-  width: fit-content;
-  cursor: pointer;
-  list-style: none;
-}
-
-.publication-bibtex summary::-webkit-details-marker {
-  display: none;
-}
-
-.publication-bibtex__copy {
-  margin-top: 0.55rem;
-  padding: 0.35rem 0.55rem;
-  border: 1px solid var(--publication-border);
-  border-radius: 5px;
-  background: var(--publication-bg);
-  color: var(--publication-text);
-  cursor: pointer;
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.publication-bibtex pre {
-  max-width: 100%;
-  max-height: 18rem;
-  margin: 0.55rem 0 0;
-  padding: 0.85rem;
-  overflow: auto;
-  border: 1px solid var(--publication-border);
-  border-radius: 7px;
-  background: var(--publication-accent-soft);
-  color: var(--publication-text);
-  font-size: 0.78rem;
-  line-height: 1.5;
-  white-space: pre;
-}
-
 .publication-action--primary {
   border-color: var(--publication-accent);
   background: var(--publication-accent);

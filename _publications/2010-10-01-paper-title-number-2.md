@@ -11,17 +11,6 @@ journal: "Scientific Reports"
 quartile: "Q1"
 year: 2025
 paperurl: "https://www.nature.com/articles/s41598-025-23403-2"
-bibtex: |
-	@article{Pavel2025SkinCancerDistillation,
-		author = {Mahir Afser Pavel and Ramisa Asad and Goh Kah Ong Michael and Md Ikramuzzaman and Murad Mustakim and Riasat Khan},
-		title = {Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification},
-		journal = {Scientific Reports},
-		year = {2025},
-		volume = {15},
-		number = {1},
-		pages = {39792},
-		doi = {10.1038/s41598-025-23403-2}
-	}
 keywords: ["Knowledge Distillation", "Skin Cancer", "Deep Learning", "Medical Image Analysis", "Explainable AI", "Dermatology"]
 thumbnail: "/images/41598_2025_23403_Fig1_HTML.webp"
 permalink: /publication/multi-stage-knowledge-distillation-skin-cancer
