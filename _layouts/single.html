@@ -48,22 +48,140 @@ layout: default
         {{ content }}
 
         {% if page.collection == 'publications' %}
-          {% assign bibtex_year = page.date | date: "%Y" %}
-          {% assign bibtex_key_slug = page.slug | replace: "-", "" %}
-          {% assign bibtex_authors = page.authors | replace: ", & ", " and " | replace: ", ", " and " | replace: " & ", " and " %}
-          {% assign bibtex_journal = page.journal | default: page.venue %}
           <details class="publication-bibtex">
             <summary>Cite this publication (BibTeX)</summary>
-            <pre><code>@article{pavel{{ bibtex_year }}{{ bibtex_key_slug }},
-  author = { {{ bibtex_authors }} },
-  title = { {{ page.title }} },
-  journal = { {{ bibtex_journal }} },
-  year = { {{ bibtex_year }} },
-  url = { {{ page.url | absolute_url }} }{% if page.doi %},
-  doi = { {{ page.doi }} }{% elsif page.paperurl contains "doi.org/" %},
-  doi = { {{ page.paperurl | split: "doi.org/" | last }} }{% endif %}
-}</code></pre>
+            <pre><code class="publication-bibtex__entry" data-title="{{ page.title | escape }}" data-doi="{{ page.doi | default: '' | escape }}" data-paperurl="{{ page.paperurl | default: '' | escape }}">Loading citation from split files...</code></pre>
+            <a class="publication-bibtex__download" href="#" download hidden>Download this BibTeX file</a>
           </details>
+          <script>
+            (function () {
+              var output = document.querySelector('.publication-bibtex__entry');
+              if (!output) return;
+              var downloadLink = document.querySelector('.publication-bibtex__download');
+
+              function readField(entry, field) {
+                var fieldMatch = entry.match(new RegExp('\\b' + field + '\\s*=\\s*', 'i'));
+                if (!fieldMatch) return '';
+
+                var index = fieldMatch.index + fieldMatch[0].length;
+                while (/\s/.test(entry[index] || '')) index += 1;
+                var delimiter = entry[index];
+                if (delimiter !== '{' && delimiter !== '"') return '';
+
+                var closingDelimiter = delimiter === '{' ? '}' : '"';
+                var depth = delimiter === '{' ? 1 : 0;
+                var valueStart = index + 1;
+                var escaped = false;
+
+                for (index = valueStart; index < entry.length; index += 1) {
+                  var character = entry[index];
+                  if (escaped) {
+                    escaped = false;
+                    continue;
+                  }
+                  if (character === '\\') {
+                    escaped = true;
+                    continue;
+                  }
+                  if (delimiter === '{' && character === '{') depth += 1;
+                  if (character === closingDelimiter) {
+                    if (delimiter === '{') depth -= 1;
+                    if (delimiter === '"' || depth === 0) return entry.slice(valueStart, index);
+                  }
+                }
+                return '';
+              }
+
+              function parseEntries(source) {
+                var entries = [];
+                var position = 0;
+                var start;
+
+                while ((start = source.indexOf('@', position)) !== -1) {
+                  var brace = source.indexOf('{', start);
+                  var parenthesis = source.indexOf('(', start);
+                  var opening = brace === -1 ? parenthesis : parenthesis === -1 ? brace : Math.min(brace, parenthesis);
+                  if (opening === -1) break;
+
+                  var openCharacter = source[opening];
+                  var closeCharacter = openCharacter === '{' ? '}' : ')';
+                  var depth = 0;
+                  var quoted = false;
+                  var escaped = false;
+                  var end;
+
+                  for (end = opening; end < source.length; end += 1) {
+                    var character = source[end];
+                    if (escaped) {
+                      escaped = false;
+                      continue;
+                    }
+                    if (character === '\\') {
+                      escaped = true;
+                      continue;
+                    }
+                    if (character === '"') {
+                      quoted = !quoted;
+                      continue;
+                    }
+                    if (quoted) continue;
+                    if (character === openCharacter) depth += 1;
+                    if (character === closeCharacter) {
+                      depth -= 1;
+                      if (depth === 0) break;
+                    }
+                  }
+
+                  if (depth !== 0) break;
+                  entries.push(source.slice(start, end + 1));
+                  position = end + 1;
+                }
+                return entries;
+              }
+
+              var targetTitle = output.dataset.title.replace(/[{}]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+              var targetDoi = output.dataset.doi.trim().toLowerCase();
+              var targetPaperUrl = output.dataset.paperurl.trim().toLowerCase();
+              {% assign bibtex_keys = "Pavel2026EndodonticTriaging,pavel2025multi,saha2025hybrid,apurba2025fusion,titu2024real,pavel2024non,Pavel2026ACPKD,Pavel2026CLKDMED,Pavel2026TrustworthyDR,Pavel2026FederatedBrainTumor,Anonymous2026FULCRUM,Pavel2026SLGRANet,Anonymous2026S3Net" | split: "," %}
+              var bibtexUrls = [
+                {% for bibtex_key in bibtex_keys %}
+                  {{ '/files/bibtex/' | append: bibtex_key | append: '.bib' | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+              ];
+
+              Promise.all(bibtexUrls.map(function (url) {
+                return fetch(url).then(function (response) {
+                  return response.ok ? response.text() : '';
+                }).catch(function () { return ''; });
+              })).then(function (sources) {
+                var matchingEntries = [];
+                sources.forEach(function (source, index) {
+                  parseEntries(source).forEach(function (entry) {
+                    if (readField(entry, 'title').replace(/[{}]/g, '').replace(/\s+/g, ' ').trim().toLowerCase() === targetTitle) {
+                      matchingEntries.push({ entry: entry, url: bibtexUrls[index] });
+                    }
+                  });
+                });
+                var selectedEntry = matchingEntries.find(function (candidate) {
+                  var entryDoi = readField(candidate.entry, 'doi').toLowerCase();
+                  var entryUrl = readField(candidate.entry, 'url').toLowerCase();
+                  return (targetDoi && (entryDoi === targetDoi || entryUrl.indexOf(targetDoi) !== -1)) || (targetPaperUrl && entryUrl === targetPaperUrl);
+                }) || matchingEntries[0];
+
+                if (!selectedEntry) {
+                  output.textContent = 'No matching citation was found in the split BibTeX files.';
+                  return;
+                }
+
+                output.textContent = selectedEntry.entry.trim();
+                downloadLink.href = selectedEntry.url;
+                downloadLink.download = selectedEntry.url.split('/').pop();
+                downloadLink.hidden = false;
+              }).catch(function () {
+                output.textContent = 'Could not load the split BibTeX files.';
+              });
+            })();
+          </script>
         {% endif %}
 
         {% if page.citation or page.paperurl or page.doi or page.slidesurl or page.codeurl %}
