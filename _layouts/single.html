@@ -73,6 +73,14 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
 
+        {% if page.bibtex %}
+          <details id="bibtex">
+            <summary>BibTeX citation</summary>
+            <pre><code>{{ page.bibtex | strip | escape }}</code></pre>
+            <a href="data:application/x-bibtex;charset=utf-8,{{ page.bibtex | url_encode | replace: '+', '%20' }}" download="{{ page.title | slugify }}.bib">Download BibTeX</a>
+          </details>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

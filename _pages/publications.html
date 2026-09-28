@@ -88,7 +88,11 @@ author_profile: true
             <i class="fab fa-github" aria-hidden="true"></i> Code
           </a>
         {% endif %}
-        {% if featured_post.bibtexurl %}
+        {% if featured_post.bibtex %}
+          <a class="publication-action" href="data:application/x-bibtex;charset=utf-8,{{ featured_post.bibtex | url_encode | replace: '+', '%20' }}" download="{{ featured_post.title | slugify }}.bib">
+            <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
+          </a>
+        {% elsif featured_post.bibtexurl %}
           <a class="publication-action" href="{{ featured_post.bibtexurl }}" target="_blank" rel="noopener">
             <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
           </a>
@@ -180,7 +184,11 @@ author_profile: true
                 <i class="fab fa-github" aria-hidden="true"></i> Code
               </a>
             {% endif %}
-            {% if post.bibtexurl %}
+            {% if post.bibtex %}
+              <a class="publication-action" href="data:application/x-bibtex;charset=utf-8,{{ post.bibtex | url_encode | replace: '+', '%20' }}" download="{{ post.title | slugify }}.bib">
+                <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
+              </a>
+            {% elsif post.bibtexurl %}
               <a class="publication-action" href="{{ post.bibtexurl }}" target="_blank" rel="noopener">
                 <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
               </a>
