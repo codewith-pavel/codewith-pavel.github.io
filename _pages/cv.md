@@ -83,6 +83,106 @@ redirect_from:
   .cv-page li > ul li {
     margin-bottom: 0.3rem;
   }
+
+  .cv-page .cv-publications {
+    display: grid;
+    gap: 1rem;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .cv-page .cv-publication {
+    display: grid;
+    grid-template-columns: 5.25rem minmax(0, 1fr);
+    gap: 1rem;
+    margin: 0;
+    padding: 1.2rem 1.25rem;
+    border: 1px solid var(--global-border-color);
+    border-left: 4px solid #237a70;
+    background: color-mix(in srgb, var(--global-bg-color) 96%, #237a70 4%);
+  }
+
+  .cv-page .cv-publication__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    padding-top: 0.15rem;
+  }
+
+  .cv-page .cv-publication__year {
+    color: var(--global-text-color);
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+
+  .cv-page .cv-publication__status {
+    padding: 0.2rem 0.45rem;
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--global-bg-color) 84%, #b76e20 16%);
+    color: var(--global-text-color);
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .cv-page .cv-publication__title {
+    margin: 0 0 0.45rem;
+    font-size: 1.05rem;
+    line-height: 1.45;
+  }
+
+  .cv-page .cv-publication__title a {
+    color: var(--global-text-color);
+    text-decoration-color: #237a70;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .cv-page .cv-publication__title a:hover {
+    color: #237a70;
+  }
+
+  .cv-page .cv-publication__authors,
+  .cv-page .cv-publication__venue,
+  .cv-page .cv-publication__citation,
+  .cv-page .cv-publication__excerpt {
+    margin: 0.35rem 0 0;
+    line-height: 1.55;
+  }
+
+  .cv-page .cv-publication__authors {
+    font-weight: 600;
+  }
+
+  .cv-page .cv-publication__authors span,
+  .cv-page .cv-publication__citation,
+  .cv-page .cv-publication__excerpt {
+    color: var(--global-text-color);
+    opacity: 0.78;
+  }
+
+  .cv-page .cv-publication__venue {
+    color: #237a70;
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  @media (max-width: 600px) {
+    .cv-page .cv-publication {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.55rem;
+      padding: 1rem;
+    }
+
+    .cv-page .cv-publication__meta {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
 </style>
 
 <div class="cv-page" markdown="1">
@@ -172,11 +272,11 @@ Honors & Awards
 
 * **Magna Cum Laude** (December 2024): North South University
 * **Academic Merit Scholarship:** multiple tuition waivers (10%–20%) based on strong semester GPA
-* **Peer Reviewer Recognition** (March 2026): recognition for scientific reviews in **IEEE Access** and **Frontiers in Computer Science**
+* **Peer Reviewer Recognition** (March 2026): recognition for scientific reviews in **IEEE Access**, **Heliyon** and **Frontiers in Computer Science**
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <ul class="cv-publications">{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
