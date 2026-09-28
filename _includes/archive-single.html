@@ -80,9 +80,5 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
-    {% if post.bibtex %}
-      <p><a href="data:application/x-bibtex;charset=utf-8,{{ post.bibtex | url_encode | replace: '+', '%20' }}" download="{{ post.title | slugify }}.bib">Download BibTeX</a></p>
-    {% endif %}
-
   </article>
 </div>

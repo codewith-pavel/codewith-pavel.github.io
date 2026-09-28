@@ -10,7 +10,17 @@ journal: "PLOS ONE"
 quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.1371/journal.pone.0306441"
-bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:8GLnN3dXAnQJ:scholar.google.com/&output=citation&scisdr=CoE6YM8KEIzjolO4CTA:AIVdB-wAAAAAap2-ETCTYg-eBa5RpEstMncH4X4&scisig=AIVdB-wAAAAAap2-EWe3nXPQnAqJp6ouIGfuYgc&scisf=4&ct=citation&cd=-1&hl=en"
+bibtex: |
+	@article{Pavel2024LungCancerDistillation,
+		author = {Mahir Afser Pavel and Rafiul Islam and Shoyeb Bin Babor and Riaz Mehadi and Riasat Khan},
+		title = {Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant},
+		journal = {PLOS ONE},
+		year = {2024},
+		volume = {19},
+		number = {11},
+		pages = {e0306441},
+		doi = {10.1371/journal.pone.0306441}
+	}
 keywords: ["Lung Cancer", "Knowledge Distillation", "Medical AI", "CT Imaging", "Explainable AI", "Computer-Aided Diagnosis"]
 thumbnail: "/images/journal.pone.0306441.g003.PNG"
 permalink: /publication/lung-cancer-knowledge-distillation-teaching-assistant

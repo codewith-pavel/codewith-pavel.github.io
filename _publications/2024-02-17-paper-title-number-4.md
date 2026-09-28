@@ -10,7 +10,16 @@ journal: "IEEE Access"
 quartile: "Q1"
 year: 2025
 paperurl: "https://doi.org/10.1109/ACCESS.2025.3560998"
-bibtexurl: "https://scholar.googleusercontent.com/scholar.bib?q=info:r9tv7vMGvDYJ:scholar.google.com/&output=citation&scisdr=CoE6YM8OEKiYrlO8pwk:AIVdB-wAAAAAap26vwnJmKnXNjDY5OP97PZ8MBM&scisig=AIVdB-wAAAAAap26v83rgWt9gn8-M4hKM-3f0BA&scisf=4&ct=citation&cd=-1&hl=en"
+bibtex: |
+	@article{Apurba2025RootCanalDiagnosis,
+		author = {Afifa Zain Apurba and Md Fahim Shahoriar Titu and Mahir Afser Pavel and Intisar Tahmid Naheen and Riasat Khan},
+		title = {Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis},
+		journal = {IEEE Access},
+		year = {2025},
+		volume = {13},
+		pages = {66557--66573},
+		doi = {10.1109/ACCESS.2025.3560998}
+	}
 keywords: ["Root Canal Diagnosis", "YOLO", "Knowledge Distillation", "Dental Radiography", "Image Enhancement", "Medical Image Analysis"]
 thumbnail: "/images/khan5-3560998-large.gif"
 permalink: /publication/fusion-image-filtering-knowledge-distilled-yolo-root-canal
