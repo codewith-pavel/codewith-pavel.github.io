@@ -11,6 +11,8 @@ redirect_from:
 
 <style>
   .cv-page {
+    --cv-accent: #237a70;
+    --cv-highlight: #a95f1c;
     max-width: 920px;
     margin: 0 auto;
   }
@@ -44,10 +46,14 @@ redirect_from:
   .cv-page h1 {
     margin: 2.25rem 0 1rem;
     padding-bottom: 0.65rem;
-    border-bottom: 2px solid var(--global-text-color);
-    color: var(--global-text-color);
+    border-bottom: 2px solid color-mix(in srgb, var(--cv-accent) 55%, transparent);
+    color: var(--cv-accent);
     font-size: 1.45rem;
     letter-spacing: 0.01em;
+  }
+
+  .cv-page strong {
+    color: var(--cv-accent);
   }
 
   .cv-page h1:first-of-type {
@@ -62,13 +68,17 @@ redirect_from:
   .cv-page > ul,
   .cv-page > p + ul {
     padding: 1rem 1.25rem 1rem 2rem;
-    border-left: 3px solid var(--global-border-color);
-    background: color-mix(in srgb, var(--global-bg-color) 94%, var(--global-text-color) 6%);
+    border-left: 3px solid color-mix(in srgb, var(--cv-accent) 60%, var(--global-border-color));
+    background: color-mix(in srgb, var(--global-bg-color) 96%, var(--cv-accent) 4%);
   }
 
   .cv-page li {
     margin-bottom: 0.55rem;
     line-height: 1.65;
+  }
+
+  .cv-page li::marker {
+    color: var(--cv-highlight);
   }
 
   .cv-page li:last-child {
@@ -99,8 +109,8 @@ redirect_from:
     margin: 0;
     padding: 1.2rem 1.25rem;
     border: 1px solid var(--global-border-color);
-    border-left: 4px solid #237a70;
-    background: color-mix(in srgb, var(--global-bg-color) 96%, #237a70 4%);
+    border-left: 4px solid var(--cv-accent);
+    background: color-mix(in srgb, var(--global-bg-color) 96%, var(--cv-accent) 4%);
   }
 
   .cv-page .cv-publication__meta {
@@ -120,7 +130,7 @@ redirect_from:
   .cv-page .cv-publication__status {
     padding: 0.2rem 0.45rem;
     border-radius: 3px;
-    background: color-mix(in srgb, var(--global-bg-color) 84%, #b76e20 16%);
+    background: color-mix(in srgb, var(--global-bg-color) 84%, var(--cv-highlight) 16%);
     color: var(--global-text-color);
     font-size: 0.68rem;
     font-weight: 700;
@@ -136,13 +146,13 @@ redirect_from:
 
   .cv-page .cv-publication__title a {
     color: var(--global-text-color);
-    text-decoration-color: #237a70;
+    text-decoration-color: var(--cv-accent);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
   }
 
   .cv-page .cv-publication__title a:hover {
-    color: #237a70;
+    color: var(--cv-accent);
   }
 
   .cv-page .cv-publication__authors,
@@ -165,7 +175,7 @@ redirect_from:
   }
 
   .cv-page .cv-publication__venue {
-    color: #237a70;
+    color: var(--cv-accent);
     font-size: 0.92rem;
     font-weight: 700;
   }
