@@ -9,6 +9,8 @@ venue: "Array (Elsevier)"
 journal: "Array"
 quartile: "Q1"
 year: 2026
+paperurl: "https://github.com/codewith-pavel/Fed_GAN_DE_CL_XAI"
+codeurl: "https://github.com/codewith-pavel/Fed_GAN_DE_CL_XAI"
 thumbnail: "/images/fedGan.png"
 permalink: /publication/fed-gan-de-cl-brain-tumor-diagnosis
 keywords: ["Federated learning", "Brain tumor diagnosis", "MRI analysis", "Generative augmentation", "Contrastive representation learning", "Explainable AI"]
