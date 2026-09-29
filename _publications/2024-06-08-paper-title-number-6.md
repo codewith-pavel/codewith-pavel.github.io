@@ -10,7 +10,7 @@ journal: "Drones"
 quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.3390/drones8090483"
-codeurl: "https://github.com/codewith-pavel/Optimizations"
+codeurl: "https://github.com/codewith-pavel/Object_detection_with_Autodistill"
 keywords: ["Fire Detection", "Drones", "Edge Computing", "Real-Time Detection", "Object Detection", "Knowledge Distillation"]
 thumbnail: "/images/drones-08-00483-g003.png"
 permalink: /publication/real-time-fire-detection-drones-edge-computing

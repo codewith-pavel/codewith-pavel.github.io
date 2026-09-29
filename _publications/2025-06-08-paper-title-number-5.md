@@ -10,7 +10,7 @@ journal: "PLOS ONE"
 quartile: "Q1"
 year: 2024
 paperurl: "https://doi.org/10.1371/journal.pone.0306441"
-codeurl: "https://github.com/codewith-pavel/Optimizations"
+codeurl: "https://github.com/codewith-pavel/KnowledgeDistillation"
 keywords: ["Lung Cancer", "Knowledge Distillation", "Medical AI", "CT Imaging", "Explainable AI", "Computer-Aided Diagnosis"]
 thumbnail: "/images/journal.pone.0306441.g003.PNG"
 permalink: /publication/lung-cancer-knowledge-distillation-teaching-assistant

@@ -10,7 +10,7 @@ journal: "IEEE Access"
 quartile: "Q1"
 year: 2025
 paperurl: "https://doi.org/10.1109/ACCESS.2025.3560998"
-codeurl: "https://github.com/codewith-pavel/Optimizations"
+codeurl: "https://github.com/codewith-pavel/Dental-Detection-ImageFiltering-Distillation"
 keywords: ["Root Canal Diagnosis", "YOLO", "Knowledge Distillation", "Dental Radiography", "Image Enhancement", "Medical Image Analysis"]
 thumbnail: "/images/khan5-3560998-large.gif"
 permalink: /publication/fusion-image-filtering-knowledge-distilled-yolo-root-canal

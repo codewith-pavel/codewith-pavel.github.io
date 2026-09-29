@@ -9,7 +9,7 @@ venue: "Information Processing & Management (Elsevier)"
 journal: "Information Processing & Management"
 quartile: "Q1"
 year: 2026
-#codeurl: "https://github.com/codewith-pavel/Cross-Lingual-Knowledge-Distillation"
+codeurl: "https://github.com/codewith-pavel/Cross-Lingual-Knowledge-Distillation"
 keywords: ["Low-resource languages", "Healthcare informatics", "Multilingual clinical NLP", "Cross-lingual knowledge distillation", "Clinical outcome prediction", "Explainable AI"]
 thumbnail: "/images/clkd.png"
 permalink: /publication/clkd-med-cross-lingual-clinical-outcome
