@@ -219,7 +219,7 @@ Education
 
 * **B.Sc. in Computer Science and Engineering**, **North South University**, 2019–2024
   * **CGPA: 3.71/4.00**
-  * **CSE Major GPA: 3.91/4.00 (Capstone Design + Core + Elective courses) | Rank: 38/593**
+  * **<span style="color:#a95f1c; font-weight:800;">CSE Major GPA: 3.91/4.00 (Capstone Design + Core + Elective courses) | Rank: 38/595</span>**
   * **Magna Cum Laude**
   * **B.Sc. Thesis:** "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
   * **Summary:** Implemented a three-stage **knowledge distillation** architecture for **lung cancer classification** on the **NSCLC-Radiomics** dataset, achieving **94.53% accuracy** and later deploying it in a web application.
