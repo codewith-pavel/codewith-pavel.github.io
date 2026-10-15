@@ -46,7 +46,7 @@ My research aims to create **reliable, scalable, and clinically deployable AI sy
 <table>
   <tr>
     <td>
-      <strong><span style="color:#3fb950;">2026</span></strong>
+      <strong><span style="color:#3fb950;">Nov 10, 2026</span></strong>
     </td>
     <td>
       <strong>Reached 100+ citations on Google Scholar</strong>
