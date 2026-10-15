@@ -46,10 +46,21 @@ My research aims to create **reliable, scalable, and clinically deployable AI sy
 <table>
   <tr>
     <td>
+      <strong><span style="color:#3fb950;">2026</span></strong>
+    </td>
+    <td>
+      <strong>Reached 100+ citations on Google Scholar</strong>
+      <br>
+      <span style="color:#3fb950;"><strong>Research Milestone</strong></span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
       <strong><span style="color:#d29922;">Aug 30, 2026</span></strong>
     </td>
     <td>
-      <strong>"CLKD-MED: A Cross-Lingual Knowledge Distillation Framework for Multilingual Clinical Outcome Prediction"</strong>
+      <strong>"CLKD-MED: Cross-lingual knowledge distillation with clinician-anchored evaluation for clinical outcome prediction in low-resource languages"</strong>
       <br>
       <span style="color:#d29922;"><strong>🟠 Under Review</strong></span>
     </td>

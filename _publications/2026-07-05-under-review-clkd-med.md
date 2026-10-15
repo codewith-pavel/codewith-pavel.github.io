@@ -1,5 +1,5 @@
 ---
-title: "CLKD-MED: A cross-lingual knowledge distillation framework for bridging linguistic barriers in clinical AI"
+title: "CLKD-MED: Cross-lingual knowledge distillation with clinician-anchored evaluation for clinical outcome prediction in low-resource languages"
 collection: publications
 category: under-review
 status: under-review
@@ -15,7 +15,7 @@ thumbnail: "/images/clkd.png"
 permalink: /publication/clkd-med-cross-lingual-clinical-outcome
 excerpt: "This paper introduces CLKD-MED, a cross-lingual knowledge distillation framework for multilingual clinical outcome prediction across low-resource languages, with interpretable and computationally efficient deployment."
 date: 2026-08-17
-citation: "Mahir Afser Pavel et al. (under review). CLKD-MED: A cross-lingual knowledge distillation framework for bridging linguistic barriers in clinical AI."
+citation: "Mahir Afser Pavel et al. (under review). CLKD-MED: Cross-lingual knowledge distillation with clinician-anchored evaluation for clinical outcome prediction in low-resource languages."
 ---
 ## Abstract
 
