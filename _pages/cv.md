@@ -199,7 +199,7 @@ redirect_from:
 <div class="cv-page" markdown="1">
 
 <div class="cv-download-links">
-  <a href="{{ base_path }}/files/Mahir_Afser_Pavel_Academic_CV.pdf" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
+  <a href="{{ base_path }}/files/CV MAHIR AFSER PAVEL.pdf" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
 </div>
 
 Profile Summary
