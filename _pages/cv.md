@@ -202,94 +202,133 @@ redirect_from:
   <a href="{{ base_path }}/files/CV MAHIR AFSER PAVEL.pdf" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
 </div>
 
+Mahir Afser Pavel
+======
+
+AI Researcher | Medical AI · Multimodal Learning · Efficient and Reliable Deep Learning
+
+Dhaka, Bangladesh | +8801873742510 | [mahir.pavel@gmail.com](mailto:mahir.pavel@gmail.com)
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate) · [ORCID](https://orcid.org/0009-0005-3395-9159) · [ResearchGate](https://www.researchgate.net/profile/Mahir-Afser-Pavel?ev=hdr_xprf) · [GitHub](https://github.com/codewith-pavel) · [LinkedIn](https://www.linkedin.com/in/mahirafserpavel/) · [Portfolio](https://codewith-pavel.github.io/)
+
 Profile Summary
 ======
 
-* **AI researcher** with a strong research interest in **medical image analysis** and **100+ citations (Google Scholar, November 2026)** in **5 Q1** and solo Q2 journal publications, **4** of which are **SCIE** and **2 ESCI**, holding an **h-index** of **3** and **i10-index** of **2**.
+* AI researcher specializing in medical image analysis, with an emphasis on developing computationally efficient, reliable, and interpretable AI methods. Research spans knowledge distillation, explainable AI, vision-language models, quantization, federated learning, and visual question answering. First author of articles in Scientific Reports and PLOS One; co-first author of an article in the International Journal of Dentistry; second author of articles in Drones and Vehicles; and third author of an article in IEEE Access. Google Scholar profile: 100+ citations, h-index: 3, and i10-index: 2.
 
 Research Interests
 ======
 
-* **Vision-Language Models (VLMs)** and **Large Language Models (LLMs)**
-* **Deep Learning**, **Explainable Artificial Intelligence (XAI)**, and **Edge AI**
-* **Medical Image Analysis** and **Computational Clinical Triaging**
+* Medical Image Analysis and Clinical AI: Medical image classification and segmentation, disease detection, and AI-assisted clinical triage.
+* Multimodal Learning and Foundation Models: Vision-language models (VLMs), medical image-text alignment, and visual question answering (VQA).
+* Efficient and Explainable AI: Knowledge distillation, model compression and quantization, explainable AI (XAI), and computationally efficient deep learning.
+* Clinical Natural Language Processing and Privacy-Preserving AI: Federated learning, generative augmentation, clinical text analysis, robustness, and interpretable AI.
 
 Education
 ======
 
-* **B.Sc. in Computer Science and Engineering**, **North South University**, 2019–2024
-  * **CGPA: 3.71/4.00 | Rank: 38/593** <br> 
-  **<span style="color:#2563eb; font-weight:800; background: rgba(37,99,235,0.08); padding: 0.15rem 0.35rem; border-radius: 4px;">CSE Major (Capstone Design + Core + Elective courses) GPA: 3.91/4.00</span>**
-  * **Magna Cum Laude**
-  * **B.Sc. Thesis:** "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
-  * **Summary:** Implemented a three-stage **knowledge distillation** architecture for **lung cancer classification** on the **NSCLC-Radiomics** dataset, achieving **94.53% accuracy** and later deploying it in a web application.
-  * Supervisor: Dr. Riasat Khan, Associate Professor, Department of ECE
+* **North South University** — Dhaka, Bangladesh
+  * Bachelor of Science in Computer Science and Engineering | 2019–2023
+  * CGPA: 3.71/4.00 ([Grading Policy](https://www.northsouth.edu/academic/grading-policy.html))
+  * CSE-specific GPA: 3.91/4.00 (Capstone Design, Core, and Elective Courses)
+  * Class Rank: 38th out of 595 students
+  * **B.Sc. Thesis:** “Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant”
+  * **Summary:** Implemented a three-stage knowledge distillation architecture for lung cancer classification on the NSCLC-Radiomics dataset, achieving 94.53% accuracy, and later deployed it in a user-friendly web application.
+  * **Supervisor:** [Dr. Riasat Khan](https://ece.northsouth.edu/people/riasat-khan/), Associate Professor, Department of ECE
 
-Work experience
+Scholarly Publications
 ======
 
-* **Aug 2025 – Present: Research Assistant**
-  * **ELITE Research Lab LLC**, Dhaka, Bangladesh
-  * Responsibilities include: **federated medical architectures**, **3D brain tumor segmentation** with **structure-aware latent graph reasoning**, and **uncertainty-aware explainable deep learning** frameworks for medical diagnosis.
-  * Supervisor: Md. Kishor Morol, Research Scientist & Founder
+### Peer-Reviewed Journal Publications
 
-* **Jan 2024 – Mar 2025: Research Intern**
-  * **Mahdy Research Academy**, Remote
-  * Responsibilities included: developing **CLKD-MED**, a **cross-lingual knowledge distillation** framework for **multilingual clinical outcome prediction** from electronic health records.
-  * Supervisor: M. R. C. Mahdy
+* **Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification**
+  * Authors: Mahir Afser Pavel, Ramisa Asad, Goh Kah Ong Michael, Md Ikramuzzaman, Murad Mustakim, and Riasat Khan.
+  * [Scientific Reports](https://www.nature.com/srep/) (Nature Portfolio), 2025. DOI: [10.1038/s41598-025-23403-2](https://doi.org/10.1038/s41598-025-23403-2). [Code](https://github.com/codewith-pavel/Optimizations)
+* **Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant**
+  * Authors: Mahir Afser Pavel, Rafiul Islam, Shoyeb Bin Babor, Riaz Mehadi, and Riasat Khan.
+  * [PLOS One](https://journals.plos.org/plosone/) (PLOS), 2024. DOI: [10.1371/journal.pone.0306441](https://doi.org/10.1371/journal.pone.0306441). [Code](https://github.com/codewith-pavel/KnowledgeDistillation)
+* **Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study**
+  * Authors: Mahir Afser Pavel (Co-First Author), Md Fahim Shahoriar Titu (Co-First Author), Afifa Zain Apurba, Saif Ahmed, Shafin Rahman, James Dudley, and Taseef Hasan Farook.
+  * [International Journal of Dentistry](https://onlinelibrary.wiley.com/journal/6164) (Wiley), 2026. DOI: [10.1155/ijod/4148741](https://doi.org/10.1155/ijod/4148741). [Code](https://github.com/codewith-pavel/Endodontic-using-VLM)
+* **Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis**
+  * Authors: Afifa Zain Apurba, Md Fahim Shahoriar Titu, Mahir Afser Pavel, Intisar Tahmid Naheen, and Riasat Khan.
+  * [IEEE Access](https://ieeeaccess.ieee.org/) (IEEE), 2025. DOI: [10.1109/ACCESS.2025.3560998](https://doi.org/10.1109/ACCESS.2025.3560998). [Code](https://github.com/codewith-pavel/Dental-Detection-ImageFiltering-Distillation)
+* **Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing**
+  * Authors: Md Fahim Shahoriar Titu, Mahir Afser Pavel, Goh Kah Ong Michael, Hisham Babar, Umama Aman, and Riasat Khan.
+  * [Drones](https://www.mdpi.com/journal/drones) (MDPI), 2024. DOI: [10.3390/drones8090483](https://doi.org/10.3390/drones8090483). [Code](https://github.com/codewith-pavel/Object_detection_with_Autodistill)
+* **Hybrid ViT-RetinaNet with Explainable Ensemble Learning for Fine-Grained Vehicle Damage Classification**
+  * Authors: Ananya Saha, Mahir Afser Pavel, Md Fahim Shahoriar Titu, Afifa Zain Apurba, and Riasat Khan.
+  * [Vehicles](https://www.mdpi.com/journal/vehicles) (MDPI), 2025. DOI: [10.3390/vehicles7030089](https://doi.org/10.3390/vehicles7030089). [Code](https://github.com/codewith-pavel/finegrained-damage-classify-xai)
 
-* **May 2024 – Jul 2024: Research Assistant**
-  * **North South University**, Dhaka, Bangladesh
-  * Responsibilities included: developing **lightweight deep learning** and **knowledge-distillation** approaches for **real-time drone-based fire detection** and deploying **YOLOv8n** on **Raspberry Pi 5** edge devices.
-  * Supervisor: Faculty research team
+### Manuscripts Under Review
+
+* Federated Multi-Component Framework for Brain Tumor Diagnosis with Generative Augmentation and Explainable AI
+* CLKD-MED: A novel cross-lingual knowledge distillation framework for multilingual clinical outcome prediction
+* SLGRA-Net: Structure-Aware Latent Graph Reasoning for 3D Brain Tumor Segmentation
+
+### Research in Progress
+
+* Trustworthy Clinical AI for Diabetic Retinopathy Grading via Hybrid Foundation Models, Calibration-Aware Uncertainty Learning, and Multi-Criteria Clinical Referral
+* S³-Net: Self-Stabilizing, Self-Regulating, and Self-Optimizing Neural Networks via Universal Stability Learning
+* FULCRUM: Option-Contrastive Frame Selection for Long-Video Understanding
+* ACP-KD: Adaptive Clinical Prototype Knowledge Distillation with Dynamic Feature Fusion and Confidence-Aware Multi-Objective Learning for Lightweight Skin Lesion Classification
+
+Professional Experience
+======
+
+* **Research Assistant | ELITE Research Lab LLC** (Dhaka, Bangladesh) | Aug 2025–Present
+  * **Federated Brain Tumor Classification:** Developed Fed-GAN-DE-CL, a federated multi-component framework that integrates generative adversarial networks and dual-encoder contrastive learning for decentralized brain tumor classification without centralizing patient data.
+  * **3D Brain Tumor Segmentation:** Proposed SLGRA-Net, incorporating structure-aware latent graph reasoning to model spatial relationships and address ambiguous tumor boundaries in 3D MRI segmentation.
+  * **Ongoing Research:** Contributing to research on trustworthy clinical AI, self-optimizing neural networks, and adaptive knowledge distillation, focusing on uncertainty calibration, neural network stability, and lightweight skin lesion classification.
+* **Research Assistant | United International University** (Dhaka, Bangladesh) | May 2025–Jun 2025
+  * Optimized transformer architectures and developed multilingual benchmarks for low-resource languages using Hugging Face Transformers and PyTorch Lightning, leveraging TensorBoard and Weights & Biases (W&B) for experiment tracking, visualization, and hyperparameter tuning. Designed data preprocessing, feature engineering, and model-training pipelines; conducted literature reviews on multi-agent systems; and contributed to research proposal development.
+* **Research Assistant | North South University** (Dhaka, Bangladesh) | May 2024–Jul 2024
+  * Co-developed a drone-based fire-detection pipeline using knowledge distillation to deploy lightweight YOLOv8n models on Raspberry Pi 5 devices for edge inference.
+* **Research Trainee | Mahdy Research Academy** (Remote / Online) | Jan 2024–Mar 2025
+  * Introduced CLKD-MED, a knowledge-distillation framework for multilingual clinical outcome prediction using 92,293 clinical notes from the MIMIC-III dataset, transferring clinical representations across English and lower-resource languages to predict length of stay and mortality.
 
 Skills
 ======
 
-* **Programming & Data Science**
-  * **Python**
-  * **SQL**
-  * **C++**
-  * **Java**
-  * **Bash Scripting**
-  * **NumPy, Pandas, Matplotlib, SPSS, Microsoft Excel**
+* **Programming Languages:** Python (Advanced), C++, Java, Bash.
+* **AI/ML Frameworks:** PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV.
+* **Generative AI & VLMs:** LangChain, LLaMA, RAG, LoRA, QAT, BLIP, CLIP, Florence-2, PaliGemma.
+* **Research & Development Tools:** Git, GitHub, LaTeX, Overleaf.
+* **Databases & Analysis:** SQL, MySQL, NumPy, Pandas, Matplotlib, SPSS, Microsoft Excel.
 
-* **Artificial Intelligence & Machine Learning**
-  * **Deep Learning**
-  * **Computer Vision**
-  * **Medical Image Analysis**
-  * **Explainable AI (XAI)**
-  * **Knowledge Distillation**
-  * **Federated Learning**
-  * **PyTorch, TensorFlow, Keras, Scikit-learn**
+Research Projects & Technical Contributions
+======
 
-* **Generative AI & Vision-Language Models**
-  * **Vision-Language Models (VLMs)**
-  * **Large Language Models (LLMs)**
-  * **BLIP, CLIP, Florence-2, PaliGemma**
-  * **LLaMA**
-  * **Retrieval-Augmented Generation (RAG)**
-  * **Low-Rank Adaptation (LoRA)**
-  * **Quantization-Aware Training (QAT)**
+* **Medical Image Analysis, Knowledge Distillation & Explainable AI:** Develops lightweight, layer-fusion, and knowledge-distillation methods for skin lesion classification, NSCLC detection from CT scans, dental radiograph analysis, and brain tumor diagnosis. Applies SHAP, LIME, and Score-CAM for model interpretability.
+* **Medical Vision-Language Models & Efficient Clinical AI:** Evaluates BLIP, CLIP, Florence-2, and PaliGemma for dental triage, medical image understanding, and multimodal medical question answering. Explores quantization-aware training (QAT), model compression, LoRA, and efficient adaptation to reduce computational and memory requirements while preserving diagnostic performance.
+* **Computer Vision, Object Detection & Edge Deployment:** Develops image processing, Grounded SAM-assisted annotation, YOLO-based detection, and teacher–student knowledge-distillation pipelines for root canal failure diagnosis. Also investigates drone-based fire detection on Raspberry Pi 5 and Hybrid ViT–RetinaNet with Weighted Box Fusion for vehicle damage classification.
+* **Federated Learning, Generative Augmentation & 3D Biomedical AI:** Investigates federated learning, generative adversarial networks, and synthetic data augmentation for brain tumor diagnosis across decentralized, non-IID data distributions. Explores structure-aware latent graph reasoning and 3D volumetric segmentation to model spatial relationships and ambiguous tumor boundaries, improve robustness to data heterogeneity, and support explainable, reliability-aware evaluation.
+* **Clinical NLP, Reliable AI & Generalizable Learning:** Develops cross-lingual knowledge distillation for clinical outcome prediction in low-resource languages and explores medical language models, retrieval-augmented generation (RAG), clinical reasoning, and healthcare decision support. Investigates calibration-aware uncertainty estimation, confidence-aware learning, and multi-criteria clinical referral for diabetic retinopathy grading, alongside adaptive clinical prototype distillation, dynamic feature fusion, confidence-aware multi-objective optimization for lightweight skin lesion classification, stability-oriented neural networks, and efficient video understanding.
 
-* **Edge AI & Research Tools**
-  * **YOLOv5, YOLOv8**
-  * **Raspberry Pi 5**
-  * **OpenCV, Detectron2**
-  * **Git, GitHub**
-  * **LaTeX, Overleaf**
+Academic Service, Leadership & Mentoring
+======
+
+* **Research Leadership and Team Coordination:** Led research initiatives in deep learning, computer vision, and clinical NLP at ELITE Research Lab LLC and Mahdy Research Academy. Coordinated research assistants and senior design projects at North South University, mentoring junior students and supporting data-pipeline development and manuscript preparation across projects associated with five peer-reviewed journal articles.
+* **Academic Manuscript Peer Reviewer:** Reviewed research manuscripts for IEEE and Elsevier journals, evaluating methodological rigor, technical validity, originality, and clarity.
+* **Teaching and Student Mentoring (2022–2023):** Co-led academic sessions and supported laboratory instruction in Digital Electronics, Analog Electronics, and Senior Design at North South University under faculty supervision. Mentored students in circuit mapping, hardware–software co-design, laboratory troubleshooting, and scientific writing.
+
+Standardized Test Scores
+======
+
+* **IELTS Academic (2026):** Overall 6.5 | Listening 7.0 | Reading 7.0 | Writing 6.5 | Speaking 6.0
 
 Honors & Awards
 ======
 
-* **Magna Cum Laude** (December 2024): North South University
-* **Academic Merit Scholarship:** multiple tuition waivers (10%–20%) based on strong semester GPA
-* **Peer Reviewer Recognition** (March 2026): recognition for scientific reviews in **IEEE Access**, **Heliyon** and **Frontiers in Computer Science**
+* **Magna Cum Laude (December 2024):** Awarded by North South University for academic excellence in the B.Sc. in Computer Science and Engineering program; ranked within the top 7% of the cohort.
+* **Academic Merit Scholarships:** Received multiple tuition waivers of 10%–20% from North South University based on semester academic performance, with semester GPAs reaching 4.00.
+* **Peer Reviewer Recognition (2026):** Recognized for peer-review contributions to IEEE Access, Heliyon, and Frontiers in Computer Science.
 
-Publications
+References
 ======
-  <ul class="cv-publications">{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+* **Dr. Riasat Khan** — Associate Professor, Department of Electrical and Computer Engineering, North South University. [riasat.khan@northsouth.edu](mailto:riasat.khan@northsouth.edu)
+* **Dr. Shafin Rahman** — Associate Professor, Department of Electrical and Computer Engineering, North South University. [shafin.rahman@northsouth.edu](mailto:shafin.rahman@northsouth.edu)
+* **Md. Kishor Morol** — Research Scientist and Founder, ELITE Research Lab LLC. [kishor@aiub.edu](mailto:kishor@aiub.edu)
 
 </div>
