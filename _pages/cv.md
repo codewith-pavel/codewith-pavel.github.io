@@ -15,11 +15,12 @@ redirect_from:
     --cv-highlight: #a95f1c;
     max-width: 920px;
     margin: 0 auto;
+    padding: 0 0 2rem;
   }
 
   .cv-page .cv-download-links {
-    margin: 0 0 2rem;
-    padding: 1.25rem 1.35rem;
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.15rem;
     border: 1px solid var(--global-border-color);
     border-left: 5px solid var(--global-text-color);
     background: var(--global-bg-color);
@@ -43,13 +44,84 @@ redirect_from:
     opacity: 0.78;
   }
 
+  .cv-page .cv-profile,
+  .cv-page .cv-card {
+    margin: 0 0 1rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--global-border-color);
+    border-left: 4px solid var(--cv-accent);
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--global-bg-color) 97%, var(--cv-accent) 3%);
+    box-shadow: 0 4px 14px rgba(17, 24, 39, 0.05);
+  }
+
+  .cv-page .cv-profile {
+    margin-bottom: 1.75rem;
+    padding: 1.5rem;
+    border-left-width: 6px;
+  }
+
+  .cv-page .cv-profile h1 {
+    margin: 0 0 0.25rem;
+    padding: 0;
+    border: 0;
+    font-size: clamp(1.7rem, 3vw, 2rem);
+    line-height: 1.2;
+  }
+
+  .cv-page .cv-card-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.35rem 1rem;
+    margin: 0 0 0.65rem;
+  }
+
+  .cv-page .cv-card-title .cv-card-date {
+    color: var(--cv-accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .cv-page .cv-card-location {
+    margin: -0.4rem 0 0.65rem;
+    font-size: 0.92rem;
+    opacity: 0.75;
+  }
+
+  .cv-page .cv-card ul {
+    margin: 0;
+  }
+
+  .cv-page .cv-card li:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-page .cv-ielts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    align-items: center;
+  }
+
+  .cv-page .cv-ielts strong {
+    color: var(--cv-accent);
+  }
+
   .cv-page h1 {
-    margin: 2.25rem 0 1rem;
-    padding-bottom: 0.65rem;
+    margin: 1.8rem 0 0.75rem;
+    padding-bottom: 0.5rem;
     border-bottom: 2px solid color-mix(in srgb, var(--cv-accent) 55%, transparent);
     color: var(--global-text-color);
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     letter-spacing: 0.01em;
+  }
+
+  .cv-page h3 {
+    margin: 1.4rem 0 0.55rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
   }
 
   .cv-page strong {
@@ -60,21 +132,50 @@ redirect_from:
     margin-top: 0;
   }
 
+  .cv-page .cv-role {
+    margin: 0.35rem 0 0.5rem;
+    color: var(--cv-accent);
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.45;
+  }
+
+  .cv-page .cv-contact {
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  .cv-page .cv-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .cv-page .cv-links a + a::before {
+    display: inline-block;
+    margin: 0 0.65rem 0 0;
+    color: var(--global-text-color);
+    content: "·";
+    opacity: 0.7;
+  }
+
   .cv-page ul {
-    margin-top: 0.5rem;
+    margin: 0.4rem 0 1rem;
     padding-left: 1.35rem;
   }
 
   .cv-page > ul,
   .cv-page > p + ul {
-    padding: 1rem 1.25rem 1rem 2rem;
+    margin-bottom: 1.25rem;
+    padding: 0.85rem 1rem 0.85rem 1.8rem;
     border-left: 3px solid color-mix(in srgb, var(--cv-accent) 60%, var(--global-border-color));
+    border-radius: 0 5px 5px 0;
     background: color-mix(in srgb, var(--global-bg-color) 96%, var(--cv-accent) 4%);
   }
 
   .cv-page li {
-    margin-bottom: 0.55rem;
-    line-height: 1.65;
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
   }
 
   .cv-page li::marker {
@@ -86,12 +187,12 @@ redirect_from:
   }
 
   .cv-page li > ul {
-    margin-top: 0.45rem;
+    margin-top: 0.3rem;
     padding-bottom: 0;
   }
 
   .cv-page li > ul li {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.25rem;
   }
 
   .cv-page .cv-publications {
@@ -182,6 +283,37 @@ redirect_from:
   }
 
   @media (max-width: 600px) {
+    .cv-page {
+      padding-bottom: 1.5rem;
+    }
+
+    .cv-page .cv-download-links {
+      padding: 0.85rem;
+    }
+
+    .cv-page .cv-profile,
+    .cv-page .cv-card {
+      padding: 0.9rem 1rem;
+    }
+
+    .cv-page .cv-profile {
+      padding: 1.1rem;
+    }
+
+    .cv-page .cv-card-title {
+      display: block;
+    }
+
+    .cv-page .cv-card-title .cv-card-date {
+      display: block;
+      margin-top: 0.15rem;
+    }
+
+    .cv-page > ul,
+    .cv-page > p + ul {
+      padding: 0.75rem 0.75rem 0.75rem 1.5rem;
+    }
+
     .cv-page .cv-publication {
       grid-template-columns: minmax(0, 1fr);
       gap: 0.55rem;
@@ -202,14 +334,18 @@ redirect_from:
   <a href="{{ base_path }}/files/CV MAHIR AFSER PAVEL.pdf" target="_blank" rel="noopener noreferrer">Download Academic CV (PDF)</a>
 </div>
 
+<div class="cv-profile" markdown="1">
+
 Mahir Afser Pavel
 ======
 
-AI Researcher | Medical AI · Multimodal Learning · Efficient and Reliable Deep Learning
+<p class="cv-role">AI Researcher · Medical AI · Multimodal Learning · Efficient and Reliable Deep Learning</p>
 
-Dhaka, Bangladesh | +8801873742510 | [mahir.pavel@gmail.com](mailto:mahir.pavel@gmail.com)
+<p class="cv-contact">Dhaka, Bangladesh · +8801873742510 · <a href="mailto:mahir.pavel@gmail.com">mahir.pavel@gmail.com</a></p>
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate) · [ORCID](https://orcid.org/0009-0005-3395-9159) · [ResearchGate](https://www.researchgate.net/profile/Mahir-Afser-Pavel?ev=hdr_xprf) · [GitHub](https://github.com/codewith-pavel) · [LinkedIn](https://www.linkedin.com/in/mahirafserpavel/) · [Portfolio](https://codewith-pavel.github.io/)
+<p class="cv-links"><a href="https://scholar.google.com/citations?hl=en&amp;user=172rqgEAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar</a><a href="https://orcid.org/0009-0005-3395-9159">ORCID</a><a href="https://www.researchgate.net/profile/Mahir-Afser-Pavel?ev=hdr_xprf">ResearchGate</a><a href="https://github.com/codewith-pavel">GitHub</a><a href="https://www.linkedin.com/in/mahirafserpavel/">LinkedIn</a><a href="https://codewith-pavel.github.io/">Portfolio</a></p>
+
+</div>
 
 Profile Summary
 ======
@@ -227,14 +363,20 @@ Research Interests
 Education
 ======
 
-* **North South University** — Dhaka, Bangladesh
-  * Bachelor of Science in Computer Science and Engineering | 2019–2023
-  * CGPA: 3.71/4.00 ([Grading Policy](https://www.northsouth.edu/academic/grading-policy.html))
-  * CSE-specific GPA: 3.91/4.00 (Capstone Design, Core, and Elective Courses)
-  * Class Rank: 38th out of 595 students
-  * **B.Sc. Thesis:** “Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant”
-  * **Summary:** Implemented a three-stage knowledge distillation architecture for lung cancer classification on the NSCLC-Radiomics dataset, achieving 94.53% accuracy, and later deployed it in a user-friendly web application.
-  * **Supervisor:** [Dr. Riasat Khan](https://ece.northsouth.edu/people/riasat-khan/), Associate Professor, Department of ECE
+<div class="cv-card cv-education" markdown="1">
+
+<p class="cv-card-title"><strong>North South University</strong><span>Dhaka, Bangladesh</span></p>
+
+<p class="cv-card-title"><strong>Bachelor of Science in Computer Science and Engineering</strong><span class="cv-card-date">2019–2023</span></p>
+
+* CGPA: 3.71/4.00 ([Grading Policy](https://www.northsouth.edu/academic/grading-policy.html))
+* CSE-specific GPA: 3.91/4.00 (Capstone Design, Core, and Elective Courses)
+* Class Rank: 38th out of 595 students
+* **B.Sc. Thesis:** “Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant”
+* **Summary:** Implemented a three-stage knowledge distillation architecture for lung cancer classification on the NSCLC-Radiomics dataset, achieving 94.53% accuracy, and later deployed it in a user-friendly web application.
+* **Supervisor:** [Dr. Riasat Khan](https://ece.northsouth.edu/people/riasat-khan/), Associate Professor, Department of ECE
+
+</div>
 
 Scholarly Publications
 ======
@@ -276,16 +418,47 @@ Scholarly Publications
 Professional Experience
 ======
 
-* **Research Assistant | ELITE Research Lab LLC** (Dhaka, Bangladesh) | Aug 2025–Present
-  * **Federated Brain Tumor Classification:** Developed Fed-GAN-DE-CL, a federated multi-component framework that integrates generative adversarial networks and dual-encoder contrastive learning for decentralized brain tumor classification without centralizing patient data.
-  * **3D Brain Tumor Segmentation:** Proposed SLGRA-Net, incorporating structure-aware latent graph reasoning to model spatial relationships and address ambiguous tumor boundaries in 3D MRI segmentation.
-  * **Ongoing Research:** Contributing to research on trustworthy clinical AI, self-optimizing neural networks, and adaptive knowledge distillation, focusing on uncertainty calibration, neural network stability, and lightweight skin lesion classification.
-* **Research Assistant | United International University** (Dhaka, Bangladesh) | May 2025–Jun 2025
-  * Optimized transformer architectures and developed multilingual benchmarks for low-resource languages using Hugging Face Transformers and PyTorch Lightning, leveraging TensorBoard and Weights & Biases (W&B) for experiment tracking, visualization, and hyperparameter tuning. Designed data preprocessing, feature engineering, and model-training pipelines; conducted literature reviews on multi-agent systems; and contributed to research proposal development.
-* **Research Assistant | North South University** (Dhaka, Bangladesh) | May 2024–Jul 2024
-  * Co-developed a drone-based fire-detection pipeline using knowledge distillation to deploy lightweight YOLOv8n models on Raspberry Pi 5 devices for edge inference.
-* **Research Trainee | Mahdy Research Academy** (Remote / Online) | Jan 2024–Mar 2025
-  * Introduced CLKD-MED, a knowledge-distillation framework for multilingual clinical outcome prediction using 92,293 clinical notes from the MIMIC-III dataset, transferring clinical representations across English and lower-resource languages to predict length of stay and mortality.
+<div class="cv-card cv-experience" markdown="1">
+
+<p class="cv-card-title"><strong>Research Assistant · ELITE Research Lab LLC</strong><span class="cv-card-date">Aug 2025–Present</span></p>
+
+<p class="cv-card-location">Dhaka, Bangladesh</p>
+
+* **Federated Brain Tumor Classification:** Developed Fed-GAN-DE-CL, a federated multi-component framework that integrates generative adversarial networks and dual-encoder contrastive learning for decentralized brain tumor classification without centralizing patient data.
+* **3D Brain Tumor Segmentation:** Proposed SLGRA-Net, incorporating structure-aware latent graph reasoning to model spatial relationships and address ambiguous tumor boundaries in 3D MRI segmentation.
+* **Ongoing Research:** Contributing to research on trustworthy clinical AI, self-optimizing neural networks, and adaptive knowledge distillation, focusing on uncertainty calibration, neural network stability, and lightweight skin lesion classification.
+
+</div>
+
+<div class="cv-card cv-experience" markdown="1">
+
+<p class="cv-card-title"><strong>Research Assistant · United International University</strong><span class="cv-card-date">May 2025–Jun 2025</span></p>
+
+<p class="cv-card-location">Dhaka, Bangladesh</p>
+
+* Optimized transformer architectures and developed multilingual benchmarks for low-resource languages using Hugging Face Transformers and PyTorch Lightning, leveraging TensorBoard and Weights & Biases (W&B) for experiment tracking, visualization, and hyperparameter tuning. Designed data preprocessing, feature engineering, and model-training pipelines; conducted literature reviews on multi-agent systems; and contributed to research proposal development.
+
+</div>
+
+<div class="cv-card cv-experience" markdown="1">
+
+<p class="cv-card-title"><strong>Research Assistant · North South University</strong><span class="cv-card-date">May 2024–Jul 2024</span></p>
+
+<p class="cv-card-location">Dhaka, Bangladesh</p>
+
+* Co-developed a drone-based fire-detection pipeline using knowledge distillation to deploy lightweight YOLOv8n models on Raspberry Pi 5 devices for edge inference.
+
+</div>
+
+<div class="cv-card cv-experience" markdown="1">
+
+<p class="cv-card-title"><strong>Research Trainee · Mahdy Research Academy</strong><span class="cv-card-date">Jan 2024–Mar 2025</span></p>
+
+<p class="cv-card-location">Remote / Online</p>
+
+* Introduced CLKD-MED, a knowledge-distillation framework for multilingual clinical outcome prediction using 92,293 clinical notes from the MIMIC-III dataset, transferring clinical representations across English and lower-resource languages to predict length of stay and mortality.
+
+</div>
 
 Skills
 ======
@@ -315,7 +488,14 @@ Academic Service, Leadership & Mentoring
 Standardized Test Scores
 ======
 
-* **IELTS Academic (2026):** Overall 6.5 | Listening 7.0 | Reading 7.0 | Writing 6.5 | Speaking 6.0
+<div class="cv-card cv-ielts">
+  <strong>IELTS Academic · 2026</strong>
+  <span>Overall: 6.5</span>
+  <span>Listening: 7.0</span>
+  <span>Reading: 7.0</span>
+  <span>Writing: 6.5</span>
+  <span>Speaking: 6.0</span>
+</div>
 
 Honors & Awards
 ======
